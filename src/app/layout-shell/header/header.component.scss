@@ -1,0 +1,103 @@
+
+.mobile-toolbar{
+  width: 100vw;
+}
+.toolbar{
+  width: 100%;
+}
+.comapny-name{
+    // display: flex;
+    // flex-direction: column;
+     width: 15%;
+    height: 90%;
+    background: url('/assets/dewi-invest-biale.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.comapny-name-mobile{
+  width: 35%;
+  height: 90%;
+  background: url('/assets/dewi-invest-biale.png') ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+$animate: all 0.2s ease-in-out;
+.toolbar {
+    padding: 0% 2% 0 2%;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    // padding: 0% 0% 0 12%;
+   span {
+      font-size: 1rem;
+       cursor: pointer;
+   }
+   .hover-test {
+    padding: 0 1% 0 1%;
+    .hover {
+      transition: $animate;
+      position: relative;
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        width: 0px;
+        height: 4px;
+        margin: 5px 0 0;
+        transition: $animate;
+        transition-duration: 0.75s;
+        opacity: 0;
+        // background-color: darken(orange,5%);
+         background-color: #F27915;
+      }
+      &.hover-1 {
+        &:before,
+        &:after {
+          left: 0;
+        }
+      }
+      &.hover-2 {
+        &:before,
+        &:after {
+          left: 0;
+        }
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      .hover {
+        &:before,
+        &:after {
+          width: 100%;
+          opacity: 1;
+        }
+        &.hover-3,
+        &.hover-4 {
+          &:before,
+          &:after {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+
+ 
+}
+
+.call-to-us{
+  background-color: #F27915;
+  padding: 0% 3px 0 3px;
+}
+
+.active-link {
+  border-bottom-style: solid;
+  border-bottom-color: #F27915;
+  // border-bottom-width: 5px;
+}

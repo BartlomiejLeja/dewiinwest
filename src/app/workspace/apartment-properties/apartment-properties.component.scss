@@ -1,0 +1,30 @@
+
+.title {
+    h1 {
+        font-size: 220%;
+        color: #444444; 
+        text-align: center
+    }
+}
+.apartment-properties-agreggated-data {
+    text-align: center;
+    h1 {
+        font-size: 220%;
+        color: #444444; 
+        text-align: center
+    }
+    // .divider{
+    //     margin: 0 8% 0 8%;
+    // }
+}
+
+.prop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .aprtment-name{
+        color: #444444; 
+        font-weight: bold;
+    }
+}

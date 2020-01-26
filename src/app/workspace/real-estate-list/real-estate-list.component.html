@@ -1,0 +1,22 @@
+<div  [ngClass]="mobileQuery.matches ? 'real-estate-list-container-mobile' : 'real-estate-list-container'">
+<h1>{{titlte}}</h1>
+
+<div class ="divider">
+    <mat-divider></mat-divider>
+</div>
+
+  <div 
+    (click)="goToRealEstate(realEstate.realEstateName)" 
+    *ngFor = "let realEstate of realEstateList;" 
+    class="real-estate-list" 
+    [ngStyle]="{
+                'background' : ' url(' + realEstate.realEstateImageUrl + ') no-repeat center center',
+                'background-size':  mobileQuery.matches ?  '100% 80%' : '100%'
+            }">
+              
+            <p >{{ realEstate.realEstateName }}</p>
+    </div>
+
+</div>
+
+<!-- no-repeat center center fixed -->

@@ -1,0 +1,40 @@
+.company-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    // height: 500px;
+    margin: 3%;
+    color: #444444; 
+    .map{
+        height: 600px;
+        width: 650px
+        // height: 100%;
+        // width: 40%;
+    }
+}
+
+.company-info-container-mobile {
+    .contact{
+     
+         font-weight: bold;
+         // font-size: 1600%;
+         font-size: 200%;
+         color: #444444; 
+     
+    } 
+ 
+     display: flex;
+     flex-wrap: wrap;
+     //justify-content: space-evenly;
+     // height: 500px;
+     margin: 3% 8% 3% 8% ;
+     
+     color: #444444; 
+     .map{
+         padding: 4% 0 0 0;
+         height: 400px;
+         width: 650px
+         // height: 100%;
+         // width: 40%;
+     }
+ }

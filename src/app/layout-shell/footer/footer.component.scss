@@ -1,0 +1,10 @@
+.footer {
+    height: 50px;
+    background-color: #F27915;
+    display: flex;
+    justify-content: flex-end;
+    .scroll-to-top-icon{
+        padding: 10px;
+        cursor:pointer;
+    }
+}
