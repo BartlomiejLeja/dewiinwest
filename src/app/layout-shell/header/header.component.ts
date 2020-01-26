@@ -5,7 +5,7 @@ import { MatMenuTrigger } from '@angular/material';
 import { Router, ActivatedRoute } from '@angular/router';
 import { SelectedRouteService } from '../services/selected-route.service';
 import * as forSaleRealEstate from '../../../data/forSaleRealEstate.json';
-import { RealEstate } from 'src/app/workspace/models/real-estate.model';
+import { RealEstate } from '../../workspace/models/real-estate.model';
 
 @Component({
   selector: 'app-header',

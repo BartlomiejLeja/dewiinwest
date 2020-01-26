@@ -8,7 +8,7 @@ import { MediaMatcher } from '@angular/cdk/layout';
 import * as forSaleRealEstate from '../../../data/forSaleRealEstate.json';
 import * as soldRealEstate from '../../../data/soldRealEstate.json';
 import { RealEstate } from '../models/real-estate.model';
-import { SelectedRouteService } from 'src/app/layout-shell/services/selected-route.service';
+import { SelectedRouteService } from '../../layout-shell/services/selected-route.service';
 
 @Component({
   selector: 'app-real-estate',

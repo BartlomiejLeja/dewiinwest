@@ -2,10 +2,13 @@ import { Component, OnInit, ViewChild, ElementRef, Input, HostListener, ChangeDe
 import { DomSanitizer } from '@angular/platform-browser';
 import { ThemePalette, MatIconRegistry } from '@angular/material';
 import { Orientation, SvgIconOverrides } from '@ngmodule/material-carousel';
-import { AnimatedCounterComponent } from 'src/app/shared/components/animated-counter/animated-counter.component';
+
 import { MediaMatcher } from '@angular/cdk/layout';
 import { Router } from '@angular/router';
-import { SelectedRouteService } from 'src/app/layout-shell/services/selected-route.service';
+import { SelectedRouteService } from '../../layout-shell/services/selected-route.service';
+
+import { AnimatedCounterComponent } from '../../shared/components/animated-counter/animated-counter.component';
+
 
 @Component({
   selector: 'app-welcome-tab',

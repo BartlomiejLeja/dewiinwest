@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { SelectedRouteService } from 'src/app/layout-shell/services/selected-route.service';
+import { SelectedRouteService } from '../../layout-shell/services/selected-route.service';
 import { MediaMatcher } from '@angular/cdk/layout';
 
 @Component({

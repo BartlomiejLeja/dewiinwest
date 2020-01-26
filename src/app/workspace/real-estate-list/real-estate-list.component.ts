@@ -3,7 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { CompletedRealEstateInvestmentsService } from '../services/completed-real-estate-investments.service';
 import { MediaMatcher } from '@angular/cdk/layout';
 import { ForSaleRealEstateInvestmentsService } from '../services/for-sale-real-estate-investments.service';
-import { SelectedRouteService } from 'src/app/layout-shell/services/selected-route.service';
+import { SelectedRouteService } from '../../layout-shell/services/selected-route.service';
 import * as forSaleRealEstate from '../../../data/forSaleRealEstate.json';
 import * as soldRealEstate from '../../../data/soldRealEstate.json';
 import { RealEstate } from '../models/real-estate.model';
