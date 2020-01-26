@@ -7,10 +7,8 @@ import {MatIconModule} from '@angular/material/icon';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
-import { NgxTinySliderModule } from 'ngx-tiny-slider';
 import { SharedModule } from '../shared/shared.module';
 import { RealEstateComponent } from './real-estate/real-estate.component';
-// import { NgxGalleryModule } from 'ngx-gallery';
 import { GalleryModule } from '@ngx-gallery/core';
 import { LightboxModule } from '@ngx-gallery/lightbox';
 import { GallerizeModule } from '@ngx-gallery/gallerize';
@@ -27,10 +25,8 @@ import { CheckIfRealEstateIsReserved } from './pipes/isRealEstateReserved.pipe';
     MatIconModule,
     MatDividerModule,
     MatButtonModule,
-    NgxTinySliderModule,
     MatCarouselModule.forRoot(),
     SharedModule,
-    // NgxGalleryModule
     GalleryModule,
     LightboxModule,
     GallerizeModule,
