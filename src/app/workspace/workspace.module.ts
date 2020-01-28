@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { WelcomeTabComponent } from './welcome-tab/welcome-tab.component';
-import { CarouselComponent, CarouselItemElement } from './carousel.component';
-import { CarouselItemDirective } from './carousel-item.directive';
 import {MatIconModule} from '@angular/material/icon';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {MatDividerModule} from '@angular/material/divider';
@@ -31,8 +29,8 @@ import { CheckIfRealEstateIsReserved } from './pipes/isRealEstateReserved.pipe';
     LightboxModule,
     GallerizeModule,
   ],
-  declarations: [WelcomeTabComponent, CarouselComponent,CarouselItemElement, 
-    CarouselItemDirective, 
+  declarations: [
+    WelcomeTabComponent,
     RealEstateComponent, 
     ContactComponent, 
     AboutUsComponent, 

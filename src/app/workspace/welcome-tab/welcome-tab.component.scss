@@ -2,15 +2,6 @@
     width: 100%;
 }
 
-.carousel {
-    // width: 100%;
-    background-color: gray
-}
-
-#carousel {
-    width: 100%;
-}
-
 .horizontal-photo-description-container{
     display: flex;
     justify-content: center; 
@@ -23,7 +14,6 @@
     }
     
     h1 {
-        // margin: 0 30% 0 30%;
         text-align: center;
         font-size: 300%;
     }
@@ -31,10 +21,7 @@
     .welcome-text {
         display: flex;
         flex-direction: column;
-        
-        //  justify-content: center; 
-        
-        // margin-left: 48%;
+      
         padding-top: 10%;
         h2 {
             padding-left: 1%;
@@ -154,12 +141,3 @@
         // width: 40%;
     }
 }
-
-.marker {
-    background-image: url('/assets/map-pin.png');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
