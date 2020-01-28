@@ -55,6 +55,10 @@ export class RealEstateListComponent implements OnInit {
   public goToRealEstate(realEstateName: string){
     this.router.navigate([`/realestate/${realEstateName}`]);
   }
+
+  public ngOnDestroy(): void {
+    this.mobileQuery.removeListener(this._mobileQueryListener);
+  }
 }
 
 interface RealEstateShortInfo {

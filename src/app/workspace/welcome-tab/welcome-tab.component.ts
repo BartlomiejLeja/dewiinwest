@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef, Input, HostListener, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, Input, HostListener, ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { ThemePalette, MatIconRegistry } from '@angular/material';
 import { Orientation, SvgIconOverrides } from '@ngmodule/material-carousel';
@@ -15,7 +15,7 @@ import { AnimatedCounterComponent } from '../../shared/components/animated-count
   templateUrl: './welcome-tab.component.html',
   styleUrls: ['./welcome-tab.component.scss']
 })
-export class WelcomeTabComponent implements OnInit {
+export class WelcomeTabComponent implements OnInit, OnDestroy {
   public mobileQuery: MediaQueryList;
   public lngLat: number[] = [19.999279,50.023316];
   public realEstateFlipImages: RealEstateFlipImage[];

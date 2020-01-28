@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, Input, ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { HousePropertise } from '../models/house-propertise.model';
 import { Property } from '../models/property.model';
 import { MediaMatcher } from '@angular/cdk/layout';
@@ -8,7 +8,7 @@ import { MediaMatcher } from '@angular/cdk/layout';
   templateUrl: './house-properties.component.html',
   styleUrls: ['./house-properties.component.scss']
 })
-export class HousePropertiesComponent implements OnInit {
+export class HousePropertiesComponent implements OnInit, OnDestroy  {
 
   @Input() housePropertises: HousePropertise[];
   public mobileQuery: MediaQueryList;
@@ -20,8 +20,6 @@ export class HousePropertiesComponent implements OnInit {
       this.mobileQuery.addListener(this._mobileQueryListener);
     }
 
-  
-  
   ngOnInit() {
     console.log(this.housePropertises)
   }
@@ -34,7 +32,7 @@ export class HousePropertiesComponent implements OnInit {
       return sumValue;
   }
 
+  public ngOnDestroy(): void {
+    this.mobileQuery.removeListener(this._mobileQueryListener);
+  }
 }
-
-
-

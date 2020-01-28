@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy, Input, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, Input, ChangeDetectorRef, OnDestroy } from '@angular/core';
 // import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
 import { Gallery, GalleryItem, ImageItem, ThumbnailsPosition, ImageSize } from '@ngx-gallery/core';
 import { Lightbox } from '@ngx-gallery/lightbox';
@@ -16,7 +16,7 @@ import { SelectedRouteService } from '../../layout-shell/services/selected-route
   styleUrls: ['./real-estate.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class RealEstateComponent implements OnInit {
+export class RealEstateComponent implements OnInit, OnDestroy {
   public realEstate: any;
   public visualizationImageList: string[];
   items: GalleryItem[];
@@ -77,4 +77,7 @@ export class RealEstateComponent implements OnInit {
     el.scrollIntoView();
   }
 
+  public ngOnDestroy(): void {
+    this.mobileQuery.removeListener(this._mobileQueryListener);
+  }
 }

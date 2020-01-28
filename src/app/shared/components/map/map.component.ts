@@ -26,15 +26,13 @@ export class MapComponent implements OnInit {
       center: [this.lngLat[0], this.lngLat[1]],
       // antialias: true // create the gl context with MSAA antialiasing, so custom layers are antialiased
   });
-  // Add map controls
 
-    this.map.addControl(new mapboxgl.NavigationControl());
+  this.map.addControl(new mapboxgl.NavigationControl());
 
   this.map.on('load', () => {
 
 
     this.map.loadImage('assets/map-pin.png',
-      // 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cat_silhouette.svg/400px-Cat_silhouette.svg.png',
    (error, image) => {
       if (error) throw error;
       this.map.addImage('pin', image);
@@ -68,7 +66,5 @@ export class MapComponent implements OnInit {
       );
   }
   )
-
- 
   }
 }

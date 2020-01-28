@@ -1,4 +1,3 @@
-
 .mobile-toolbar{
   width: 100vw;
 }
@@ -6,9 +5,7 @@
   width: 100%;
 }
 .comapny-name{
-    // display: flex;
-    // flex-direction: column;
-     width: 15%;
+    width: 15%;
     height: 90%;
     background: url('/assets/dewi-invest-biale.png') ;
     background-repeat: no-repeat;
@@ -24,21 +21,18 @@
 }
 
 $animate: all 0.2s ease-in-out;
-.toolbar {
-    padding: 0% 2% 0 2%;
-}
+
 
 .menu {
     display: flex;
     width: 100%;
-    justify-content: center;
-    // padding: 0% 0% 0 12%;
+    align-items: stretch; justify-content: center;
    span {
       font-size: 1rem;
        cursor: pointer;
    }
    .hover-test {
-    padding: 0 1% 0 1%;
+     margin: 0 1% 0 1%;
     .hover {
       transition: $animate;
       position: relative;
@@ -93,7 +87,7 @@ $animate: all 0.2s ease-in-out;
 
 .call-to-us{
   background-color: #F27915;
-  padding: 0% 3px 0 3px;
+  // padding: 0% 3px 0 3px;
 }
 
 .active-link {

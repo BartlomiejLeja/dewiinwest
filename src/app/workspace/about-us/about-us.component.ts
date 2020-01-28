@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { SelectedRouteService } from '../../layout-shell/services/selected-route.service';
 import { MediaMatcher } from '@angular/cdk/layout';
 
@@ -7,7 +7,7 @@ import { MediaMatcher } from '@angular/cdk/layout';
   templateUrl: './about-us.component.html',
   styleUrls: ['./about-us.component.scss']
 })
-export class AboutUsComponent implements OnInit {
+export class AboutUsComponent implements OnInit, OnDestroy {
   public mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
   constructor(
@@ -23,4 +23,7 @@ export class AboutUsComponent implements OnInit {
     this.selectedRouteService.routerChanged('onas')
   }
 
+  ngOnDestroy(): void {
+    this.mobileQuery.removeListener(this._mobileQueryListener);
+  }
 }

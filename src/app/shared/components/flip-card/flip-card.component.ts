@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, Input, ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { MediaMatcher } from '@angular/cdk/layout';
 
@@ -19,7 +19,7 @@ import { MediaMatcher } from '@angular/cdk/layout';
     ])
   ]
 })
-export class FlipCardComponent implements OnInit {
+export class FlipCardComponent implements OnInit, OnDestroy {
   @Input() realEstateName: string;
   @Input() description: string;
   @Input() imageUrl: string;
@@ -48,5 +48,9 @@ export class FlipCardComponent implements OnInit {
   invokeUnFlip () {
     setTimeout(()=>{  this.flip =  'inactive'; }, 300);
    
+  }
+
+  public ngOnDestroy(): void {
+    this.mobileQuery.removeListener(this._mobileQueryListener);
   }
 }
