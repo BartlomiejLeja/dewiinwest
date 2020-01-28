@@ -62,18 +62,14 @@
               <h1>Aktualne investycje</h1>
               <button  mat-raised-button color="primary" (click)="goTocurrentInvestments()">Zobacz wszystkie</button>
           </div>
-      
-          <!-- <div class = "current-investments-carousel-container"  > -->
-                <div class="current-investments"  *ngFor="let flipImage of realEstateFlipImages; let i = index" >
+
+          <div class="current-investments"  *ngFor="let flipImage of realEstateFlipImages; let i = index" >
                   <app-flip-card 
                   [description]= "flipImage.realEstateDescription" 
                   [imageUrl]= "flipImage.realEstateImageUrl"
                   [realEstateName] = "flipImage.realEstateName"
                   ></app-flip-card>
-                  <!-- {{flipImage.realEstateName}} -->
-                </div> 
-          <!-- </div> -->
-          
+          </div> 
         </div>
 
         <div *ngIf="!mobileQuery.matches" #counter class ="counter-container" [ngStyle]="

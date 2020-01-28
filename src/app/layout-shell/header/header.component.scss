@@ -6,7 +6,7 @@
 }
 .comapny-name{
     width: 15%;
-    height: 90%;
+    height: 75%;
     background: url('/assets/dewi-invest-biale.png') ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -28,7 +28,7 @@ $animate: all 0.2s ease-in-out;
     width: 100%;
     align-items: stretch; justify-content: center;
    span {
-      font-size: 1rem;
+      font-size: 0.9rem;
        cursor: pointer;
    }
    .hover-test {
@@ -87,7 +87,8 @@ $animate: all 0.2s ease-in-out;
 
 .call-to-us{
   background-color: #F27915;
-  // padding: 0% 3px 0 3px;
+  font-size: 1rem;
+   padding: 0% 3px 0 3px;
 }
 
 .active-link {

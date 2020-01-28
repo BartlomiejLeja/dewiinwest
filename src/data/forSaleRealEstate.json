@@ -7,7 +7,7 @@
         "realEstateLocation" : "Nowa Huta ul. Wadowska, nr działek 84/2 i 84/3",
         "realEstatePrice" : "499 000 zł za dwupoziomowy apartament 108,92 m2, lub  540.000 zł za apartament o pow. 113,06 m2",
         "constructionAcceptance": "III kwartał 2018",
-        "additionalInformation": "Do każdego apartamentu  przynależy miejsce postojowe w   garażu   kw w cenie 20 .000 zł i pomieszczenie gospodarcze o powierzchni  od 5,45 m kw do  17,42 m kw w cenie 2000 zł /m kw Mieszkanie sprzedawane jest w stanie deweloperskim, do własnej aranżacji.",
+        "additionalInformation": "Do każdego apartamentu przynależy miejsce postojowe w  garażu   kw w cenie 20 .000 zł i pomieszczenie gospodarcze o powierzchni  od 5,45 m kw do  17,42 m kw w cenie 2000 zł /m kw Mieszkanie sprzedawane jest w stanie deweloperskim, do własnej aranżacji.",
         "lngLatOfRealEstate" : [19.999279,50.023316],
         "realEstateReservationArray": [
             {
@@ -45,7 +45,7 @@
         ],
         "apartmentPropertise" : [
             {
-                "apartmentName": "Mieszkanie nr 1 na parterze 57,45 m2",
+                "apartmentName": "Mieszkanie nr 1: 57,45 m2",
                 "levelProperties" : [
                     {
                         "levelInformation": "poziom 0 - parter 57,45 m2",
@@ -61,7 +61,7 @@
                 ]
             },
             {
-                "apartmentName": "Mieszkanie nr 3 na parterze 64,99 m2",
+                "apartmentName": "Mieszkanie nr 3: 64,99 m2",
                 "levelProperties" : [
                     {
                         "levelInformation": "poziom 0 - parter 64,99 m2",
@@ -77,7 +77,7 @@
                 ]
             },
             {
-                "apartmentName": "Mieszkanie nr 5 na parterze 69,28 m2",
+                "apartmentName": "Mieszkanie nr 5: 69,28 m2",
                 "levelProperties" : [
                     {
                         "levelInformation": "poziom 0 - parter 69,28 m2",
@@ -93,7 +93,7 @@
                 ]
             },
             {
-                "apartmentName": "Mieszkanie nr 2, pierwsze piętro i podasze 101,42 m2.",
+                "apartmentName": "Mieszkanie nr 2: 101,42 m2.",
                 "levelProperties" : [
                     {
                         "levelInformation": "poziom 1 - pierwsze pietro 54,28 m2",
@@ -118,7 +118,7 @@
                 ]
             },
             {
-                "apartmentName": "Mieszkanie nr 4, pierwsze piętro i podasze 108,92 m2.",
+                "apartmentName": "Mieszkanie nr 4: 108,92 m2.",
                 "levelProperties" : [
                     {
                         "levelInformation": "poziom 1 - pierwsze pietro 61,78 m2",
@@ -143,7 +143,7 @@
                 ]
             },
             {
-                "apartmentName": "Mieszkanie nr  6, pierwsze piętro i podasze 113,06 m2.",
+                "apartmentName": "Mieszkanie nr  6: 113,06 m2.",
                 "levelProperties" : [
                     {
                         "levelInformation": "poziom 1 - pierwsze pietro 66,01 m2",
