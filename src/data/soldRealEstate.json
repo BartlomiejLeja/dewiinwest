@@ -173,5 +173,41 @@
                 ]
             } 
         ]
+    },
+    {
+        "realEstateName": "SŁONECZNE ZACISZE",
+        "realEstateShortInfo": "KOKOTÓW",
+        "realEstateDescription": "Słoneczne Zacisze Kokotów to kameralne osiedle sześciu domów jednorodzinnych w zabudowie bliźniaczej zlokalizowane w Kokotowie, w gm. Wieliczka przy ul. Gaisko – przecznica od ul. Kokotowskiej. Domy zaprojektowane zostały jako budynki parterowe z poddaszem użytkowym. Wykonywane są do stanu deweloperskiego, z możliwością wykończenia „pod klucz” według własnych preferencji nabywcy. Pod względem jakościowym Słoneczne Zacisze – Kokotów spełnia najwyższe standardy. Materiały wykorzystane do budowy domów oraz energooszczędna technologia zapewniają życie w warunkach zgodnych ze standardami ekologii. Styl architektury zabudowań utrzymany jest w prostej, ale ciepłej i eleganckiej estetyce i w połączeniu z przestronnym funkcjonalnym wnętrzem, pozwoli Państwu poczuć się wyjatkowo zamieszkując w tej urokliwej podmiejskiej, zielonej dzielnicy. Osiedle charakteryzuje się zielonym otoczeniem, niską zabudową jednorodzinną, bezpośrednim dostępem do komunikacji miejskiej, lokali handlowo-usługowych oraz placówek oświatowych.",
+        "realEstatePhotoUrl" : [
+            "assets/sloneczne-zacisze/orginal1-1200x750.png",
+            "assets/sloneczne-zacisze/orginal2-1200x750.png",
+            "assets/sloneczne-zacisze/orginal3-1200x750.png"
+        ],
+        "realEstateLocation" : "Kokotów ul. Gajsko nr działki 716/2",
+        "realEstatePrice" : "379 000 zł za dom 100m kw wraz z działką i dwoma miejscami postojowymi.",
+        "constructionAcceptance": "IV kwartał 2016",
+        "lngLatOfRealEstate" : [19.999279,50.023316],
+        "housePropertise" : [
+            {
+                "buildingsName": "A B",
+                "floorSurfaces": 98.21,
+                "functionalSurface": 98.21,
+                "groundFloor" :[
+                    {"name": "Salon + jadalnia", "value" : "33.38"},
+                    {"name": "Kuchnia", "value" : "7.38"},
+                    {"name": "Hall", "value" : "1.94"},
+                    {"name": "Łazienka", "value" : "4.08"},
+                    {"name": "Wiatrołap", "value" : "2.09"}
+                ],
+                "firstFloor" :[
+                    {"name": "Pokój", "value" : "11.21"},
+                    {"name": "Pokój", "value" : "11.36"},
+                    {"name": "Łazienka", "value" : "5.09"},
+                    {"name": "Garderoba", "value" : "3.44"},
+                    {"name": "Pokój", "value" : "11.31"},
+                    {"name": "Komunikacja", "value" : "6.21"}
+                ]
+            } 
+        ]
     }
 ]
