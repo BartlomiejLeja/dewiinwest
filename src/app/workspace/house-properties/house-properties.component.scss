@@ -7,7 +7,6 @@
 .house-properties-container-mobile {
     display: flex;
     flex-wrap: wrap;
-    // justify-content: space-evenly;
 }
 
 .house-properties-agreggated-data{
@@ -17,8 +16,10 @@
         color: #444444; 
         text-align: center
     }
-    // .divider{
-    //     margin: 0 8% 0 8%;
-    // }
-
 }
+
+p {
+    letter-spacing: 0.6px;
+    word-spacing: 1px;
+    line-height: 1.5;
+  }
