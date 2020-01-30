@@ -21,7 +21,7 @@ export class RealEstateComponent implements OnInit, OnDestroy {
   public visualizationImageList: string[];
   items: GalleryItem[];
   public realEstateReservationArray: RealEstateReservation[];
-  public lngLat: number[] = [19.999279,50.023316];
+  public lngLat: number[] = [19.999279, 50.023316];
   public mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
   public forSaleRealEstateArray: RealEstate[] = (forSaleRealEstate as any).default;
@@ -32,7 +32,7 @@ export class RealEstateComponent implements OnInit, OnDestroy {
     public lightbox: Lightbox,
     private route: ActivatedRoute,
     private router: Router,
-    private changeDetectorRef: ChangeDetectorRef, 
+    private changeDetectorRef: ChangeDetectorRef,
     private media: MediaMatcher,
     private selectedRouteService: SelectedRouteService) {
       this.router.routeReuseStrategy.shouldReuseRoute = () => {
@@ -44,10 +44,9 @@ export class RealEstateComponent implements OnInit, OnDestroy {
      }
 
   public ngOnInit(): void {
-      let realEstateName = this.route.snapshot.url[1].path;
-   
-      this.realEstate = this.soldRealEstateArray.find(re=>re.realEstateName===realEstateName);
-   
+      const realEstateName = this.route.snapshot.url[1].path;
+      this.realEstate = this.soldRealEstateArray.find(re => re.realEstateName === realEstateName);
+
        if(!this.realEstate){
          this.realEstate = this.forSaleRealEstateArray
        .find(re=>re.realEstateName===realEstateName);

@@ -66,12 +66,12 @@
 .visualizations-container-mobile{
 
     img {
-        width: 300px;
-        height: 250px;
+        width: 340px;
+        height: 280px;
       }
 
     .visualizations {
-        margin: 1% 0% 0 0%;
+        // margin: 1% 0% 0 0%;
         display: flex;
         flex-wrap: wrap;
     
@@ -81,7 +81,7 @@
             justify-content: space-evenly;
             img {
               object-fit: cover;
-              margin: 5px;
+              margin: 3px;
             }
           }
     }

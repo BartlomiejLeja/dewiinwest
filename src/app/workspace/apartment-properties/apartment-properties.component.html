@@ -6,7 +6,7 @@
                 </div>
  </div>
  
-<div class ="prop">
+<div  [ngClass]="mobileQuery.matches ? 'prop-mobile' : 'prop'">
             <div *ngFor="let apartmentPropertise of apartmentPropertises;" class = "properties-properties-container">
                     <p class ="aprtment-name">{{apartmentPropertise.apartmentName}}</p>
                     <div class ="divider">
