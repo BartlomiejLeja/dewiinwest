@@ -13,22 +13,21 @@ export class HousePropertiesComponent implements OnInit, OnDestroy  {
   @Input() housePropertises: HousePropertise[];
   public mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
-  constructor(private changeDetectorRef: ChangeDetectorRef, 
-    private media: MediaMatcher,) { 
+  constructor(
+    private changeDetectorRef: ChangeDetectorRef,
+    private media: MediaMatcher) {
       this.mobileQuery = media.matchMedia('(max-width: 600px)');
       this._mobileQueryListener = () => changeDetectorRef.detectChanges();
       this.mobileQuery.addListener(this._mobileQueryListener);
     }
 
-  ngOnInit() {
-    console.log(this.housePropertises)
-  }
+  ngOnInit() {}
 
-  public levelSurfuce(properties: Property[] ){
+  public levelSurfuce(properties: Property[]) {
       let sumValue = 0;
       properties.forEach(prop => {
-        sumValue +=  +prop.value
-      })
+        sumValue +=  +prop.value;
+      } )
       return sumValue;
   }
 
