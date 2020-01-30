@@ -209,5 +209,53 @@
                 ]
             } 
         ]
+    },
+    {
+        "realEstateName": "OSIEDLE POD OLCHAMI",
+        "realEstateShortInfo": "HOYERA – STARY BIEŻANÓW",
+        "realEstateDescription": "Osiedle pod Olchami to kameralne osiedle 16 domów dwupoziomowych (8 domów jednorodzinnych dwulokalowych – typu zabudowa bliźniacza) usytuowanych przy ulicy Hoyera w dzielnicy Stary Biezanów. Do każdego segmentu przynależeć będzie ok. 3 arów działki, wspólny udział w drodze, a także dwa miejsca parkingowe. Zaprojektowane domy będą współgrały z okoliczną niską zabudową. Przyszli mieszkańcy będą mogli się cieszyć wygodną lokalizacja zapewniająca szybki dostęp do głównych dróg do Krakowa. Jednocześnie odpowiednie oddalenie osiedla od miejsc natężenia ruchu drogowego zapewni mieszkańcom cisze i spokój aby z radością i w spokoju mogli spędzać czas z rodziną. Dzięki możliwości wyboru wariantów domów, ich układy pozwolą na aranżację spełniającą oczekiwania nawet najbardziej wymagających klientów. Osiedle Pod Olchami zaprojektowano z myślą o osobach, które od swojego wymarzonego miejsca zamieszkania oczekują nie tylko funkcjonalności, ale także wygody i przestrzeni. Malownicza lokalizacja – pozwoli na aktywną organizację czasu wolnego dla całej rodziny.",
+        "realEstatePhotoUrl" : [
+            "assets/osiedle-pod-olchami/orginal1-1200x675.png",
+            "assets/osiedle-pod-olchami/orginal2-1200x675.png",
+            "assets/osiedle-pod-olchami/orginal3-1200x675.png"
+        ],
+        "realEstateLocation" : "HOYERA – STARY BIEŻANÓW nr działek: 533/31, 533/32, 533/33, 533/34, 533/35, 533/36",
+        "lngLatOfRealEstate" : [19.999279,50.023316],
+        "housePropertise" : [
+            {
+                "buildingsName": "A",
+                "floorSurfaces": 100,
+                "functionalSurface": 100,
+                "groundFloor" :[
+                    {"name": "Salon z kominkiem i z aneksem kuchennym", "value" : "27.45"},
+                    {"name": "Gabinet", "value" : "9"},
+                    {"name": "Łazienka", "value" : "2.42"}
+                ],
+                "firstFloor" :[
+                    {"name": "Pokój", "value" : "12.17"},
+                    {"name": "Pokój", "value" : "12.17"},
+                    {"name": "Łazienka", "value" : "5"},
+                    {"name": "Pokój", "value" : "9.42"},
+                    {"name": "Komunikacja", "value" : "4.6"}
+                ]
+            },
+            {
+                "buildingsName": "B",
+                "floorSurfaces": 100,
+                "functionalSurface": 100,
+                "groundFloor" :[
+                    {"name": "Salon z kominkiem", "value" : "25"},
+                    {"name": "Kuchnia", "value" : "8.6"},
+                    {"name": "Garderoba", "value" : "2"},
+                    {"name": "Łazienka", "value" : "2.42"}
+                ],
+                "firstFloor" :[
+                    {"name": "Pokój", "value" : "25"},
+                    {"name": "Pokój", "value" : "9.42"},
+                    {"name": "Łazienka", "value" : "6"},
+                    {"name": "Komunikacja", "value" : "4.6"}
+                ]
+            }  
+        ]
     }
 ]
