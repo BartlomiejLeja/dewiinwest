@@ -16,6 +16,7 @@ import { RealEstateListComponent } from './real-estate-list/real-estate-list.com
 import { HousePropertiesComponent } from './house-properties/house-properties.component';
 import { ApartmentPropertiesComponent } from './apartment-properties/apartment-properties.component';
 import { CheckIfRealEstateIsReserved } from './pipes/isRealEstateReserved.pipe';
+import { MatProgressSpinnerModule } from '@angular/material';
 
 @NgModule({
   imports: [
@@ -28,6 +29,7 @@ import { CheckIfRealEstateIsReserved } from './pipes/isRealEstateReserved.pipe';
     GalleryModule,
     LightboxModule,
     GallerizeModule,
+    MatProgressSpinnerModule
   ],
   declarations: [
     WelcomeTabComponent,

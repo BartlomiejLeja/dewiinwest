@@ -1,3 +1,13 @@
+.spinner-container {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+
+    .spinner{
+        margin-top: 14%;
+    }
+ 
+}
 .real-estate-list-container {
     height: 100%;
     display: flex;

@@ -20,7 +20,12 @@ export class RealEstateListComponent implements OnInit {
   public mobileQuery: MediaQueryList;
   public forSaleRealEstateArray: RealEstate[] = (forSaleRealEstate as any).default;
   public soldRealEstateArray: RealEstate[] = (soldRealEstate as any).default;
+  public isLoading = false;
+  color = 'primary';
+  mode = 'indeterminate';
+  value = 50;
   private _mobileQueryListener: () => void;
+  
   constructor( 
     private router: Router, 
     private route: ActivatedRoute,
@@ -50,6 +55,10 @@ export class RealEstateListComponent implements OnInit {
       })
       this.selectedRouteService.routerChanged('aktualnaoferta')
     }
+  }
+
+  public ngAfterViewInit () {
+    this.isLoading = false;
   }
 
   public goToRealEstate(realEstateName: string){

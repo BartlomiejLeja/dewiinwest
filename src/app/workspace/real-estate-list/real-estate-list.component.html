@@ -1,4 +1,12 @@
-<div  [ngClass]="mobileQuery.matches ? 'real-estate-list-container-mobile' : 'real-estate-list-container'">
+<div *ngIf ="isLoading" class="spinner-container ">
+    <mat-progress-spinner
+    class="spinner"
+    [color]="color"
+    [mode]="mode"
+    [value]="value">
+</mat-progress-spinner>
+</div>
+<div  *ngIf ="!isLoading" [ngClass]="mobileQuery.matches ? 'real-estate-list-container-mobile' : 'real-estate-list-container'">
 <h1>{{titlte}}</h1>
 
 <div class ="divider">
