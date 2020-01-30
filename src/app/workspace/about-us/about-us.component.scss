@@ -11,9 +11,18 @@
     }
     
 
-    ul, li{
+    ul{
         color: #444444;
-        margin: 2% 8% 0 0%;   
+        margin: 2% 8% 2% 0%;   
+    }
+
+    li{
+        color: #444444;
+        margin: 1% 0% 1% 0%;
+        letter-spacing: 0.6px;
+        word-spacing: 1px;
+        line-height: 1.5;
+        text-align: justify;   
     }
 
 }

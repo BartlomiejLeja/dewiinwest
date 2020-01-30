@@ -9,8 +9,8 @@ export class AnimatedCounterComponent implements OnInit,  AfterViewInit, OnChang
   @Input() duration: number;
   @Input() digit: number;
   @Input() steps: number;
-  @ViewChild("animatedDigit", {static: false}) animatedDigit: ElementRef;
-  
+  @ViewChild('animatedDigit', {static: false}) animatedDigit: ElementRef;
+
   constructor() { }
 
   ngOnInit() {
@@ -20,7 +20,7 @@ export class AnimatedCounterComponent implements OnInit,  AfterViewInit, OnChang
       this.duration = 1000;
     }
 
-    if (typeof this.digit === "number") {
+    if (typeof this.digit === 'number') {
       this.counterFunc(this.digit, this.duration, this.animatedDigit);
     }
   }
