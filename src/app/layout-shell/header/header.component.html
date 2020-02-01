@@ -7,19 +7,19 @@
     
     <div *ngIf="!mobileQuery.matches" class = "menu">
         <div class= "hover-test">
-            <span class = "hover hover-1" (click) = "clickOnRouterButton('main')" routerLink="/"  [ngClass]="selectedLink=='main' ? 'active-link' : 'hover hover-1'"> STRONA GŁÓWNA</span>
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('main')" [ngClass]="selectedLink=='main' ? 'active-link' : 'hover hover-1'"> STRONA GŁÓWNA</span>
         </div>
         <div class= "hover-test">
             <span class = "hover hover-1" (click) = "clickOnRouterButton('aktualnaoferta')" [ngClass]="selectedLink=='aktualnaoferta' ? 'active-link' : 'hover hover-1'"  [matMenuTriggerFor]="menu">AKTUALNA OFERTA</span>
         </div>  
         <div class= "hover-test">
-            <span class = "hover hover-1" (click) = "clickOnRouterButton('inwestycjezakonczone')"  routerLink="/inwestycjezakonczone" [ngClass]="selectedLink=='inwestycjezakonczone' ? 'active-link' : 'hover hover-1'"  >ZAKONCZONE INWESTYCJE</span>
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('inwestycjezakonczone')" [ngClass]="selectedLink=='inwestycjezakonczone' ? 'active-link' : 'hover hover-1'"  >ZAKONCZONE INWESTYCJE</span>
         </div>
         <div class= "hover-test">  
-            <span class = "hover hover-1" (click) = "clickOnRouterButton('onas')" routerLink="/onas"  [ngClass]="selectedLink=='onas' ? 'active-link' : 'hover hover-1'" >O NAS</span>
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('onas')"  [ngClass]="selectedLink=='onas' ? 'active-link' : 'hover hover-1'" >O NAS</span>
         </div>
         <div class= "hover-test">  
-            <span class = "hover hover-1" (click) = "clickOnRouterButton('kontakt')"  routerLink="/kontakt"  [ngClass]="selectedLink=='kontakt' ? 'active-link' : 'hover hover-1'">KONTAKT</span>
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('kontakt')"   [ngClass]="selectedLink=='kontakt' ? 'active-link' : 'hover hover-1'">KONTAKT</span>
         </div>
        
     </div>

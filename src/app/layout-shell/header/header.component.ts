@@ -58,8 +58,10 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   public clickOnRouterButton(linkName: string){
-    // this.clickedOnActualOfferRealEstate = clicked;
     this.selectedLink = linkName;
+    if(linkName=="main"){
+      this.router.navigate(["/"]);
+    }else this.router.navigate([linkName]);
   }
 
   ngOnDestroy(): void {

@@ -25,9 +25,9 @@
                         </p>
 
                         <ul>
-                                <li>Ceny:  {{realEstate.realEstatePrice}} </li>
+                                <li *ngIf="realEstate.realEstatePrice">Ceny:  {{realEstate.realEstatePrice}} </li>
                                 <li>Lokalizacja:  {{realEstate.realEstateLocation}} </li>
-                                <li>Odbiór:  {{realEstate.constructionAcceptance}}</li>
+                                <li *ngIf="realEstate.constructionAcceptance">Odbiór:  {{realEstate.constructionAcceptance}}</li>
                         </ul>    
                 </div>
         </div>

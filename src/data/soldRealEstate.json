@@ -3,7 +3,10 @@
         "realEstateName": "APARTAMENTY UNRUGA",
         "realEstateShortInfo": "SKOTNIKI",
         "realEstateDescription": "Dewi Invest realizuje budowę, kameralnego kompleksu 6 apartamentów w zacisznej, zielonej dzielnicy Krakowa – Skotniki, przy ulicy Unruga/Winnicka. Prezentowana inwestycja to nowe dwu-poziomowe mieszkania w zabudowie szeregowej. Całe przedwsięzięcie zakłada budowę 6 apartamentów z garażami  i pomieszczeniami gospodarczymi. Budynki posiadają 3 kondynacje naziemne. Mieszkania usytuowane są na pierwszym, drugim piętrze i poddaszu. Nowoczesna architektura budowli powstała z myślą o najbardziej wymagających klientach, dla których funkcjonalność, luksus oraz niepowtarzalna lokalizacja muszą iść w parze. Niewątpliwie największym atutem powyższej inwestycji jest zielona i cicha okolica . Jest to wspaniała lokalizacja dla osób ceniących spokój, ciszę, przy jednocześnie bliskim dostępie do szybkiej komunikacji aby móc w przeciągu kwadransa dostać się do serca Krakowa a także z łatwym i krótkim dostępem do obwodnicy Miasta. Mimo, że inwestycja  usytuowana jest w zacisznym miejscu , to jest świetnie skomunikowana z innymi dzielnicami. Dzięki takiej lokalizacji mieszkańcy Apartamentów Unruga, nie muszą wybierać między ciszą, a komfortowym dostępem do miejsc codziennej użyteczności. Sąsiedztwo  stanowią nowe domy jednorodzinne i zieleń parkowa . Lokalizacja mini osiedla zapewnia wygodny dostęp do pobliskich sklepów, przedszkoli, szkół i klubów. Nowoczesna architektura domów powstała z myślą o najbardziej wymagających klientach, dla których funkcjonalność, luksus oraz niepowtarzalna lokalizacja muszą iść w parze.",
-        "realEstatePhotoUrl" : ["assets/apartamenty-unruga/orginal2-1200x750.png","assets/apartamenty-unruga/orginal1-1200x750.png","assets/apartamenty-unruga/orginal3-1200x750.png"],
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/gZpglkA.png",
+            "https://i.imgur.com/LpYTtSj.png",
+            "https://i.imgur.com/oHPzsxW.png"],
         "realEstateLocation" : "Krakowa – Skotniki, przy ulicy Unruga/Winnicka",
         "realEstatePrice" : "520.000 zł za dwupoziomowy apartament 108,92 m2, lub 540.000 zł za apartament o pow. 113,06 m2",
         "constructionAcceptance": "III kwartał 2018",
@@ -141,10 +144,10 @@
         "realEstateShortInfo": "KOKOTÓW",
         "realEstateDescription": "Arkadia Kokotów etap II to kolejny etap inwestycji  zlokalizowanej na granicy Krakowa i Wieliczki, wśród  terenów zielonych. To  propozycja dla rodzin oraz osób ceniących sobie spokój, a jednocześnie bliskość centrum miasta. Inwestycje tworzy 20 domów jednorodzinnych w zabudowie bliźniaczej ( w pierwszym etapie 16 domów). Elegancki design budynków Arkadii w połączeniu z funkcjonalnym, przestronnym wnętrzem oraz praktycznym zagospodarowaniem terenu składają się na niepowtarzalny klimat tego miejsca. Bliskość  obwodnicy  pozwoli dotrzeć do centrum Krakowa w 10 minut. Infrastruktura w Kokotowie jest bardzo dobrze rozwinięta i znajdziecie Państwo wszystkie sklepy i punkty usługowe gwarantujące odpowiedni komfort życia. Tereny wokół sprzyjają rekreacji, turystyce pieszej i rowerowej, jest więc to idealne miejsce dla ludzi ceniących bliskość z naturą. Niezależność, bezpieczeństwo, przestrzeń oraz cisza i spokój…, to wszystko zapewni Państwu nowo powstające Osiedle Arkadia Kokotów. Po zgiełku miejskiego życia przed mieszkańcami Osiedla Arkadia Kokotów pojawia się możliwość wyciszenia i wypoczynku w przyjaznym otoczeniu malowniczej przyrody.",
         "realEstatePhotoUrl" : [
-            "assets/arkadia-kokotow-etap-2/0_1-Kokotow-1200x675.jpg",
-            "assets/arkadia-kokotow-etap-2/0_2-Kokotow-1200x675.jpg",
-            "assets/arkadia-kokotow-etap-2/0_4-Kokotow-b-1200x675.jpg",
-            "assets/arkadia-kokotow-etap-2/0_5-Kokotow-b-1200x675.jpg"
+            "https://i.imgur.com/IXXQOVq.jpg",
+            "https://i.imgur.com/U5ra8Qu.jpg",
+            "https://i.imgur.com/O8h11hz.jpg",
+            "https://i.imgur.com/AlJxDZj.jpg"
         ],
         "realEstateLocation" : "Kolonia Kokotów – gmina Wieliczka",
         "realEstatePrice" : "479.000 zł za dom 142 m2. wraz z działką ok. 5 arów.",
@@ -179,9 +182,9 @@
         "realEstateShortInfo": "KOKOTÓW",
         "realEstateDescription": "Słoneczne Zacisze Kokotów to kameralne osiedle sześciu domów jednorodzinnych w zabudowie bliźniaczej zlokalizowane w Kokotowie, w gm. Wieliczka przy ul. Gaisko – przecznica od ul. Kokotowskiej. Domy zaprojektowane zostały jako budynki parterowe z poddaszem użytkowym. Wykonywane są do stanu deweloperskiego, z możliwością wykończenia „pod klucz” według własnych preferencji nabywcy. Pod względem jakościowym Słoneczne Zacisze – Kokotów spełnia najwyższe standardy. Materiały wykorzystane do budowy domów oraz energooszczędna technologia zapewniają życie w warunkach zgodnych ze standardami ekologii. Styl architektury zabudowań utrzymany jest w prostej, ale ciepłej i eleganckiej estetyce i w połączeniu z przestronnym funkcjonalnym wnętrzem, pozwoli Państwu poczuć się wyjatkowo zamieszkując w tej urokliwej podmiejskiej, zielonej dzielnicy. Osiedle charakteryzuje się zielonym otoczeniem, niską zabudową jednorodzinną, bezpośrednim dostępem do komunikacji miejskiej, lokali handlowo-usługowych oraz placówek oświatowych.",
         "realEstatePhotoUrl" : [
-            "assets/sloneczne-zacisze/orginal1-1200x750.png",
-            "assets/sloneczne-zacisze/orginal2-1200x750.png",
-            "assets/sloneczne-zacisze/orginal3-1200x750.png"
+            "https://i.imgur.com/QYClm1N.png",
+            "https://i.imgur.com/cdSddaq.png",
+            "https://i.imgur.com/kjS2ltk.png"
         ],
         "realEstateLocation" : "Kokotów ul. Gajsko nr działki 716/2",
         "realEstatePrice" : "379 000 zł za dom 100m kw wraz z działką i dwoma miejscami postojowymi.",
@@ -215,9 +218,9 @@
         "realEstateShortInfo": "HOYERA – STARY BIEŻANÓW",
         "realEstateDescription": "Osiedle pod Olchami to kameralne osiedle 16 domów dwupoziomowych (8 domów jednorodzinnych dwulokalowych – typu zabudowa bliźniacza) usytuowanych przy ulicy Hoyera w dzielnicy Stary Biezanów. Do każdego segmentu przynależeć będzie ok. 3 arów działki, wspólny udział w drodze, a także dwa miejsca parkingowe. Zaprojektowane domy będą współgrały z okoliczną niską zabudową. Przyszli mieszkańcy będą mogli się cieszyć wygodną lokalizacja zapewniająca szybki dostęp do głównych dróg do Krakowa. Jednocześnie odpowiednie oddalenie osiedla od miejsc natężenia ruchu drogowego zapewni mieszkańcom cisze i spokój aby z radością i w spokoju mogli spędzać czas z rodziną. Dzięki możliwości wyboru wariantów domów, ich układy pozwolą na aranżację spełniającą oczekiwania nawet najbardziej wymagających klientów. Osiedle Pod Olchami zaprojektowano z myślą o osobach, które od swojego wymarzonego miejsca zamieszkania oczekują nie tylko funkcjonalności, ale także wygody i przestrzeni. Malownicza lokalizacja – pozwoli na aktywną organizację czasu wolnego dla całej rodziny.",
         "realEstatePhotoUrl" : [
-            "assets/osiedle-pod-olchami/orginal1-1200x675.png",
-            "assets/osiedle-pod-olchami/orginal2-1200x675.png",
-            "assets/osiedle-pod-olchami/orginal3-1200x675.png"
+            "https://i.imgur.com/fcB4LBR.png",
+            "https://i.imgur.com/SpHMqTO.png",
+            "https://i.imgur.com/w0Lu63C.png"
         ],
         "realEstateLocation" : "HOYERA – STARY BIEŻANÓW nr działek: 533/31, 533/32, 533/33, 533/34, 533/35, 533/36",
         "lngLatOfRealEstate" : [19.999279,50.023316],

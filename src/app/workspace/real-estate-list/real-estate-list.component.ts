@@ -1,8 +1,6 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { CompletedRealEstateInvestmentsService } from '../services/completed-real-estate-investments.service';
 import { MediaMatcher } from '@angular/cdk/layout';
-import { ForSaleRealEstateInvestmentsService } from '../services/for-sale-real-estate-investments.service';
 import { SelectedRouteService } from '../../layout-shell/services/selected-route.service';
 import * as forSaleRealEstate from '../../../data/forSaleRealEstate.json';
 import * as soldRealEstate from '../../../data/soldRealEstate.json';
@@ -20,17 +18,16 @@ export class RealEstateListComponent implements OnInit {
   public mobileQuery: MediaQueryList;
   public forSaleRealEstateArray: RealEstate[] = (forSaleRealEstate as any).default;
   public soldRealEstateArray: RealEstate[] = (soldRealEstate as any).default;
-  public isLoading = false;
-  color = 'primary';
+  public isLoading = true;
+  public color = 'primary';
   mode = 'indeterminate';
   value = 50;
   private _mobileQueryListener: () => void;
+  private countOfLoadedImages: number = 0;
   
   constructor( 
     private router: Router, 
     private route: ActivatedRoute,
-    private completedRealEstateInvestmentsService: CompletedRealEstateInvestmentsService,
-    private forSaleRealEstateInvestments: ForSaleRealEstateInvestmentsService,
     private changeDetectorRef: ChangeDetectorRef, 
     private media: MediaMatcher,
     private selectedRouteService: SelectedRouteService) { 
@@ -57,16 +54,19 @@ export class RealEstateListComponent implements OnInit {
     }
   }
 
-  public ngAfterViewInit () {
-    this.isLoading = false;
-  }
-
   public goToRealEstate(realEstateName: string){
     this.router.navigate([`/realestate/${realEstateName}`]);
   }
 
   public ngOnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);
+  }
+
+  public loadedImages(): void{
+     this.countOfLoadedImages = ++this.countOfLoadedImages;
+    if(this.countOfLoadedImages == this.realEstateList.length) {
+      this.isLoading = false 
+    } 
   }
 }
 

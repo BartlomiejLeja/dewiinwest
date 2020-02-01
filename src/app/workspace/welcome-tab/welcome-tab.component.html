@@ -22,7 +22,6 @@
               #matCarouselSlide
               *ngFor="let slide of carouselItems; let i = index"
               image={{slide.imageUrl}}
-        
               [overlayColor]="overlayColor"
               [hideOverlay]="hideOverlay"
             >
@@ -37,7 +36,6 @@
                       <h2>{{slide.description}}</h2>
                      </div>
                 </div>
-             
               </ng-container>
             </mat-carousel-slide>
           </mat-carousel>

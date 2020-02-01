@@ -1,4 +1,4 @@
-<div *ngIf ="isLoading" class="spinner-container ">
+<div *ngIf ="isLoading"  class="spinner-container ">
     <mat-progress-spinner
     class="spinner"
     [color]="color"
@@ -6,7 +6,10 @@
     [value]="value">
 </mat-progress-spinner>
 </div>
-<div  *ngIf ="!isLoading" [ngClass]="mobileQuery.matches ? 'real-estate-list-container-mobile' : 'real-estate-list-container'">
+<div  
+    [ngStyle]="{'visibility': isLoading ? 'hidden' : 'visible' }"
+    [ngClass]="mobileQuery.matches ? 'real-estate-list-container-mobile' : 'real-estate-list-container'"
+>
 <h1>{{titlte}}</h1>
 
 <div class ="divider">
@@ -17,10 +20,11 @@
     (click)="goToRealEstate(realEstate.realEstateName)" 
     *ngFor = "let realEstate of realEstateList;" 
     class="real-estate-list" 
+    appBackgroundImageLoaded (imageLoaded)="loadedImages()"
     [ngStyle]="{
                 'background' : ' url(' + realEstate.realEstateImageUrl + ') no-repeat center center',
                 'background-size':  mobileQuery.matches ?  '100% 80%' : '100%'
-            }">
+            }" >
               
             <p >{{ realEstate.realEstateName }}</p>
     </div>

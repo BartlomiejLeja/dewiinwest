@@ -3,7 +3,7 @@
         "realEstateName": "SŁONECZNA WADOWSKA",
         "realEstateShortInfo": "NOWA HUTA",
         "realEstateDescription": "Słoneczna Wadowska to kameralne osiedle ośmiu domów jednorodzinnych w zabudowie bliźniaczej zlokalizowane w Nowej Hucie,  przy ul. Wadowskiej. Domy zaprojektowane zostały jako budynki jednopiętrowe z poddaszem użytkowym. Wykonywane są do stanu deweloperskiego, z możliwością wykończenia „pod klucz” według własnych preferencji nabywcy. Pod względem jakościowym Słoneczna Wadowska  spełnia najwyższe standardy. Materiały wykorzystane do budowy domów oraz energooszczędna technologia zapewniają życie w warunkach zgodnych ze standardami ekologii.Styl architektury zabudowań utrzymany jest w prostej, ale ciepłej i eleganckiej estetyce i w połączeniu z przestronnym funkcjonalnym wnętrzem, pozwoli Państwu poczuć się wyjątkowo zamieszkując w tej urokliwej podmiejskiej, zielonej dzielnicy.Osiedle charakteryzuje się zielonym otoczeniem, niską zabudową jednorodzinną, bezpośrednim dostępem do komunikacji miejskiej, lokali handlowo-usługowych oraz placówek oświatowych.",
-        "realEstatePhotoUrl" : ["assets/sloneczna-wadowska/orginal1-1200x563.jpg","assets/sloneczna-wadowska/orginal2-1200x750.jpg"],
+        "realEstatePhotoUrl" : ["https://i.imgur.com/Vi0XzoZ.jpg","https://i.imgur.com/nJsfIPz.jpg"],
         "realEstateLocation" : "Nowa Huta ul. Wadowska, nr działek 84/2 i 84/3",
         "realEstatePrice" : "499 000 zł za dwupoziomowy apartament 108,92 m2, lub  540.000 zł za apartament o pow. 113,06 m2",
         "constructionAcceptance": "III kwartał 2018",
@@ -175,11 +175,11 @@
         "realEstateShortInfo": "3 KM OD GALERII BRONOWICE",
         "realEstateDescription": "Osiedle Wierzbowa to kameralne osiedle 16 mieszkań  (8 domów jednorodzinnych dwulokalowych – typu zabudowa bliźniacza) usytuowanych przy ulicy Wierzbowej w miejscowości Modlnica, gmina Wielka Wieś. W każdym segmencie znajdować się będą dwa mieszkania.   Do każdego mieszkania przynależeć będzie miejsce postojowe i wspólny udział w działce, oraz wyznaczone będą ogródki do wyłącznego korzystania. Zaprojektowane inwestycja będzie współgrała z okoliczną niską zabudową. Przyszli mieszkańcy będą mogli się cieszyć wygodną lokalizacja zapewniająca szybki dostęp do głównych dróg do Krakowa. W odległości 100 metrów biedronka, około 3 km jest Galeria Bronowice a 10 km od inwestycji jest urokliwy Ojcowski Park Krajobrazowy. Jednocześnie odpowiednie oddalenie osiedla od miejsc natężenia ruchu drogowego zapewni mieszkańcom cisze i spokój aby z radością i w spokoju mogli spędzać czas z rodziną i przyjaciółmi.  Układy mieszkań pozwolą na indywidualną koncepcję i aranżację spełniającą oczekiwania nawet najbardziej wymagających klientów. Mieszkania na pierwszym piętrze dodatkowo mają możliwość adaptacji poddasza, dzięki czemu mieszkanie może uzyskać powierzchnie użytkową ponad 80 m kw. Osiedle Wierzbowa  zaprojektowano z myślą o osobach, które od swojego wymarzonego miejsca zamieszkania oczekują nie tylko funkcjonalności, ale także wygody i przestrzeni. Malownicza lokalizacja – pozwoli na aktywną organizację czasu wolnego dla całej rodziny.",
         "realEstatePhotoUrl" : [
-            "assets/osiedle-wierzbowa/orginal4-1200x675.jpg",
-            "assets/osiedle-wierzbowa/orginal1-1200x732.jpg",
-            "assets/osiedle-wierzbowa/orginal2-1200x650.jpg",
-            "assets/osiedle-wierzbowa/orginal3-1200x624.jpg",
-            "assets/osiedle-wierzbowa/orginal5-1200x425.jpg"
+            "https://i.imgur.com/PL8ePm4.jpg",
+            "https://i.imgur.com/5uHW5Dq.jpg",
+            "https://i.imgur.com/puzS4pc.jpg",
+            "https://i.imgur.com/bYh4s0K.jpg",
+            "https://i.imgur.com/jMU32CW.jpg"
         ],
         "realEstateReservationArray": [
             {
@@ -293,9 +293,9 @@
         "realEstateShortInfo": "SMOLEŃSKIEGO",
         "realEstateDescription": "Oferujemy przestronne, funkcjonalne i dobrze usytuowane mieszkania z balkonami w malowniczym zakątku Opatkowic, na ul. Smoleńskiego. Apartamenty nad Wilgą  to kameralny kompleks 4 przestronnych mieszkań z balkonami, położony w urokliwym, spokojnym i pełnym zieleni miejscu, w dzielnicy Krakowa – Opatkowice, wśród niskiej zabudowy mieszkaniowej. Mieszkania bezczynszowe z oddzielna Kw na mieszkanie. Inwestycję  tworzą  dwa budynki jednorodzinne ( dwulokalowe). W pierwszym segmencie znajdują się dwa mieszkania o powierzchni  M1 52,44 m kw na parterze oraz M2 99,93 m kw. W drugim segmencie  są również dwa mieszkania o powierzchni M3 88,62 m kw i 96,72 m   oraz przynależne do nich garaże a także garaże  do mieszkań z pierwszego segmentu. Przedsięwzięcie realizowane jest z najwyższej klasy materiałów budowlanych. Mieszkania oddawane są w stanie deweloperskim  zamkniętym – do wykończenia. Oferta jest skierowana do osób poszukujących najlepszego standardu mieszkania, ciszy, spokoju a zarazem lokalizacji blisko centrum. To wymarzone miejsce dla każdej rodziny. Elegancki, nowoczesny  a zarazem prosty styl zabudowy w połączeniu z funkcjonalnym, przestronnym wnętrzem oraz praktycznym zagospodarowaniem terenu składają się na niepowtarzalny klimat tego miejsca. W sąsiedztwie istnieje pełna infrastruktura – szkoła, drogi, sieci sklepów, przychodnia, przystanki komunikacji miejskiej.",
         "realEstatePhotoUrl" : [
-            "assets/apartamenty-nad-wilga-opatkowice/orginal2-1200x750.jpg",
-            "assets/apartamenty-nad-wilga-opatkowice/orginal1-1200x750.jpg",
-            "assets/apartamenty-nad-wilga-opatkowice/orginal3-1200x750.jpg"
+            "https://i.imgur.com/IsvpgrD.jpg",
+            "https://i.imgur.com/823BO8S.jpg",
+            "https://i.imgur.com/oa4nkK0.jpg"
         ],
         "realEstateReservationArray": [
             {
@@ -414,9 +414,9 @@
         "realEstateShortInfo": "PROKOCIM",
         "realEstateDescription": "Le Dubois to kameralny kompleks dwóch domów składający się z czterech niezależnych, bezczynszowych mieszkań. Inwestycja zlokalizowana jest w dzielnicy Podgórze przy ulicy Dubois, zaledwie 6 km od Rynku Głównego, w otoczeniu niskiej zabudowy jednorodzinnej. Jest ona skierowana do osób poszukujących najlepszego standardu mieszkania, ciszy, spokoju a zarazem lokalizacji blisko centrum. To wymarzone miejsce dla każdej rodziny. Inwestycja mimo iż,  usytuowana jest w zacisznym miejscu , to doskonale jest skomunikowana z innymi dzielnicami. Dzięki takiej lokalizacji mieszkańcy La Dubois, nie muszą wybierać między ciszą, a komfortowym dostępem do miejsc codziennej użyteczności. W sąsiedztwie istnieje pełna infrastruktura, a lokalizacja mini osiedla zapewnia wygodny dostęp do pobliskich sklepów, przedszkoli, szkół, przychodni i klubów. W ramach inwestycji na 10 arowej działce powstanie kompleks 4 mieszkań, mieszczących się w dwóch budynkach, w każdym budynku dwa mieszkania. Każde z mieszkań będzie niezależnym mieszkaniem z oddzielnym wejściem. Do każdego z mieszkań przynależeć będzie miejsce postojowe w garażu dwustanowiskowym. Elegancki, a zarazem prosty styl budynków w połączeniu z funkcjonalnym, przestronnym wnętrzem oraz praktycznym zagospodarowaniem terenu składają się na niepowtarzalny klimat tego miejsca. Każdy z domów posadowiony zostanie na 4,5 arowej. Przedsięwzięcie realizowane jest  z najwyższej klasy materiałów budowlanych. Mieszkania oddawane są w stanie deweloperskim  zamkniętym – do wykończenia. Projekt jest idealną propozycją dla rodziny wielopokoleniowej, która chce zamieszkiwać pod jednym dachem – niezwykle oszczędne i ekonomiczne, jednak często mało komfortowe rozwiązanie. W La Dubois dwa różnej wielkości mieszkania połączone są tylko wspólnym garażem, a każde mieszkania posiada osobne wejście, co pozwala zachować intymność. La Dubois jest również doskonałą lokatą kapitału !",
         "realEstatePhotoUrl" : [
-            "assets/LA-DUBOIS/orginal1-1200x750.png",
-            "assets/LA-DUBOIS/orginal2-1200x750.png",
-            "assets/LA-DUBOIS/orginal3-1200x675.png"
+            "https://i.imgur.com/3j0NYXy.png",
+            "https://i.imgur.com/CSwIBnJ.png",
+            "https://i.imgur.com/pwEMKuD.png"
         ],
         "realEstateLocation" : "Podgórze przy ulicy Dubois",
         "additionalInformation": "Do każdego mieszkania przynależy miejsce postojowe w garażu dwustanowiskowym o powierzchni 33,67 m2 w cenie 25.000 zł",

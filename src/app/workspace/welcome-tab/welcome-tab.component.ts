@@ -75,7 +75,7 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
       },
       { 
         realEstateDescription: 'Słoneczne osiedle na Wadowskiej',
-        realEstateImageUrl: 'assets/sloneczna-wadowska/cam6.jpg',
+        realEstateImageUrl: 'https://i.imgur.com/nJsfIPz.jpg',
         realEstateName: 'Słoneczna Wadowska'
       },
       { realEstateDescription: 'Kameralne domki jednorodzine',
@@ -85,9 +85,9 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
     ]
 
     this.carouselItems = [
-      { imageUrl: 'assets/apartamenty-unruga/orginal1-1200x750.png', title : 'Budujemy twoje marzenia ..', description: 'Twój Dom Group', isWelcomeImage: true },
-      { imageUrl: 'assets/sloneczna-wadowska/cam8-1200x563.jpg', title : 'Sloneczna Wadowska', description: 'Blisko do Krakowa, blisko do natury', isWelcomeImage: false  },
-      { imageUrl: 'assets/LA-DUBOIS/cam8_sh.png',title : 'LA-DUBOIS', description: 'Nowoczesne osiedle, w pięknym otoczeniu', isWelcomeImage: false  },
+      { imageUrl: 'https://i.imgur.com/gZpglkA.png', title : 'Budujemy twoje marzenia', description: 'Twój Dom Group', isWelcomeImage: true },
+      { imageUrl: 'https://i.imgur.com/nJsfIPz.jpg', title : 'Sloneczna Wadowska', description: 'Blisko do Krakowa, blisko do natury', isWelcomeImage: false  },
+      { imageUrl: 'https://i.imgur.com/3j0NYXy.png',title : 'LA-DUBOIS', description: 'Nowoczesne osiedle, w pięknym otoczeniu', isWelcomeImage: false  },
     ]
   }
 
@@ -128,6 +128,7 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);
   }
+  
 }
 
 interface RealEstateFlipImage {
