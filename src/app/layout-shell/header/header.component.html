@@ -30,8 +30,11 @@
        
     <mat-menu #menu="matMenu">
         <ng-template matMenuContent>
-            <button mat-menu-item  routerLink="/inwestycjeaktualne">Wszytskie inwestycje</button>
-            <button mat-menu-item *ngFor="let realEstate of forSaleRealEstateArray;"  routerLink="/realestate/{{realEstate.realEstateName}}">{{realEstate.realEstateName}}</button>
+            <button mat-menu-item  routerLink="/inwestycjeaktualne"  routerLinkActive="active-link">Wszytskie inwestycje</button>
+            <button mat-menu-item 
+            *ngFor="let realEstate of forSaleRealEstateArray;"  
+            routerLink="/realestate/{{realEstate.realEstateName}}"
+            routerLinkActive="active-link">{{realEstate.realEstateName}}</button>
         </ng-template>
     </mat-menu>
   
