@@ -3,7 +3,7 @@
         'background-size' : '100% 100%'
     }">
     <div class = "real-estate-name">
-        <h1>{{realEstate.realEstateName}}</h1>
+        <h1  [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">{{realEstate.realEstateName}}</h1>
         <p>{{realEstate.realEstateShortInfo}}</p>
         <div class ="read-more-button">
         <button mat-raised-button color="primary" (click) = "scroll(target)" >Czytaj dalej</button>
@@ -14,7 +14,7 @@
 
 <div class = "real-estate-container"> 
         <div class = "real-estate-description-container">
-                <h1  #target>OPIS INWESTYCJI</h1>
+                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'" #target>OPIS INWESTYCJI</h1>
                 <div class ="divider">
                         <mat-divider></mat-divider>
                 </div>
@@ -43,7 +43,7 @@
         <p>{{realEstate.additionalInformation}}</p>
 
         <div [ngClass]="mobileQuery.matches ? 'visualizations-container-mobile' : 'visualizations-container'">
-                <h1>WIZUALIZACJE</h1>
+                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">WIZUALIZACJE</h1>
 
                 <div class ="divider">
                         <mat-divider></mat-divider>
@@ -57,7 +57,7 @@
         </div>
 
         <div *ngIf="realEstate.realEstateReservationArray" class = "real-estate-reservation">
-                <h1>Rezerwacje:</h1>
+                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Rezerwacje:</h1>
                 <div class ="divider">
                                 <mat-divider></mat-divider>
                 </div>
@@ -72,7 +72,7 @@
         </div>
 
         <div class = "developers-state">
-                <h1>Stan deweloperski obejmuje:</h1>
+                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Stan deweloperski obejmuje:</h1>
 
                 <div class ="divider">
                                 <mat-divider></mat-divider>
@@ -105,7 +105,7 @@
         </div>
 
         <div class = "localization-container">
-                <h1>LOKALIZACJA</h1>
+                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">LOKALIZACJA</h1>
 
                 <div class ="divider">
                         <mat-divider></mat-divider>

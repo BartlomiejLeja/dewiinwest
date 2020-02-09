@@ -1,462 +1,66 @@
 [
     {
-        "realEstateName": "SŁONECZNA WADOWSKA",
-        "realEstateShortInfo": "NOWA HUTA",
-        "realEstateDescription": "Słoneczna Wadowska to kameralne osiedle ośmiu domów jednorodzinnych w zabudowie bliźniaczej zlokalizowane w Nowej Hucie,  przy ul. Wadowskiej. Domy zaprojektowane zostały jako budynki jednopiętrowe z poddaszem użytkowym. Wykonywane są do stanu deweloperskiego, z możliwością wykończenia „pod klucz” według własnych preferencji nabywcy. Pod względem jakościowym Słoneczna Wadowska  spełnia najwyższe standardy. Materiały wykorzystane do budowy domów oraz energooszczędna technologia zapewniają życie w warunkach zgodnych ze standardami ekologii.Styl architektury zabudowań utrzymany jest w prostej, ale ciepłej i eleganckiej estetyce i w połączeniu z przestronnym funkcjonalnym wnętrzem, pozwoli Państwu poczuć się wyjątkowo zamieszkując w tej urokliwej podmiejskiej, zielonej dzielnicy.Osiedle charakteryzuje się zielonym otoczeniem, niską zabudową jednorodzinną, bezpośrednim dostępem do komunikacji miejskiej, lokali handlowo-usługowych oraz placówek oświatowych.",
-        "realEstatePhotoUrl" : ["https://i.imgur.com/Vi0XzoZ.jpg","https://i.imgur.com/nJsfIPz.jpg"],
-        "realEstateLocation" : "Nowa Huta ul. Wadowska, nr działek 84/2 i 84/3",
-        "realEstatePrice" : "499 000 zł za dwupoziomowy apartament 108,92 m2, lub  540.000 zł za apartament o pow. 113,06 m2",
-        "constructionAcceptance": "III kwartał 2018",
-        "additionalInformation": "Do każdego apartamentu przynależy miejsce postojowe w  garażu   kw w cenie 20 .000 zł i pomieszczenie gospodarcze o powierzchni  od 5,45 m kw do  17,42 m kw w cenie 2000 zł /m kw Mieszkanie sprzedawane jest w stanie deweloperskim, do własnej aranżacji.",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "realEstateReservationArray": [
-            {
-                "realEstateInfo" : "Budynek 1A – pow.użytkowa 128,80 m2 (pow. podłóg 132,15 m2) – cena 499 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Budynek 2A – pow.użytkowa 128,80 m2 (pow. podłóg 132,15 m2) – cena 499000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Budynek 3A – pow.użytkowa 128,80 m2 (pow. podłóg 132,15 m2) – cena 499 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Budynek 4A – pow.użytkowa 128,80 m2 (pow. podłóg 132,15 m2) – cena 499 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Budynek 1B – pow.użytkowa 129,46 m2 (pow. podłóg 132,51 m2) – cena 499 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Budynek 2B – pow.użytkowa 129,46 m2 (pow. podłóg 132,51 m2) – cena 499 000 zł",
-                "isReserved" : false
-            },
-            {
-                "realEstateInfo" : "Budynek 3B – pow.użytkowa 129,46 m2 (pow. podłóg 132,51 m2) – cena 499 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Budynek 4B – pow.użytkowa 129,46 m2 (pow. podłóg 132,51 m2) – cena 499 000 zł",
-                "isReserved" : true
-            }
-        ],
-        "apartmentPropertise" : [
-            {
-                "apartmentName": "Mieszkanie nr 1: 57,45 m2",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 57,45 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia", "value" : "9,95"},
-                            {"name": "Gabinet", "value" : "9,94"},
-                            {"name": "Salon", "value" : "16,01"},
-                            {"name": "Kuchnia", "value" : "10,48"},
-                            {"name": "Łazienka", "value" : "4,00"},
-                            {"name": "Przedpokój", "value" : "7,07"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 3: 64,99 m2",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 64,99 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia", "value" : "9,95"},
-                            {"name": "Gabinet", "value" : "9,94"},
-                            {"name": "Salon", "value" : "19,13"},
-                            {"name": "Kuchnia", "value" : "14,90"},
-                            {"name": "Łazienka", "value" : "4,00"},
-                            {"name": "Przedpokój", "value" : "7,07"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 5: 69,28 m2",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 69,28 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia", "value" : "9,94"},
-                            {"name": "Gabinet", "value" : "9,95"},
-                            {"name": "Salon", "value" : "19,00"},
-                            {"name": "Kuchnia", "value" : "10,32"},
-                            {"name": "Łazienka", "value" : "4,00"},
-                            {"name": "Przedpokój", "value" : "7,07"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 2: 101,42 m2.",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 1 - pierwsze pietro 54,28 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Salon", "value" : "37,78"},
-                            {"name": "Kuchnia", "value" : "10,48"},
-                            {"name": "Łazienka", "value" : "1,75"},
-                            {"name": "Przedpokój", "value" : "3,50"},
-                            {"name": "Garderoba", "value" : "0,77"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 2 - podasze 47.14 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Pokój", "value" : "15,95"},
-                            {"name": "Pokój", "value" : "10,91"},
-                            {"name": "Pokój", "value" : "7,35"},
-                            {"name": "Łazienka", "value" : "4,23"},
-                            {"name": "Przedpokój", "value" : "8,70"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 4: 108,92 m2.",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 1 - pierwsze pietro 61,78 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Salon", "value" : "40,86"},
-                            {"name": "Kuchnia", "value" : "14,90"},
-                            {"name": "Łazienka", "value" : "1,75"},
-                            {"name": "Przedpokój", "value" : "3,50"},
-                            {"name": "Garderoba", "value" : "0,77"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 2 - podasze 47.14 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Pokój", "value" : "15,95"},
-                            {"name": "Pokój", "value" : "10,91"},
-                            {"name": "Pokój", "value" : "7,35"},
-                            {"name": "Łazienka", "value" : "4,23"},
-                            {"name": "Przedpokój", "value" : "8,70"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr  6: 113,06 m2.",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 1 - pierwsze pietro 66,01 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Salon", "value" : "40,67"},
-                            {"name": "Kuchnia", "value" : "19,32"},
-                            {"name": "Łazienka", "value" : "1,75"},
-                            {"name": "Przedpokój", "value" : "3,50"},
-                            {"name": "Garderoba", "value" : "0,77"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 2 - podasze 47.05 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Pokój", "value" : "15,95"},
-                            {"name": "Pokój", "value" : "10,86"},
-                            {"name": "Pokój", "value" : "7,35"},
-                            {"name": "Łazienka", "value" : "4,23"},
-                            {"name": "Przedpokój", "value" : "8,70"}
-                        ]
-                    }
-                ]
-            }
-            
-        ] 
-    },
-    {
-        "realEstateName": "OSIEDLE WIERZBOWA",
-        "realEstateShortInfo": "3 KM OD GALERII BRONOWICE",
-        "realEstateDescription": "Osiedle Wierzbowa to kameralne osiedle 16 mieszkań  (8 domów jednorodzinnych dwulokalowych – typu zabudowa bliźniacza) usytuowanych przy ulicy Wierzbowej w miejscowości Modlnica, gmina Wielka Wieś. W każdym segmencie znajdować się będą dwa mieszkania.   Do każdego mieszkania przynależeć będzie miejsce postojowe i wspólny udział w działce, oraz wyznaczone będą ogródki do wyłącznego korzystania. Zaprojektowane inwestycja będzie współgrała z okoliczną niską zabudową. Przyszli mieszkańcy będą mogli się cieszyć wygodną lokalizacja zapewniająca szybki dostęp do głównych dróg do Krakowa. W odległości 100 metrów biedronka, około 3 km jest Galeria Bronowice a 10 km od inwestycji jest urokliwy Ojcowski Park Krajobrazowy. Jednocześnie odpowiednie oddalenie osiedla od miejsc natężenia ruchu drogowego zapewni mieszkańcom cisze i spokój aby z radością i w spokoju mogli spędzać czas z rodziną i przyjaciółmi.  Układy mieszkań pozwolą na indywidualną koncepcję i aranżację spełniającą oczekiwania nawet najbardziej wymagających klientów. Mieszkania na pierwszym piętrze dodatkowo mają możliwość adaptacji poddasza, dzięki czemu mieszkanie może uzyskać powierzchnie użytkową ponad 80 m kw. Osiedle Wierzbowa  zaprojektowano z myślą o osobach, które od swojego wymarzonego miejsca zamieszkania oczekują nie tylko funkcjonalności, ale także wygody i przestrzeni. Malownicza lokalizacja – pozwoli na aktywną organizację czasu wolnego dla całej rodziny.",
+        "realEstateName": "ZAGŁOBA SKWER",
+        "realEstateShortInfo": "Idealne dla rodzin",
+        "realEstateDescription": "Zagłoby Skwer to nowoczesne i kameralne osiedle 6 domów jednorodzinnych w zabudowie bliźniaczej zlokalizowane w Nowej Hucie, przy ul. Zagłoby. Cicha , zielona i spokojna okolica, zabudowa domów jednorodzinnych -zapewnia wytchnienie od wielkomiejskiego zgiełku. Bardzo dobrze rozwinięta infrastruktura handlowo - usługowa, komunikacyjna. Osiedle charakteryzuje się zielonym otoczeniem, niską zabudową jednorodzinną, bezpośrednim dostępem do komunikacji miejskiej, lokali handlowo-usługowych oraz placówek oświatowych. W okolicy znajduje się m.in: szkoła, przedszkole, centrum sportowe z basenem, sklepy, Centrum Handlowe Czyżyny, plac  targowy, przystanek autobusowy. W trosce o bezpieczeństwo i jakość życia mieszkańców , teren inwestycji będzie ogrodzony. Walory estetyczne zostały wyeksponowane dzięki nowoczesnej i lekkiej formie architektonicznej. Domy zaprojektowane zostały jako budynki jednopiętrowe z poddaszem użytkowym. Wykonywane są do stanu deweloperskiego, z możliwością wykończenia „pod klucz” według własnych preferencji nabywcy. Materiały wykorzystane do budowy domów oraz energooszczędna technologia zapewniają życie w warunkach zgodnych ze standardami ekologii. Styl architektury zabudowań utrzymany jest w prostej, ale ciepłej i eleganckiej estetyce i w połączeniu z przestronnym funkcjonalnym wnętrzem, pozwoli Państwu poczuć się wyjątkowo zamieszkując w tej urokliwej podmiejskiej, zielonej dzielnicy. Bardzo funkcjonalne rozkłady domów (od 127 m2 do 128 m2) , duże ogrody (od 293 m2 do 469 m2) stwarzają wiele możliwość ich aranżacji z uwzględnieniem wygody i komfortu dla przyszłych mieszkańców.",
         "realEstatePhotoUrl" : [
-            "https://i.imgur.com/PL8ePm4.jpg",
-            "https://i.imgur.com/5uHW5Dq.jpg",
-            "https://i.imgur.com/puzS4pc.jpg",
-            "https://i.imgur.com/bYh4s0K.jpg",
-            "https://i.imgur.com/jMU32CW.jpg"
+            "https://i.imgur.com/Ps2HYxg.png"
+        ],
+        "constructionAcceptance": "III kwartał 2020",
+        "realEstateLocation" : "Kraków, Nowa Huta, Mogiła, ul. Zagłoby",
+        "lngLatOfRealEstate" : [19.999279,50.023316],
+        "housePropertise" : [
+            {
+             
+                "floorSurfaces": 128,
+                "functionalSurface": 128,
+                "groundFloor" :[
+                    {"name": "Wiatrołap", "value" : "2.5"},
+                    {"name": "Komunikacja", "value" : "3.47"},
+                    {"name": "Garaż", "value" : "21.22"},
+                    {"name": "Pomieszczenie gospodarcze", "value" : "10.86"}
+                ],
+                "firstFloor" :[
+                    {"name": "Salon, kuchnia", "value" : "37.40"},
+                    {"name": "Gabinet", "value" : "9.17"},
+                    {"name": "WC", "value" : "2.96"}
+                ],
+                "attic" : [
+                    {"name": "Hall", "value" : "3.91"},
+                    {"name": "Sypialnia I", "value" : "9.11"},
+                    {"name": "Sypialnia II", "value" : "9.67"},
+                    {"name": "Sypialnia III", "value" : "11.56"},
+                    {"name": "Łazienka", "value" : "5.00"},
+                    {"name": "Garderoba", "value" : "0.55"}
+                ]
+            } 
         ],
         "realEstateReservationArray": [
             {
-                "realEstateInfo" : "Mieszkanie A1  na parterze, 63,07 m kw – cena 359. 000 zł",
+                "realEstateInfo" : "Dom 1– pow.użytkowa 128 m2, ogród 293 m2 – cena 642 000 zł",
                 "isReserved" : false
             },
             {
-                "realEstateInfo" : "Mieszkanie B1  na parterze, 63,07 m kw – cena 359. 000 zł",
+                "realEstateInfo" : "Dom 2 – pow.użytkowa 128 m2, ogród 295 m2 – cena 642 000 zł",
                 "isReserved" : false
             },
             {
-                "realEstateInfo" : "Mieszkanie C1  na parterze, 63,07 m kw – cena 359. 000 zł",
+                "realEstateInfo" : "Dom 3 – pow.użytkowa 132 m2, ogród 412 m2 – cena 660 000 zł",
                 "isReserved" : false
             },
             {
-                "realEstateInfo" : "Mieszkanie D1  na parterze, 63,07 m kw – cena 359. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie E1  na parterze, 63,07 m kw – cena 359. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie F1  na parterze, 63,07 m kw – cena 359. 000 zł ",
+                "realEstateInfo" : "Dom 4 – pow.użytkowa 131.82,80 m2, ogród 437 m2 – cena 660 000 zł",
                 "isReserved" : false
             },
             {
-                "realEstateInfo" : "Mieszkanie G1  na parterze, 63,07 m kw – cena 359. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie H1  na parterze, 63,07 m kw – cena 359. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie A2  na piętrze, 61,43 m kw ( pow.podłóg 62,95) – cena 349. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie B2  na piętrze,  61,43 m kw   ( pow.podłóg 62,95) – cena 349. 000 zł",
+                "realEstateInfo" : "Dom 5 – pow.użytkowa 131.82 m2, ogród 469 m2 – cena 660 000 zł",
                 "isReserved" : false
             },
             {
-                "realEstateInfo" : "Mieszkanie C2  na piętrze,  61,43 m kw   ( pow.podłóg 62,95) – cena 349. 000 zł",
-                "isReserved" : false
-            },
-            {
-                "realEstateInfo" : "Mieszkanie D2  na piętrze,  61,43 m kw  ( pow.podłóg 62,95) – cena 349. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie E2  na piętrze,  61,43 m kw  ( pow.podłóg 62,95) – cena 349. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie F2  na piętrze,  61,43 m kw  ( pow.podłóg 62,95) – cena 349. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie G2  na piętrze,  61,43 m kw  ( pow.podłóg 62,95) – cena 349. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie H2  na piętrze,  61,43 m kw  ( pow.podłóg 62,95) – cena 349. 000 zł",
-                "isReserved" : true
-            }
-        ],
-        "realEstateLocation" : "Modlnica, ul. Wierzbowa – gmina Wielka Wieś",
-        "realEstatePrice" : "359000 zł za mieszkanie 63,07 m2 na parterze wraz z ogródkiem lub 349000 zł za mieszkanie 61,43 m kw. na piętrze z możliwością adaptacji poddasza i ogródkiem ",
-        "constructionAcceptance": "IV kwartał 2019",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "apartmentPropertise" : [
-            {
-                "apartmentName": "Mieszkania A1,B1, C1, D1, E1, F1, G1, H1 z ogródkiem",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 63,07 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Wiatrołap", "value" : "3,28"},
-                            {"name": "Kuchnia, jadalnia, salon", "value" : "24,87"},
-                            {"name": "Sypialnia nr 1 ", "value" : "8,25"},
-                            {"name": "Sypialnia nr 2", "value" : "10,54"},
-                            {"name": "Sypialnia nr 3", "value" : "10,29"},
-                            {"name": "Łazienka", "value" : "3,65"},
-                            {"name": "Komunikacja", "value" : "2,19"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania A2,B2, C2, D2, E2, F2, G2, H2 z ogródkiem i możliwością adaptacji poddasza",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 61,43  m2",
-                        "apartmentPropertis" : [
-                            {"name": "Wiatrołap", "value" : "3,28"},
-                            {"name": "Kuchnia, jadalnia, salon", "value" : "24,87"},
-                            {"name": "Sypialnia nr 1 ", "value" : "8,25"},
-                            {"name": "Sypialnia nr 2", "value" : "10,28"},
-                            {"name": "Sypialnia nr 3", "value" : "10,48"},
-                            {"name": "Łazienka", "value" : "3,62"},
-                            {"name": "Komunikacja", "value" : "2,24"}
-                        ]
-                    }
-                ]
-            }     
-        ] 
-    },
-    {
-        "realEstateName": "APARTAMENTY NAD WILGĄ - OPATKOWICE",
-        "realEstateShortInfo": "SMOLEŃSKIEGO",
-        "realEstateDescription": "Oferujemy przestronne, funkcjonalne i dobrze usytuowane mieszkania z balkonami w malowniczym zakątku Opatkowic, na ul. Smoleńskiego. Apartamenty nad Wilgą  to kameralny kompleks 4 przestronnych mieszkań z balkonami, położony w urokliwym, spokojnym i pełnym zieleni miejscu, w dzielnicy Krakowa – Opatkowice, wśród niskiej zabudowy mieszkaniowej. Mieszkania bezczynszowe z oddzielna Kw na mieszkanie. Inwestycję  tworzą  dwa budynki jednorodzinne ( dwulokalowe). W pierwszym segmencie znajdują się dwa mieszkania o powierzchni  M1 52,44 m kw na parterze oraz M2 99,93 m kw. W drugim segmencie  są również dwa mieszkania o powierzchni M3 88,62 m kw i 96,72 m   oraz przynależne do nich garaże a także garaże  do mieszkań z pierwszego segmentu. Przedsięwzięcie realizowane jest z najwyższej klasy materiałów budowlanych. Mieszkania oddawane są w stanie deweloperskim  zamkniętym – do wykończenia. Oferta jest skierowana do osób poszukujących najlepszego standardu mieszkania, ciszy, spokoju a zarazem lokalizacji blisko centrum. To wymarzone miejsce dla każdej rodziny. Elegancki, nowoczesny  a zarazem prosty styl zabudowy w połączeniu z funkcjonalnym, przestronnym wnętrzem oraz praktycznym zagospodarowaniem terenu składają się na niepowtarzalny klimat tego miejsca. W sąsiedztwie istnieje pełna infrastruktura – szkoła, drogi, sieci sklepów, przychodnia, przystanki komunikacji miejskiej.",
-        "realEstatePhotoUrl" : [
-            "https://i.imgur.com/IsvpgrD.jpg",
-            "https://i.imgur.com/823BO8S.jpg",
-            "https://i.imgur.com/oa4nkK0.jpg"
-        ],
-        "realEstateReservationArray": [
-            {
-                "realEstateInfo" : "Mieszkanie M1  na parterze,  52,44 m kw – cena 319. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkanie M2 na pierwszym i drugim piętrze,  99,93 m kw, ( pow.podłóg 115,93) – cena 519. 000 zł",
-                "isReserved" : false
-            },
-            {
-                "realEstateInfo" : "Mieszkanie M3 na pierwszym i drugim piętrze,  88,62 m kw, ( pow.podłóg 105,35) – cena 449. 000 zł",
-                "isReserved" : true
-            },
-            {
-                "realEstateInfo" : "Mieszkania M4  na pierwszym i drugim piętrze,  96,72 m kw,  ( pow.podłóg 106,56)  – cena 479. 000 zł",
+                "realEstateInfo" : "Dom 6 – pow.użytkowa 131.46 m2, ogród 444 m2 – cena 660 000 zł",
                 "isReserved" : false
             }
-        ],
-        "realEstateLocation" : "Opatkowic, na  ul. Smoleńskiego",
-        "additionalInformation": "Garaż jednostanowiskowy o powierzchni 20,00 m2 w cenie 25 .000 zł do każdego mieszkania. Ogródki dla M2, M3, M4 w cenie 7.000 zł",
-        "realEstatePrice" : "Apartamenty jednopomoziomowe od 319.000 zł za mieszkanie 52 m2 lub apartmanety dwupoziomowe od 479.000 zł za mieszkanie 96,72 m2",
-        "constructionAcceptance": "IV kw. 2019",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "apartmentPropertise" : [
-            {
-                "apartmentName": "Mieszkanie M1 z ogródkiem",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 52,44 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall", "value" : "6.00"},
-                            {"name": "Sypialnia nr 1", "value" : "8.70"},
-                            {"name": "Sypialnia nr 2", "value" : "11.49"},
-                            {"name": "Salon z kuchnią", "value" : "20.68"},
-                            {"name": "Łazienka", "value" : "5.57"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania M2 dwupoziomowe 99,93 m2, pow.podłóg 115,93 (budynek 1)",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - pierwsze piętro 52.48 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall", "value" : "4.61"},
-                            {"name": "Sypialnia nr 1", "value" : "11.54"},
-                            {"name": "Salon z kuchnią", "value" : "30.86"},
-                            {"name": "Łazienka", "value" : "5.47"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 1 - poddasze 47.45 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall (gabinet)", "value" : "11.78"},
-                            {"name": "Sypialnia nr 2", "value" : "14.05"},
-                            {"name": "Sypialnia nr 3", "value" : "8.81"},
-                            {"name": "Sypialnia nr 4", "value" : "8.20"},
-                            {"name": "Łazienka", "value" : "4.61"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania M3 dwupoziomowe 88.62 m kw, pow.podłóg 105.35 (budynek 2)",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - pierwsze piętro 52.75 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia nr 1", "value" : "10.69"},
-                            {"name": "Sypialnia nr 2", "value" : "9.65"},
-                            {"name": "Salon z kuchnią", "value" : "27.97"},
-                            {"name": "Łazienka", "value" : "4.44"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 1 - poddasze 35.87 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall (gabinet)", "value" : "9.23"},
-                            {"name": "Sypialnia nr 3", "value" : "7.34"},
-                            {"name": "Sypialnia nr 4", "value" : "9.36"},
-                            {"name": "Sypialnia nr 5", "value" : "5.99"},
-                            {"name": "Łazienka", "value" : "3.95"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania M4 dwupoziomowe 96,72 m kw, pow.podłóg 106,56 (budynek 2)",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - pierwsze piętro 51.66 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia nr 1", "value" : "9.93"},
-                            {"name": "Salon z kuchnią", "value" : "36.97"},
-                            {"name": "Łazienka", "value" : "4.76"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 1 - poddasze 44.96 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall (gabinet)", "value" : "11.88"},
-                            {"name": "Sypialnia nr 2", "value" : "6.53"},
-                            {"name": "Sypialnia nr 3", "value" : "12.60"},
-                            {"name": "Sypialnia nr 4", "value" : "9.98"},
-                            {"name": "Łazienka", "value" : "3.97"}
-                        ]
-                    }
-                ]
-            }         
-        ] 
-    },
-    {
-        "realEstateName": "LA DUBOIS",
-        "realEstateShortInfo": "PROKOCIM",
-        "realEstateDescription": "Le Dubois to kameralny kompleks dwóch domów składający się z czterech niezależnych, bezczynszowych mieszkań. Inwestycja zlokalizowana jest w dzielnicy Podgórze przy ulicy Dubois, zaledwie 6 km od Rynku Głównego, w otoczeniu niskiej zabudowy jednorodzinnej. Jest ona skierowana do osób poszukujących najlepszego standardu mieszkania, ciszy, spokoju a zarazem lokalizacji blisko centrum. To wymarzone miejsce dla każdej rodziny. Inwestycja mimo iż,  usytuowana jest w zacisznym miejscu , to doskonale jest skomunikowana z innymi dzielnicami. Dzięki takiej lokalizacji mieszkańcy La Dubois, nie muszą wybierać między ciszą, a komfortowym dostępem do miejsc codziennej użyteczności. W sąsiedztwie istnieje pełna infrastruktura, a lokalizacja mini osiedla zapewnia wygodny dostęp do pobliskich sklepów, przedszkoli, szkół, przychodni i klubów. W ramach inwestycji na 10 arowej działce powstanie kompleks 4 mieszkań, mieszczących się w dwóch budynkach, w każdym budynku dwa mieszkania. Każde z mieszkań będzie niezależnym mieszkaniem z oddzielnym wejściem. Do każdego z mieszkań przynależeć będzie miejsce postojowe w garażu dwustanowiskowym. Elegancki, a zarazem prosty styl budynków w połączeniu z funkcjonalnym, przestronnym wnętrzem oraz praktycznym zagospodarowaniem terenu składają się na niepowtarzalny klimat tego miejsca. Każdy z domów posadowiony zostanie na 4,5 arowej. Przedsięwzięcie realizowane jest  z najwyższej klasy materiałów budowlanych. Mieszkania oddawane są w stanie deweloperskim  zamkniętym – do wykończenia. Projekt jest idealną propozycją dla rodziny wielopokoleniowej, która chce zamieszkiwać pod jednym dachem – niezwykle oszczędne i ekonomiczne, jednak często mało komfortowe rozwiązanie. W La Dubois dwa różnej wielkości mieszkania połączone są tylko wspólnym garażem, a każde mieszkania posiada osobne wejście, co pozwala zachować intymność. La Dubois jest również doskonałą lokatą kapitału !",
-        "realEstatePhotoUrl" : [
-            "https://i.imgur.com/3j0NYXy.png",
-            "https://i.imgur.com/CSwIBnJ.png",
-            "https://i.imgur.com/pwEMKuD.png"
-        ],
-        "realEstateLocation" : "Podgórze przy ulicy Dubois",
-        "additionalInformation": "Do każdego mieszkania przynależy miejsce postojowe w garażu dwustanowiskowym o powierzchni 33,67 m2 w cenie 25.000 zł",
-        "realEstatePrice" : "550.000 zł za mieszkanie na 1 piętrze 78, 65 m2 lub 240. 000 zł za mieszkanie na parterze 31, 62 m2",
-        "constructionAcceptance": "I/II kw. 2018",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "apartmentPropertise" : [
-            {
-                "apartmentName": "Mieszkania 1A, 2A, na parterze",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 31,62 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Wiatrołap ", "value" : "1.25"},
-                            {"name": "Salon z kuchnią", "value" : "17.28"},
-                            {"name": "Pokój", "value" : "7.87"},
-                            {"name": "Łazienka", "value" : "3.71"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania 1B, 2B na pierwszymm piętrze",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - pierwsze piętro 78.65 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Komunikacja", "value" : "4,40"},
-                            {"name": "Przedpokój", "value" : "1.16"},
-                            {"name": "Salon z kuchnią", "value" : "27.34"},
-                            {"name": "Łazienka", "value" : "3.71"},
-                            {"name": "Pokój 1", "value" : "13.85"},
-                            {"name": "Pokój 2", "value" : "8.80"},
-                            {"name": "Pokój 3", "value" : "9.46"}
-                        ]
-                    }
-                ]
-            }
-               
-        ] 
+        ]
     }
     
 ]

@@ -61,7 +61,7 @@
               <button  mat-raised-button color="primary" (click)="goTocurrentInvestments()">Zobacz wszystkie</button>
           </div>
 
-          <div class="current-investments"  *ngFor="let flipImage of realEstateFlipImages; let i = index" >
+          <div class="current-investments" *ngFor="let flipImage of realEstateFlipImages; let i = index" >
                   <app-flip-card 
                   [description]= "flipImage.realEstateDescription" 
                   [imageUrl]= "flipImage.realEstateImageUrl"
@@ -75,7 +75,7 @@
             'background': ' url(' + backgroundCounterUrl  + ')', 'background-size': '100% 100%'
           }">
           <div class="container-item">
-            <app-animated-counter #counter1 [digit]="19" [duration]="1000"></app-animated-counter>
+            <app-animated-counter #counter1 [digit]="22" [duration]="1000"></app-animated-counter>
             <p>Inwestycji</p>
           </div>
           <div class="container-item">
@@ -105,7 +105,7 @@
             <h1>EMAIL:</h1>
             <span>twojdom@gmail.com</span>
             <h1>ADRES:</h1>
-            <p>Twój Dom Group</p>
+            <p>Dewi Invest</p>
             <p>ul. Podmiłów 4</p>
             <p>30-894 Kraków</p>
           </div>

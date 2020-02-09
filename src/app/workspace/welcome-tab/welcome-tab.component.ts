@@ -69,19 +69,19 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
     this.selectedRouteService.routerChanged('main');
     this.realEstateFlipImages = [
       { 
-        realEstateDescription: 'Nowoczesny dom wielorodziny w nowej hucie', 
-        realEstateImageUrl: 'assets/apartamenty-nad-wilga-opatkowice/orginal2-1200x750.jpg',
-        realEstateName: 'Apartamenty nad Wilgą'
+        realEstateDescription: 'Idealne dla rodzin', 
+        realEstateImageUrl: 'https://i.imgur.com/Ps2HYxg.png',
+        realEstateName: 'Zagłoba skwer'
       },
-      { 
-        realEstateDescription: 'Słoneczne osiedle na Wadowskiej',
-        realEstateImageUrl: 'https://i.imgur.com/nJsfIPz.jpg',
-        realEstateName: 'Słoneczna Wadowska'
-      },
-      { realEstateDescription: 'Kameralne domki jednorodzine',
-        realEstateImageUrl: 'assets/LA-DUBOIS/orginal2-1200x750.png',
-        realEstateName: 'LA DUBOIS'
-      }
+      // { 
+      //   realEstateDescription: 'Słoneczne osiedle na Wadowskiej',
+      //   realEstateImageUrl: 'https://i.imgur.com/nJsfIPz.jpg',
+      //   realEstateName: 'Słoneczna Wadowska'
+      // },
+      // { realEstateDescription: 'Kameralne domki jednorodzine',
+      //   realEstateImageUrl: 'assets/LA-DUBOIS/orginal2-1200x750.png',
+      //   realEstateName: 'LA DUBOIS'
+      // }
     ]
 
     this.carouselItems = [

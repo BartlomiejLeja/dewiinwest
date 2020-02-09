@@ -6,7 +6,7 @@
 
     .real-estate-name {
       color: white;
-      font-size: 180%;
+      font-size: 200%;
       padding: 10% 0 0 0%;
     }
 
@@ -25,9 +25,15 @@
 }
 
 .real-estate-container {
+    .h1-normal {
+        font-size: 200%;
+        color: #444444; 
+        text-align: center
+    }
 
-    h1 {
-        font-size: 220%;
+    .h1-mobile {
+        padding-top: 2%;
+        font-size: 150%;
         color: #444444; 
         text-align: center
     }
@@ -66,7 +72,7 @@
 .visualizations-container-mobile{
 
     img {
-        width: 340px;
+        width: 320px;
         height: 280px;
       }
 
@@ -109,11 +115,6 @@
 }
 
 .real-estate-reservation {
-    h1 {
-        font-size: 220%;
-        color: #444444; 
-        text-align: center
-    }
     margin: 0 0% 2% 0%;
 
     .real-estate-reservation-row {

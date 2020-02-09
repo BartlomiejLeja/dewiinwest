@@ -1,12 +1,12 @@
 
- <div class = "title">
+ <div [ngClass]="mobileQuery.matches ? 'title-mobile' : 'title'">
         <h1>Parametry mieszkań:</h1>
         <div class ="divider">
                         <mat-divider></mat-divider>
                 </div>
  </div>
  
-<div  [ngClass]="mobileQuery.matches ? 'prop-mobile' : 'prop'">
+<div [ngClass]="mobileQuery.matches ? 'prop-mobile' : 'prop'">
             <div *ngFor="let apartmentPropertise of apartmentPropertises;" class = "properties-properties-container">
                     <p class ="aprtment-name">{{apartmentPropertise.apartmentName}}</p>
                     <div class ="divider">
