@@ -55,10 +55,10 @@ export class RealEstateComponent implements OnInit, OnDestroy {
          this.selectedRouteService.routerChanged('inwestycjezakonczone')
        }
      /** Lightbox Example */
- 
+
      // Get a lightbox gallery ref
      const lightboxRef = this.gallery.ref('lightbox');
- 
+
      // Add custom gallery config to the lightbox (optional)
      lightboxRef.setConfig({
        imageSize: ImageSize.Contain,

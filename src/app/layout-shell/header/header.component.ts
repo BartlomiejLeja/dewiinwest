@@ -15,14 +15,14 @@ import { RealEstate } from '../../workspace/models/real-estate.model';
 export class HeaderComponent implements OnInit, OnDestroy {
   public mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
-  public clickedOnActualOfferRealEstate : boolean = false;
+  public clickedOnActualOfferRealEstate = false;
   public selectedLink: string;
   public forSaleRealEstateArray: RealEstate[] = (forSaleRealEstate as any).default;
   @ViewChild(MatMenuTrigger, {static: false}) trigger: MatMenuTrigger;
-  
+
   constructor(
     private sidenavService: SidenavService,
-    private changeDetectorRef: ChangeDetectorRef, 
+    private changeDetectorRef: ChangeDetectorRef,
     private media: MediaMatcher,
     private router: Router,
     private route: ActivatedRoute,
@@ -34,8 +34,8 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.selectedRouteService.isForSaleRealEstateTabChanged.subscribe(
-    link=> this.selectedLink = link
-    )
+      link => this.selectedLink = link
+    );
   }
 
   public sidenavToggle(){
@@ -54,13 +54,13 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   public route2To(route: string): void{
-    this.router.navigate(['realestate',route],{relativeTo: this.route.parent});
+    this.router.navigate(['realestate', route], {relativeTo: this.route.parent});
   }
 
   public clickOnRouterButton(linkName: string){
     this.selectedLink = linkName;
-    if(linkName=="main"){
-      this.router.navigate(["/"]);
+    if (linkName === 'main'){
+      this.router.navigate(['/']);
     }else this.router.navigate([linkName]);
   }
 
