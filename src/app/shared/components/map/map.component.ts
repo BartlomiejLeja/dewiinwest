@@ -21,7 +21,7 @@ export class MapComponent implements OnInit {
     this.map = new mapboxgl.Map({
       container: 'map',
       style: this.style,
-      zoom: 18,
+      zoom: 15,
       pitch: 0,
       center: [this.lngLat[0], this.lngLat[1]],
       // antialias: true // create the gl context with MSAA antialiasing, so custom layers are antialiased

@@ -17,6 +17,8 @@ import { HousePropertiesComponent } from './house-properties/house-properties.co
 import { ApartmentPropertiesComponent } from './apartment-properties/apartment-properties.component';
 import { CheckIfRealEstateIsReserved } from './pipes/isRealEstateReserved.pipe';
 import { MatProgressSpinnerModule } from '@angular/material';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
   imports: [
@@ -24,12 +26,14 @@ import { MatProgressSpinnerModule } from '@angular/material';
     MatIconModule,
     MatDividerModule,
     MatButtonModule,
+    MatChipsModule,
     MatCarouselModule.forRoot(),
     SharedModule,
     GalleryModule,
     LightboxModule,
     GallerizeModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatTooltipModule
   ],
   declarations: [
     WelcomeTabComponent,

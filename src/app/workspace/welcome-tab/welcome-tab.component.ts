@@ -17,7 +17,7 @@ import { AnimatedCounterComponent } from '../../shared/components/animated-count
 })
 export class WelcomeTabComponent implements OnInit, OnDestroy {
   public mobileQuery: MediaQueryList;
-  public lngLat: number[] = [19.999279,50.023316];
+  public lngLat: number[] = [ 20.007570, 50.023735];
   public realEstateFlipImages: RealEstateFlipImage[];
   public backgroundCounterUrl ='assets/test.jpg'
   private _mobileQueryListener: () => void;
@@ -99,24 +99,32 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
     this.realEstateFlipImages = [
       { 
         realEstateDescription: 'Idealne dla rodzin', 
-        realEstateImageUrl: 'https://i.imgur.com/Ps2HYxg.png',
-        realEstateName: 'Zagłoba skwer'
+        realEstateImageUrl: 'https://i.imgur.com/D0dewof.jpg',
+        realEstateName: 'Zagłoba skwer',
+        realEstateLink: '/realestate/Zagłoby Skwer'
       },
-      // { 
-      //   realEstateDescription: 'Słoneczne osiedle na Wadowskiej',
-      //   realEstateImageUrl: 'https://i.imgur.com/nJsfIPz.jpg',
-      //   realEstateName: 'Słoneczna Wadowska'
-      // },
-      // { realEstateDescription: 'Kameralne domki jednorodzine',
-      //   realEstateImageUrl: 'assets/LA-DUBOIS/orginal2-1200x750.png',
-      //   realEstateName: 'LA DUBOIS'
-      // }
+      { 
+        realEstateDescription: 'Opatkowice Smoleńskiego',
+        realEstateImageUrl: 'https://i.imgur.com/IsvpgrD.jpg',
+        realEstateName: 'Apartmaenty nad Wilgą',
+        realEstateLink: '/realestate/Apartamenty nad Wilgą - Opatkowice'
+      },
+      { realEstateDescription: 'Blisko centrum',
+        realEstateImageUrl: 'https://i.imgur.com/DpQq5N5.jpg',
+        realEstateName: 'Osiedle na Strażackiej',
+        realEstateLink: '/realestate/Osiedle na Strażackiej'
+      }
     ]
   }
 
   public goTocurrentInvestments(){
     this.selectedRouteService.routerChanged('aktualnaoferta');
     this.router.navigate(['/inwestycjeaktualne']);
+  }
+
+  public goToSelectedInvestment(realEstateLink: string) {
+    this.selectedRouteService.routerChanged('aktualnaoferta');
+    this.router.navigate([realEstateLink]);
   }
 
   onChange($event){
@@ -132,4 +140,5 @@ interface RealEstateFlipImage {
   realEstateDescription: string;
   realEstateImageUrl: string;
   realEstateName: string;
+  realEstateLink: string;
 }

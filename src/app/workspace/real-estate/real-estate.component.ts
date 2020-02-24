@@ -46,6 +46,9 @@ export class RealEstateComponent implements OnInit, OnDestroy {
   public ngOnInit(): void {
       const realEstateName = this.route.snapshot.url[1].path;
       this.realEstate = this.soldRealEstateArray.find(re => re.realEstateName === realEstateName);
+      this.router.events.subscribe((path) => {
+          window.scrollTo(0, 0);
+   });
 
        if(!this.realEstate){
          this.realEstate = this.forSaleRealEstateArray

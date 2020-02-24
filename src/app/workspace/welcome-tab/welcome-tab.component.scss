@@ -66,10 +66,10 @@
     margin: 2% 2% 0 8%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 
     .current-investments{
-        margin: 2% 2% 0 0;
+        margin: 2% 1% 0 0;
         h1 {
             font-weight: bold;
             font-size: 1.6rem;

@@ -1,6 +1,7 @@
 import { HousePropertise } from './house-propertise.model';
 import { ApartmentPropertise } from './apartment-propertise.model';
 import { RealEstateReservation } from './real-estate-reservation.model';
+import { ApartmentCard } from './apartment-card.model';
 
  export class RealEstate {
     realEstateName: string;
@@ -11,8 +12,10 @@ import { RealEstateReservation } from './real-estate-reservation.model';
     realEstateLocation: string;
     constructionAcceptance: string;
     additionalInformation: string;
-    realEstateReservationArray: RealEstateReservation[]
+    realEstateReservationArray: RealEstateReservation[];
+    apartmentCards : ApartmentCard[];
     lngLatOfRealEstate: number[]
+    shellAndCore : string[]
     constructor(){
 
     }

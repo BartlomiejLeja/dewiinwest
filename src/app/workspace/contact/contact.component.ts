@@ -10,7 +10,7 @@ import { MediaMatcher } from '@angular/cdk/layout';
 export class ContactComponent implements OnInit, OnDestroy {
   public mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
-  public lngLat: number[] = [19.999279,50.023316];
+  public lngLat: number[] = [20.007570, 50.023735];
   constructor(
     private selectedRouteService: SelectedRouteService,
     private changeDetectorRef: ChangeDetectorRef, 

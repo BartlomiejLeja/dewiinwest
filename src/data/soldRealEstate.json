@@ -8,136 +8,8 @@
             "https://i.imgur.com/LpYTtSj.png",
             "https://i.imgur.com/oHPzsxW.png"],
         "realEstateLocation" : "Krakowa – Skotniki, przy ulicy Unruga/Winnicka",
-        "realEstatePrice" : "520.000 zł za dwupoziomowy apartament 108,92 m2, lub 540.000 zł za apartament o pow. 113,06 m2",
-        "constructionAcceptance": "III kwartał 2018",
         "additionalInformation": "Do każdego apartamentu przynależy miejsce postojowe w garażu kw w cenie 20 .000 zł i pomieszczenie gospodarcze o powierzchni od 5,45 m kw do 17,42 m kw w cenie 2000 zł /m kw Mieszkanie sprzedawane jest w stanie deweloperskim, do własnej aranżacji.",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "apartmentPropertise" : [
-            {
-                "apartmentName": "Mieszkanie nr 1 na parterze 57,45 m2",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 57,45 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia", "value" : "9,95"},
-                            {"name": "Gabinet", "value" : "9,94"},
-                            {"name": "Salon", "value" : "16,01"},
-                            {"name": "Kuchnia", "value" : "10,48"},
-                            {"name": "Łazienka", "value" : "4,00"},
-                            {"name": "Przedpokój", "value" : "7,07"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 3 na parterze 64,99 m2",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 64,99 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia", "value" : "9,95"},
-                            {"name": "Gabinet", "value" : "9,94"},
-                            {"name": "Salon", "value" : "19,13"},
-                            {"name": "Kuchnia", "value" : "14,90"},
-                            {"name": "Łazienka", "value" : "4,00"},
-                            {"name": "Przedpokój", "value" : "7,07"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 5 na parterze 69,28 m2",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 69,28 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia", "value" : "9,94"},
-                            {"name": "Gabinet", "value" : "9,95"},
-                            {"name": "Salon", "value" : "19,00"},
-                            {"name": "Kuchnia", "value" : "10,32"},
-                            {"name": "Łazienka", "value" : "4,00"},
-                            {"name": "Przedpokój", "value" : "7,07"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 2, pierwsze piętro i podasze 101,42 m2.",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 1 - pierwsze pietro 54,28 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Salon", "value" : "37,78"},
-                            {"name": "Kuchnia", "value" : "10,48"},
-                            {"name": "Łazienka", "value" : "1,75"},
-                            {"name": "Przedpokój", "value" : "3,50"},
-                            {"name": "Garderoba", "value" : "0,77"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 2 - podasze 47.14 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Pokój", "value" : "15,95"},
-                            {"name": "Pokój", "value" : "10,91"},
-                            {"name": "Pokój", "value" : "7,35"},
-                            {"name": "Łazienka", "value" : "4,23"},
-                            {"name": "Przedpokój", "value" : "8,70"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 4, pierwsze piętro i podasze 108,92 m2.",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 1 - pierwsze pietro 61,78 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Salon", "value" : "40,86"},
-                            {"name": "Kuchnia", "value" : "14,90"},
-                            {"name": "Łazienka", "value" : "1,75"},
-                            {"name": "Przedpokój", "value" : "3,50"},
-                            {"name": "Garderoba", "value" : "0,77"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 2 - podasze 47.14 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Pokój", "value" : "15,95"},
-                            {"name": "Pokój", "value" : "10,91"},
-                            {"name": "Pokój", "value" : "7,35"},
-                            {"name": "Łazienka", "value" : "4,23"},
-                            {"name": "Przedpokój", "value" : "8,70"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr  6, pierwsze piętro i podasze 113,06 m2.",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 1 - pierwsze pietro 66,01 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Salon", "value" : "40,67"},
-                            {"name": "Kuchnia", "value" : "19,32"},
-                            {"name": "Łazienka", "value" : "1,75"},
-                            {"name": "Przedpokój", "value" : "3,50"},
-                            {"name": "Garderoba", "value" : "0,77"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 2 - podasze 47.05 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Pokój", "value" : "15,95"},
-                            {"name": "Pokój", "value" : "10,86"},
-                            {"name": "Pokój", "value" : "7,35"},
-                            {"name": "Łazienka", "value" : "4,23"},
-                            {"name": "Przedpokój", "value" : "8,70"}
-                        ]
-                    }
-                ]
-            }
-            
-        ] 
+        "lngLatOfRealEstate" : [19.862381,50.016117]
     },
     {
         "realEstateName": "ARKADIA ETAP II",
@@ -150,32 +22,7 @@
             "https://i.imgur.com/AlJxDZj.jpg"
         ],
         "realEstateLocation" : "Kolonia Kokotów – gmina Wieliczka",
-        "realEstatePrice" : "479.000 zł za dom 142 m2. wraz z działką ok. 5 arów.",
-        "constructionAcceptance": "II kwartał 2018",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "housePropertise" : [
-            {
-                "buildingsName": "A B",
-                "floorSurfaces": 142.09,
-                "functionalSurface": 119.24,
-                "groundFloor" :[
-                    {"name": "Salon + jadalnia", "value" : "34.60"},
-                    {"name": "Kuchnia", "value" : "7.73"},
-                    {"name": "Hall", "value" : "2.04"},
-                    {"name": "Łazienka", "value" : "3.59"},
-                    {"name": "Garaż", "value" : "17.92"},
-                    {"name": "Pom. gospodarcze", "value" : "4.93"}
-                ],
-                "firstFloor" :[
-                    {"name": "Pokój", "value" : "10.52"},
-                    {"name": "Pokój", "value" : "12.94"},
-                    {"name": "Łazienka", "value" : "8.90"},
-                    {"name": "Pokój", "value" : "10.83"},
-                    {"name": "Pokój", "value" : "19.16"},
-                    {"name": "Komunikacja", "value" : "3.79"}
-                ]
-            } 
-        ]
+        "lngLatOfRealEstate" : [20.099837,50.018927]
     },
     {
         "realEstateName": "SŁONECZNE ZACISZE",
@@ -187,31 +34,7 @@
             "https://i.imgur.com/kjS2ltk.png"
         ],
         "realEstateLocation" : "Kokotów ul. Gajsko nr działki 716/2",
-        "realEstatePrice" : "379 000 zł za dom 100m kw wraz z działką i dwoma miejscami postojowymi.",
-        "constructionAcceptance": "IV kwartał 2016",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "housePropertise" : [
-            {
-                "buildingsName": "A B",
-                "floorSurfaces": 98.21,
-                "functionalSurface": 98.21,
-                "groundFloor" :[
-                    {"name": "Salon + jadalnia", "value" : "33.38"},
-                    {"name": "Kuchnia", "value" : "7.38"},
-                    {"name": "Hall", "value" : "1.94"},
-                    {"name": "Łazienka", "value" : "4.08"},
-                    {"name": "Wiatrołap", "value" : "2.09"}
-                ],
-                "firstFloor" :[
-                    {"name": "Pokój", "value" : "11.21"},
-                    {"name": "Pokój", "value" : "11.36"},
-                    {"name": "Łazienka", "value" : "5.09"},
-                    {"name": "Garderoba", "value" : "3.44"},
-                    {"name": "Pokój", "value" : "11.31"},
-                    {"name": "Komunikacja", "value" : "6.21"}
-                ]
-            } 
-        ]
+        "lngLatOfRealEstate" : [20.098015, 50.012663]
     },
     {
         "realEstateName": "OSIEDLE POD OLCHAMI",
@@ -223,43 +46,7 @@
             "https://i.imgur.com/w0Lu63C.png"
         ],
         "realEstateLocation" : "HOYERA – STARY BIEŻANÓW nr działek: 533/31, 533/32, 533/33, 533/34, 533/35, 533/36",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "housePropertise" : [
-            {
-                "buildingsName": "A",
-                "floorSurfaces": 100,
-                "functionalSurface": 100,
-                "groundFloor" :[
-                    {"name": "Salon z kominkiem i z aneksem kuchennym", "value" : "27.45"},
-                    {"name": "Gabinet", "value" : "9"},
-                    {"name": "Łazienka", "value" : "2.42"}
-                ],
-                "firstFloor" :[
-                    {"name": "Pokój", "value" : "12.17"},
-                    {"name": "Pokój", "value" : "12.17"},
-                    {"name": "Łazienka", "value" : "5"},
-                    {"name": "Pokój", "value" : "9.42"},
-                    {"name": "Komunikacja", "value" : "4.6"}
-                ]
-            },
-            {
-                "buildingsName": "B",
-                "floorSurfaces": 100,
-                "functionalSurface": 100,
-                "groundFloor" :[
-                    {"name": "Salon z kominkiem", "value" : "25"},
-                    {"name": "Kuchnia", "value" : "8.6"},
-                    {"name": "Garderoba", "value" : "2"},
-                    {"name": "Łazienka", "value" : "2.42"}
-                ],
-                "firstFloor" :[
-                    {"name": "Pokój", "value" : "25"},
-                    {"name": "Pokój", "value" : "9.42"},
-                    {"name": "Łazienka", "value" : "6"},
-                    {"name": "Komunikacja", "value" : "4.6"}
-                ]
-            }  
-        ]
+        "lngLatOfRealEstate" : [20.045636, 50.009690]
     },
     {
         "realEstateName": "SŁONECZNA WADOWSKA",
@@ -267,138 +54,11 @@
         "realEstateDescription": "Słoneczna Wadowska to kameralne osiedle ośmiu domów jednorodzinnych w zabudowie bliźniaczej zlokalizowane w Nowej Hucie,  przy ul. Wadowskiej. Domy zaprojektowane zostały jako budynki jednopiętrowe z poddaszem użytkowym. Wykonywane są do stanu deweloperskiego, z możliwością wykończenia „pod klucz” według własnych preferencji nabywcy. Pod względem jakościowym Słoneczna Wadowska  spełnia najwyższe standardy. Materiały wykorzystane do budowy domów oraz energooszczędna technologia zapewniają życie w warunkach zgodnych ze standardami ekologii.Styl architektury zabudowań utrzymany jest w prostej, ale ciepłej i eleganckiej estetyce i w połączeniu z przestronnym funkcjonalnym wnętrzem, pozwoli Państwu poczuć się wyjątkowo zamieszkując w tej urokliwej podmiejskiej, zielonej dzielnicy.Osiedle charakteryzuje się zielonym otoczeniem, niską zabudową jednorodzinną, bezpośrednim dostępem do komunikacji miejskiej, lokali handlowo-usługowych oraz placówek oświatowych.",
         "realEstatePhotoUrl" : ["https://i.imgur.com/Vi0XzoZ.jpg","https://i.imgur.com/nJsfIPz.jpg"],
         "realEstateLocation" : "Nowa Huta ul. Wadowska, nr działek 84/2 i 84/3",
-        "additionalInformation": "Do każdego apartamentu przynależy miejsce postojowe w garażu kw w cenie 20 .000 zł i pomieszczenie gospodarcze o powierzchni  od 5,45 m kw do  17,42 m kw w cenie 2000 zł /m kw Mieszkanie sprzedawane jest w stanie deweloperskim, do własnej aranżacji.",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "apartmentPropertise" : [
-            {
-                "apartmentName": "Mieszkanie nr 1: 57,45 m2",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 57,45 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia", "value" : "9,95"},
-                            {"name": "Gabinet", "value" : "9,94"},
-                            {"name": "Salon", "value" : "16,01"},
-                            {"name": "Kuchnia", "value" : "10,48"},
-                            {"name": "Łazienka", "value" : "4,00"},
-                            {"name": "Przedpokój", "value" : "7,07"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 3: 64,99 m2",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 64,99 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia", "value" : "9,95"},
-                            {"name": "Gabinet", "value" : "9,94"},
-                            {"name": "Salon", "value" : "19,13"},
-                            {"name": "Kuchnia", "value" : "14,90"},
-                            {"name": "Łazienka", "value" : "4,00"},
-                            {"name": "Przedpokój", "value" : "7,07"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 5: 69,28 m2",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 69,28 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia", "value" : "9,94"},
-                            {"name": "Gabinet", "value" : "9,95"},
-                            {"name": "Salon", "value" : "19,00"},
-                            {"name": "Kuchnia", "value" : "10,32"},
-                            {"name": "Łazienka", "value" : "4,00"},
-                            {"name": "Przedpokój", "value" : "7,07"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 2: 101,42 m2.",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 1 - pierwsze pietro 54,28 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Salon", "value" : "37,78"},
-                            {"name": "Kuchnia", "value" : "10,48"},
-                            {"name": "Łazienka", "value" : "1,75"},
-                            {"name": "Przedpokój", "value" : "3,50"},
-                            {"name": "Garderoba", "value" : "0,77"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 2 - podasze 47.14 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Pokój", "value" : "15,95"},
-                            {"name": "Pokój", "value" : "10,91"},
-                            {"name": "Pokój", "value" : "7,35"},
-                            {"name": "Łazienka", "value" : "4,23"},
-                            {"name": "Przedpokój", "value" : "8,70"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr 4: 108,92 m2.",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 1 - pierwsze pietro 61,78 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Salon", "value" : "40,86"},
-                            {"name": "Kuchnia", "value" : "14,90"},
-                            {"name": "Łazienka", "value" : "1,75"},
-                            {"name": "Przedpokój", "value" : "3,50"},
-                            {"name": "Garderoba", "value" : "0,77"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 2 - podasze 47.14 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Pokój", "value" : "15,95"},
-                            {"name": "Pokój", "value" : "10,91"},
-                            {"name": "Pokój", "value" : "7,35"},
-                            {"name": "Łazienka", "value" : "4,23"},
-                            {"name": "Przedpokój", "value" : "8,70"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkanie nr  6: 113,06 m2.",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 1 - pierwsze pietro 66,01 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Salon", "value" : "40,67"},
-                            {"name": "Kuchnia", "value" : "19,32"},
-                            {"name": "Łazienka", "value" : "1,75"},
-                            {"name": "Przedpokój", "value" : "3,50"},
-                            {"name": "Garderoba", "value" : "0,77"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 2 - podasze 47.05 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Pokój", "value" : "15,95"},
-                            {"name": "Pokój", "value" : "10,86"},
-                            {"name": "Pokój", "value" : "7,35"},
-                            {"name": "Łazienka", "value" : "4,23"},
-                            {"name": "Przedpokój", "value" : "8,70"}
-                        ]
-                    }
-                ]
-            }
-            
-        ] 
+        "lngLatOfRealEstate" : [ 20.120010,50.096839]
     },
     {
         "realEstateName": "OSIEDLE WIERZBOWA",
-        "realEstateShortInfo": "3 KM OD GALERII BRONOWICE",
+        "realEstateShortInfo": "BRONOWICE",
         "realEstateDescription": "Osiedle Wierzbowa to kameralne osiedle 16 mieszkań  (8 domów jednorodzinnych dwulokalowych – typu zabudowa bliźniacza) usytuowanych przy ulicy Wierzbowej w miejscowości Modlnica, gmina Wielka Wieś. W każdym segmencie znajdować się będą dwa mieszkania.   Do każdego mieszkania przynależeć będzie miejsce postojowe i wspólny udział w działce, oraz wyznaczone będą ogródki do wyłącznego korzystania. Zaprojektowane inwestycja będzie współgrała z okoliczną niską zabudową. Przyszli mieszkańcy będą mogli się cieszyć wygodną lokalizacja zapewniająca szybki dostęp do głównych dróg do Krakowa. W odległości 100 metrów biedronka, około 3 km jest Galeria Bronowice a 10 km od inwestycji jest urokliwy Ojcowski Park Krajobrazowy. Jednocześnie odpowiednie oddalenie osiedla od miejsc natężenia ruchu drogowego zapewni mieszkańcom cisze i spokój aby z radością i w spokoju mogli spędzać czas z rodziną i przyjaciółmi.  Układy mieszkań pozwolą na indywidualną koncepcję i aranżację spełniającą oczekiwania nawet najbardziej wymagających klientów. Mieszkania na pierwszym piętrze dodatkowo mają możliwość adaptacji poddasza, dzięki czemu mieszkanie może uzyskać powierzchnie użytkową ponad 80 m kw. Osiedle Wierzbowa  zaprojektowano z myślą o osobach, które od swojego wymarzonego miejsca zamieszkania oczekują nie tylko funkcjonalności, ale także wygody i przestrzeni. Malownicza lokalizacja – pozwoli na aktywną organizację czasu wolnego dla całej rodziny.",
         "realEstatePhotoUrl" : [
             "https://i.imgur.com/PL8ePm4.jpg",
@@ -408,144 +68,7 @@
             "https://i.imgur.com/jMU32CW.jpg"
         ],
         "realEstateLocation" : "Modlnica, ul. Wierzbowa – gmina Wielka Wieś",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "apartmentPropertise" : [
-            {
-                "apartmentName": "Mieszkania A1,B1, C1, D1, E1, F1, G1, H1 z ogródkiem",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 63,07 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Wiatrołap", "value" : "3,28"},
-                            {"name": "Kuchnia, jadalnia, salon", "value" : "24,87"},
-                            {"name": "Sypialnia nr 1 ", "value" : "8,25"},
-                            {"name": "Sypialnia nr 2", "value" : "10,54"},
-                            {"name": "Sypialnia nr 3", "value" : "10,29"},
-                            {"name": "Łazienka", "value" : "3,65"},
-                            {"name": "Komunikacja", "value" : "2,19"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania A2,B2, C2, D2, E2, F2, G2, H2 z ogródkiem i możliwością adaptacji poddasza",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 61,43  m2",
-                        "apartmentPropertis" : [
-                            {"name": "Wiatrołap", "value" : "3,28"},
-                            {"name": "Kuchnia, jadalnia, salon", "value" : "24,87"},
-                            {"name": "Sypialnia nr 1 ", "value" : "8,25"},
-                            {"name": "Sypialnia nr 2", "value" : "10,28"},
-                            {"name": "Sypialnia nr 3", "value" : "10,48"},
-                            {"name": "Łazienka", "value" : "3,62"},
-                            {"name": "Komunikacja", "value" : "2,24"}
-                        ]
-                    }
-                ]
-            }     
-        ] 
-    },
-    {
-        "realEstateName": "APARTAMENTY NAD WILGĄ - OPATKOWICE",
-        "realEstateShortInfo": "SMOLEŃSKIEGO",
-        "realEstateDescription": "Oferujemy przestronne, funkcjonalne i dobrze usytuowane mieszkania z balkonami w malowniczym zakątku Opatkowic, na ul. Smoleńskiego. Apartamenty nad Wilgą  to kameralny kompleks 4 przestronnych mieszkań z balkonami, położony w urokliwym, spokojnym i pełnym zieleni miejscu, w dzielnicy Krakowa – Opatkowice, wśród niskiej zabudowy mieszkaniowej. Mieszkania bezczynszowe z oddzielna Kw na mieszkanie. Inwestycję  tworzą  dwa budynki jednorodzinne ( dwulokalowe). W pierwszym segmencie znajdują się dwa mieszkania o powierzchni  M1 52,44 m kw na parterze oraz M2 99,93 m kw. W drugim segmencie  są również dwa mieszkania o powierzchni M3 88,62 m kw i 96,72 m   oraz przynależne do nich garaże a także garaże  do mieszkań z pierwszego segmentu. Przedsięwzięcie realizowane jest z najwyższej klasy materiałów budowlanych. Mieszkania oddawane są w stanie deweloperskim  zamkniętym – do wykończenia. Oferta jest skierowana do osób poszukujących najlepszego standardu mieszkania, ciszy, spokoju a zarazem lokalizacji blisko centrum. To wymarzone miejsce dla każdej rodziny. Elegancki, nowoczesny  a zarazem prosty styl zabudowy w połączeniu z funkcjonalnym, przestronnym wnętrzem oraz praktycznym zagospodarowaniem terenu składają się na niepowtarzalny klimat tego miejsca. W sąsiedztwie istnieje pełna infrastruktura – szkoła, drogi, sieci sklepów, przychodnia, przystanki komunikacji miejskiej.",
-        "realEstatePhotoUrl" : [
-            "https://i.imgur.com/IsvpgrD.jpg",
-            "https://i.imgur.com/823BO8S.jpg",
-            "https://i.imgur.com/oa4nkK0.jpg"
-        ],
-        "realEstateLocation" : "Opatkowic, na  ul. Smoleńskiego",
-        "additionalInformation": "Garaż jednostanowiskowy o powierzchni 20,00 m2 w cenie 25 .000 zł do każdego mieszkania. Ogródki dla M2, M3, M4 w cenie 7.000 zł",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "apartmentPropertise" : [
-            {
-                "apartmentName": "Mieszkanie M1 z ogródkiem",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 52,44 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall", "value" : "6.00"},
-                            {"name": "Sypialnia nr 1", "value" : "8.70"},
-                            {"name": "Sypialnia nr 2", "value" : "11.49"},
-                            {"name": "Salon z kuchnią", "value" : "20.68"},
-                            {"name": "Łazienka", "value" : "5.57"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania M2 dwupoziomowe 99,93 m2, pow.podłóg 115,93 (budynek 1)",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - pierwsze piętro 52.48 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall", "value" : "4.61"},
-                            {"name": "Sypialnia nr 1", "value" : "11.54"},
-                            {"name": "Salon z kuchnią", "value" : "30.86"},
-                            {"name": "Łazienka", "value" : "5.47"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 1 - poddasze 47.45 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall (gabinet)", "value" : "11.78"},
-                            {"name": "Sypialnia nr 2", "value" : "14.05"},
-                            {"name": "Sypialnia nr 3", "value" : "8.81"},
-                            {"name": "Sypialnia nr 4", "value" : "8.20"},
-                            {"name": "Łazienka", "value" : "4.61"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania M3 dwupoziomowe 88.62 m kw, pow.podłóg 105.35 (budynek 2)",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - pierwsze piętro 52.75 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia nr 1", "value" : "10.69"},
-                            {"name": "Sypialnia nr 2", "value" : "9.65"},
-                            {"name": "Salon z kuchnią", "value" : "27.97"},
-                            {"name": "Łazienka", "value" : "4.44"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 1 - poddasze 35.87 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall (gabinet)", "value" : "9.23"},
-                            {"name": "Sypialnia nr 3", "value" : "7.34"},
-                            {"name": "Sypialnia nr 4", "value" : "9.36"},
-                            {"name": "Sypialnia nr 5", "value" : "5.99"},
-                            {"name": "Łazienka", "value" : "3.95"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania M4 dwupoziomowe 96,72 m kw, pow.podłóg 106,56 (budynek 2)",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - pierwsze piętro 51.66 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Sypialnia nr 1", "value" : "9.93"},
-                            {"name": "Salon z kuchnią", "value" : "36.97"},
-                            {"name": "Łazienka", "value" : "4.76"}
-                        ]
-                    },
-                    {
-                        "levelInformation": "poziom 1 - poddasze 44.96 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Hall (gabinet)", "value" : "11.88"},
-                            {"name": "Sypialnia nr 2", "value" : "6.53"},
-                            {"name": "Sypialnia nr 3", "value" : "12.60"},
-                            {"name": "Sypialnia nr 4", "value" : "9.98"},
-                            {"name": "Łazienka", "value" : "3.97"}
-                        ]
-                    }
-                ]
-            }         
-        ] 
+        "lngLatOfRealEstate" : [ 19.875868,50.123118]
     },
     {
         "realEstateName": "LA DUBOIS",
@@ -557,41 +80,101 @@
             "https://i.imgur.com/pwEMKuD.png"
         ],
         "realEstateLocation" : "Podgórze przy ulicy Dubois",
-        "additionalInformation": "Do każdego mieszkania przynależy miejsce postojowe w garażu dwustanowiskowym o powierzchni 33,67 m2 w cenie 25.000 zł",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
-        "apartmentPropertise" : [
-            {
-                "apartmentName": "Mieszkania 1A, 2A, na parterze",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - parter 31,62 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Wiatrołap ", "value" : "1.25"},
-                            {"name": "Salon z kuchnią", "value" : "17.28"},
-                            {"name": "Pokój", "value" : "7.87"},
-                            {"name": "Łazienka", "value" : "3.71"}
-                        ]
-                    }
-                ]
-            },
-            {
-                "apartmentName": "Mieszkania 1B, 2B na pierwszymm piętrze",
-                "levelProperties" : [
-                    {
-                        "levelInformation": "poziom 0 - pierwsze piętro 78.65 m2",
-                        "apartmentPropertis" : [
-                            {"name": "Komunikacja", "value" : "4,40"},
-                            {"name": "Przedpokój", "value" : "1.16"},
-                            {"name": "Salon z kuchnią", "value" : "27.34"},
-                            {"name": "Łazienka", "value" : "3.71"},
-                            {"name": "Pokój 1", "value" : "13.85"},
-                            {"name": "Pokój 2", "value" : "8.80"},
-                            {"name": "Pokój 3", "value" : "9.46"}
-                        ]
-                    }
-                ]
-            }
-               
-        ] 
+        "lngLatOfRealEstate" : [20.006116, 50.023965]
+    },
+    {
+        "realEstateName": "ZAKĄTEK KOKOTÓW",
+        "realEstateShortInfo": "KOKOTÓW",
+        "realEstateDescription": "Zakątek Kokotów to dwa domy jednorodzinne dwulokalowe  w Kokotowie, przy ul.  Gajsko  – przecznica od ul. Kokotowskiej, położone na ogrodzonej działce 12 arowej (po podziale po ok. 6 arów pod dom). Elegancki, a zarazem prosty styl budynków w połączeniu z funkcjonalnym, przestronnym wnętrzem oraz praktycznym zagospodarowaniem terenu składają się na niepowtarzalny klimat tego miejsca.",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/K5Api86.png",
+            "https://i.imgur.com/S43VPIB.png"
+        ],
+        "realEstateLocation" : "Kokotów ul. Gajsko nr 135 i 135a",
+        "lngLatOfRealEstate" : [20.098015, 50.012663]
+    },
+    {
+        "realEstateName": "ZIELONE OWCZARY",
+        "realEstateShortInfo": "OWCZARY",
+        "realEstateDescription": "Zielone Owczary to mini osiedle stanowiące dwa domy jednorodzinne po 97 m2 powierzchni użytkowej, położone w malowniczych Owczarach – gminie Zielonki.  Domki usytuowane są na działkach 5 arowych, w drugim pasie zabudowy, blisko pętli autobusowej w Owczarach. Są funkcjonalne i przytulne. Jeżeli szukasz  oazy spokoju i przestrzeni to Zielone Owczary jest miejscem  dla Ciebie. Jeżeli lubisz przebywać blisko przyrody, to będziesz ją miał na co dzień. Piękne krajobrazy, zieleń i przestrzeń to miejsce gdzie możesz zamieszkać, to miejsce gdzie będzie Twój wymarzony dom.",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/wPBzDWb.png",
+            "https://i.imgur.com/DA1EaHB.png"
+        ],
+        "realEstateLocation" : "ul. Długa, nr działek: 39/11 i 39/10",
+        "lngLatOfRealEstate" : [ 19.921111, 50.171681]
+    },
+    {
+        "realEstateName": "Osiedle Rączna",
+        "realEstateShortInfo": "Gmina Liszki",
+        "realEstateDescription": "Osiedle w Rącznej : osiedle domów w podkrakowskiej miejscowości Rączna, 15 km od Rynku Głównego. Osiedle sześciu domów posadowionych każdy na 8 arowej działce.  Otoczenie lasów pozwala na spokój  wyciszenie i relaks. Idealne miejsce dla Twojej rodziny.",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/c0fkLDT.jpg",
+            "https://i.imgur.com/94lDHuR.jpg",
+            "https://i.imgur.com/Xtm80Yj.jpg"
+        ],
+        "realEstateLocation" : "15 km od Rynku Głównego"
+    },
+    {
+        "realEstateName": "ZIELONY ZAKĄTEK",
+        "realEstateShortInfo": "KRAKÓW",
+        "realEstateDescription": "„Zielony Zakątek”  w centrum Krakowa Zielony Zakątek to kameralny kompleks dwóch domów składający się z czterech segmentów. Inwestycja zlokalizowana jest w dzielnicy Podgórze przy ulicy Algierskiej-Laszczki, zaledwie 6 km od Rynku Głównego, w otoczeniu tworzonego Parku Duchackiego, z którym graniczy z dwóch stron. Jest ona skierowana do osób poszukujących najlepszego standardu mieszkania, ciszy, spokoju a zarazem lokalizacji blisko centrum. To wymarzone miejsce dla każdej rodziny. Mimo, że usytuowana w zacisznym miejscu ,na granicy z parkiem Duchackim jest świetnie skomunikowana z innymi dzielnicami. Dzięki takiej lokalizacji mieszkańcy Zielonego Zakątka, nie muszą wybierać między ciszą, a komfortowym dostępem do miejsc codziennej użyteczności. Sąsiedztwo stanowią nowe domy jednorodzinne i zieleń parkowa . Lokalizacja mini osiedla zapewnia wygodny dostęp do pobliskich sklepów, przedszkoli, szkół i klubów. W ramach inwestycji na 9 arowej działce powstanie kompleks 4 segmentów ,mieszczących się w dwóch budynkach , każdy segment po 131 m2. Nowoczesna architektura domów powstała z myślą o najbardziej wymagających klientach, dla których funkcjonalność, luksus oraz niepowtarzalna lokalizacja muszą iść w parze. Elegancki, a zarazem prosty styl budynków w połączeniu z funkcjonalnym, przestronnym wnętrzem oraz praktycznym zagospodarowaniem terenu składają się na niepowtarzalny klimat tego miejsca.",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/Nu0Ac4h.jpg",
+            "https://i.imgur.com/sIuvuCz.jpg"
+        ],
+        "realEstateLocation" : "Ul. Algierska - Kraków"
+    },
+    {
+        "realEstateName": "OSIEDLE RZEPLIN",
+        "realEstateShortInfo": "RZEPLIN",
+        "realEstateDescription": "Osiedle Rzeplin to budynki jednorodzinne w zabudowie bliźniaczej. Powierzchnia użytkowa budynku 169 m2 całkowita 220 m2,  powierzchnia działki 524 m2 i udział w drodze wewnętrznej . Stan deweloperski zamknięty (okna, grzejniki, tynki).",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/utYv4Zx.jpg",
+            "https://i.imgur.com/oUL7DlG.jpg"
+        ],
+        "realEstateLocation" : "Rzeplin"
+    },
+    {
+        "realEstateName": "OSIEDLE POD BRZOZAMI",
+        "realEstateShortInfo": "GM. MICHAŁOWICE",
+        "realEstateDescription": "Osiedle pod Brzozami to zakończona inwestycja w Kończycach w gminie Michałowice. Domy wielkości po 169 m2 powierzchni użytkowej, usadowione na działkach 8 arowych , wykonane technologią tradycyjną. Przestrzeń i otoczenie brzóz pozwalają cieszyć się z uroków natury i relaksować w pełni.",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/qeqythg.jpg",
+            "https://i.imgur.com/SNdiKVq.jpg"
+        ],
+        "realEstateLocation" : "Kończyce gmina Michałowice"
+    },
+    {
+        "realEstateName": "OSIEDLE AKACJOWE",
+        "realEstateShortInfo": "WIELICZKA",
+        "realEstateDescription": "Osiedle Akacjowe to enklawa domów jednorodzinnych po 169 m2 każdy. Osiedle usytuowane jest  w malowniczej Wieliczce pod Krakowem.",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/ZZS57Ud.jpg",
+            "https://i.imgur.com/l8GDiEx.jpg",
+            "https://i.imgur.com/dMMlZhr.jpg",
+            "https://i.imgur.com/7l3B5J5.jpg"
+        ],
+        "realEstateLocation" : "Wieliczka"
+    },
+    {
+        "realEstateName": "OSIEDLE GLINIK",
+        "realEstateShortInfo": "NOWA HUTA",
+        "realEstateDescription": "Osiedle Glinik – to domy jednorodzinne w zabudowie bliźniaczej usadowione na działkach ok 4,5 arowych. Dużo zieleni i przestrzeni – to główne atuty tego miejsca.",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/TTfhCA9.jpg",
+            "https://i.imgur.com/ysiJ0kq.jpg"
+        ],
+        "realEstateLocation" : "Nowa Huta"
+    },
+    {
+        "realEstateName": "OSIEDLE NA WZGÓRZU",
+        "realEstateShortInfo": "NOWA HUTA",
+        "realEstateDescription": "Osiedle  Na Wzgórzu – to osiedle domów jednorodzinnych wybudowanych w Nowej Hucie. Domy po 155m2 każdy usadowiony na 4,5 arowej działce. Komfort, wygoda  i funkcjonalność to główne atuty tego miejsca.",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/tigXklL.jpg",
+            "https://i.imgur.com/bZx5az8.jpg"
+        ],
+        "realEstateLocation" : "Nowa Huta - ul. Przemysłowa"
     }
 ]

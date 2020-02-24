@@ -1,6 +1,6 @@
 <div *ngIf="!mobileQuery.matches" class = "main-photo"  [ngStyle]="{
         'background': ' url(' + realEstate.realEstatePhotoUrl[0] + ') no-repeat center center fixed',
-        'background-size' : '100% 100%'
+        'background-size' : '100%'
     }">
     <div class = "real-estate-name">
         <h1  [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">{{realEstate.realEstateName}}</h1>
@@ -56,10 +56,26 @@
                 </div>
         </div>
 
+        <div *ngIf="realEstate.apartmentCards">
+                <h1  [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Karty mieszkań</h1>
+                <mat-divider></mat-divider>
+                <div class = "apartment-cards">
+                        <mat-chip-list aria-label="apartment cards selection"  >
+                                <a *ngFor= "let apartmentCard of realEstate.apartmentCards;" 
+                                        href="{{apartmentCard.apartmentCardUrl}}" 
+                                        download 
+                                        matTooltip="Pobierz karte mieszkania">
+                                        <mat-chip>{{apartmentCard.aparmtentCardDescription}}</mat-chip>
+                                </a>      
+                        </mat-chip-list>                  
+                 </div>
+        </div>
+   
+
         <div *ngIf="realEstate.realEstateReservationArray" class = "real-estate-reservation">
                 <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Rezerwacje:</h1>
                 <div class ="divider">
-                                <mat-divider></mat-divider>
+                        <mat-divider></mat-divider>
                 </div>
                 <div *ngFor="let realEstateReservation of realEstate.realEstateReservationArray;">
                         <div class = "real-estate-reservation-row">
@@ -71,40 +87,18 @@
                 
         </div>
 
-        <div class = "developers-state">
+        <div *ngIf="realEstate.shellAndCore" class = "developers-state">
                 <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Stan deweloperski obejmuje:</h1>
 
                 <div class ="divider">
                                 <mat-divider></mat-divider>
                         </div>
-                <ul>
-                        <li>Ława fundamentowa, zbrojona, betonowa</li>
-                        <li>Ściany fundamentowe z pustaka szalunkowego zalewane betonem, malowane dysperbitem 
-                        ( izolacja przeciw wodna) ocieplone styropianem i zabezpieczone folią kubełkową</li>
-                        <li>Ściany konstrukcyjne z pustaka Porotherm grubości 18 cm docieplone styropianem grubości 15 cm</li>
-                        <li>Elewacja pokryta tynkiem akrylowym</li>
-                        <li>Konstrukcja dachu drewniana impregnowana</li>
-                        <li>Dachówka ceramiczna Wieneberger Koranic 9, kolor antracyt</li>
-                        <li>Obróbki blacharskie</li>
-                        <li>Płyta monolityczna zbrojona wylewana na budowie</li>
-                        <li>Tynki gipsowe</li>
-                        <li>Instalacja CO z rury Pex z rozdzielaczami</li>
-                        <li>Okna PCV z okleiną jednostronną, pakiet trzyszybowy, drzwi wejściowe</li>
-                        <li>Instalacja elektryczna, wod -kan, gazowa, kanalizacyjna</li>
-                        <li>Wylewki na styropianie zbrojone, podbicie dachu drewniane, kominy systemowe</li>
-                        <li>Poddasze docieplone wełną mineralną o grubości 25 cm</li>
-                        <li>Płyty gipsowe na ruszcie metalowym</li>
-                        <li>Kanalizacja miejska</li>
-                        <li>Ogrzewanie podłogowe w kuchni i łazienkach</li>
-                        <li>Komin do pieca gazowego i kominy wentylacyjne</li>
-                        <li>Piec gazowy dwufunkcyjny Saunier Dival</li>
-                        <li>Grzejniki Diamond</li>
-                        <li>Udział w działce</li>
-                        <li>Odbiór budynku</li>
+                <ul *ngFor="let shellAndCore of realEstate.shellAndCore">
+                        <li>{{shellAndCore}}</li>
                 </ul> 
         </div>
 
-        <div class = "localization-container">
+        <div *ngIf="realEstate.lngLatOfRealEstate"  class = "localization-container">
                 <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">LOKALIZACJA</h1>
 
                 <div class ="divider">

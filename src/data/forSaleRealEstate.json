@@ -1,17 +1,216 @@
-[
+[ 
     {
-        "realEstateName": "ZAGŁOBA SKWER",
+    "realEstateName": "Osiedle na Strażackiej",
+    "realEstateShortInfo": "Kraków - Podgórze",
+    "realEstateDescription": "Osiedle na Strażackiej to nowoczesna i kameralna inwestycja składajaca się 14 domów jednorodzinnych, zlokalizowanych w dzielnicy Kraków- Podgórze przy ul.Strażackiej. Cicha, zielona i spokojna okolica, zabudowa domów jednorodzinnych zapewnia wytchnienie od wielkomiejskiego zgiełku. Nasza oferta skierowana jest do osób ceniących sobie prywatność i komfort, jaki może stworzyć mieszkanie na Osiedlu na Strażackiej. Osiedle charakteryzuje się zielonym otoczeniem, niską zabudową jednorodzinną, bezpośrednim dostępem do komunikacji miejskiej, lokali handlowo-usługowych oraz placówek oświatowych. W okolicy znajdują się m.in.: szkoła, przedszkole, sklepy, Centrum Sportowe, Lidl , Biedronka (ok. 3 km), plac targowy, szkoła podstawowa. Dojazd do Rynku Głównego ok. 15 minut.(9,5 km) Szybki dojazd do autostrady. W trosce o bezpieczeństwo i jakość życia mieszkańców teren inwestycji będzie ogrodzony. Walory estetyczne zostały wyeksponowane dzięki nowoczesnej i lekkiej formie architektonicznej. Domy zaprojektowane zostały jako budynki jednopiętrowe z poddaszem użytkowym. Wykonywane są do stanu deweloperskiego. Materiały wykorzystane do budowy domów oraz energooszczędna technologia zapewniają życie w warunkach zgodnych ze standardami ekologii. Styl architektury zabudowań utrzymany jest w prostej, ale ciepłej i eleganckiej estetyce i w połączeniu z przestronnym funkcjonalnym wnętrzem pozwoli Państwu poczuć się wyjątkowo, zamieszkując w tej urokliwej podmiejskiej, zielonej dzielnicy. Bardzo funkcjonalne rozkłady domów, ogrody od 42 m2 do 182 m2, stwarzają wiele możliwość ich aranżacji z uwzględnieniem wygody i komfortu dla przyszłych mieszkańców.",
+    "realEstatePhotoUrl" : [
+        "https://i.imgur.com/DpQq5N5.jpg",
+        "https://i.imgur.com/wKu9bJd.jpg",
+        "https://i.imgur.com/kkdwMSq.jpg",
+        "https://i.imgur.com/LLkORVn.jpg",
+        "https://i.imgur.com/fffGsIl.jpg",
+        "https://i.imgur.com/vd24skS.jpg",
+        "https://i.imgur.com/cXZ39Ch.jpg",
+        "https://i.imgur.com/GUrWHb1.jpg",
+        "https://i.imgur.com/2ZkEKF5.jpg"
+    ],
+    "constructionAcceptance": "IV kwartał 2020 r.",
+    "realEstateLocation" : "ul. Strażacka (Kraków - Podgórze)",
+    "lngLatOfRealEstate" : [20.027352, 50.043822],
+    "additionalInformation" : "Niewątpliwym atutem tego domu jest przynależny duży ogród - ok.181,60 m2.",
+    "apartmentCards": [
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 1 A.jpg",
+            "aparmtentCardDescription" : "Budynek 1A"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 2 A.jpg",
+            "aparmtentCardDescription" : "Budynek 2A"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 3 A.jpg",
+            "aparmtentCardDescription" : "Budynek 3A"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 4 A.jpg",
+            "aparmtentCardDescription" : "Budynek 4A"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 5 A.jpg",
+            "aparmtentCardDescription" : "Budynek 5A"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 6 A.jpg",
+            "aparmtentCardDescription" : "Budynek 6A"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 7 A.jpg",
+            "aparmtentCardDescription" : "Budynek 7A"
+        },
+        {
+            "apartmentCardUrl": "https://i.imgur.com/bkDsb47.jpg",
+            "aparmtentCardDescription" : "Budynek 1A"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 1 B.jpg",
+            "aparmtentCardDescription" : "Budynek 1B"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 2 B.jpg",
+            "aparmtentCardDescription" : "Budynek 2B"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 3 B.jpg",
+            "aparmtentCardDescription" : "Budynek 3B"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 4 B.jpg",
+            "aparmtentCardDescription" : "Budynek 4B"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 5 B.jpg",
+            "aparmtentCardDescription" : "Budynek 5B"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 6 B.jpg",
+            "aparmtentCardDescription" : "Budynek 6B"
+        },
+        {
+            "apartmentCardUrl": "/assets/osiedle-na-strazackiej/BUDYNEK 7 B.jpg",
+            "aparmtentCardDescription" : "Budynek 7B"
+        }
+    ],
+    "housePropertise" : [
+        {
+            "floorSurfaces": 130,
+            "functionalSurface": 130,
+            "groundFloor" :[
+                {"name": "Wiatrołap", "value" : "2.38"},
+                {"name": "Komunikacja", "value" : "5.80"},
+                {"name": "Garaż", "value" : "23.35"},
+                {"name": "Pomieszczenie gospodarcze", "value" : "7.82"}
+            ],
+            "firstFloor" :[
+                {"name": "Salon, kuchnia", "value" : "36.46"},
+                {"name": "Gabinet", "value" : "9.55"},
+                {"name": "WC", "value" : "3.0"}
+            ],
+            "attic" : [
+                {"name": "Hall", "value" : "3.63"},
+                {"name": "Sypialnia I", "value" : "8.73"},
+                {"name": "Sypialnia II", "value" : "10.31"},
+                {"name": "Sypialnia III", "value" : "12.44"},
+                {"name": "Łazienka", "value" : "5.31"},
+                {"name": "Garderoba", "value" : "1.47"}
+            ]
+        } 
+    ],
+    "realEstateReservationArray": [
+        {
+            "realEstateInfo" : "Bud 1A- 130,25m2, ogródek-  181,50 m2(segment narożny)- cena 699 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 1B- 130,33 m2, ogródek - 91,45 m2 (segment środkowy)- cena 697 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 2B- 130,33 m2, ogródek - 145,57 m2 (segment środkowy)- cena 699  000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 2A- 130,25 m2, ogródek - 166,47m2 (segment narożny)- cena 699 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 3A- 130,25 m2, ogródek - 102,57m2 (segment narożny)- cena 699 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 3B- 130,33 m2, ogródek - 76,31m2 (segment środkowy)- cena 695 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 4B- 130,33 m2, ogródek - 40,86m2 (segment środkowy)- cena 682 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 4A- 130,25 m2, ogródek - 103,70m2 (segment narożny)- cena 698 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 5A- 130,25 m2, ogródek - 89,16m2 (segment narożny)- cena 698 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 5B- 130,33 m2, ogródek - 42,27m2 (segment srodkowy)- cena 682 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 6B- 130,33 m2, ogródek - 51,06 m2 (segment srodkowy)- cena 682 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 6A- 130,25 m2, ogródek - 109,32 m2 (segment narożny)- cena 698 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 7A- 130,25 m2, ogródek - 98,60 m2 (segment narożny)- cena 698 000 zł",
+            "isReserved" : false
+        },
+        {
+            "realEstateInfo" : "Bud 7B- 130,25 m2, ogródek - 98,60 m2 (segment narożny)- cena 698 000 zł",
+            "isReserved" : false
+        }
+    ],
+    "shellAndCore" : [
+        "Ława fundamentowa, zbrojona, betonowa",
+        "Ściany fundamentowe z pustaka szalunkowego zalewane betonem, malowane dysperbitem ( izolacja przeciw wodna) ocieplone styropianem i zabezpieczone folią kubełkową",
+        "ściany konstrukcyjne z pustaka Porotherm grubości 25 cm docieplone styropianem grubości 15 cm",
+        "Elewacja pokryta tynkiem akrylowym",
+        "Konstrukcja dachu drewniana impregnowana",
+        "Dachówka ceramiczna Wieneberger Koranic 9, kolor antracyt",
+        "Obróbki blacharskie",
+        "Płyta monolityczna zbrojona wylewana na budowie",
+        "Tynki gipsowe",
+        "Instalacja CO z rury Pex z rozdzielaczami",
+        "Okna PCV z okleiną jednostronną, pakiet trzyszybowy, drzwi wejściowe, brama garażowa",
+        "Instalacja elektryczna, wod -kan, gazowa, kanalizacyjna",
+        "Wylewki na styropianie zbrojone, podbicie dachu drewniane, kominy systemowe",
+        "Poddasze docieplone wełną mineralną o grubości 25 cm",
+        "Płyty gipsowe na ruszcie metalowym",
+        "Kanalizacja miejska",
+        "Ogrzewanie podłogowe w kuchni i łazienkach",
+        "Komin do pieca gazowego i kominy wentylacyjne",
+        "Wewnętrzne schody",
+        "Domofon",
+        "Udział w działce",
+        "Odbiór budynku"
+        ]
+    },
+    {
+        "realEstateName": "Zagłoby Skwer",
         "realEstateShortInfo": "Idealne dla rodzin",
         "realEstateDescription": "Zagłoby Skwer to nowoczesne i kameralne osiedle 6 domów jednorodzinnych w zabudowie bliźniaczej zlokalizowane w Nowej Hucie, przy ul. Zagłoby. Cicha , zielona i spokojna okolica, zabudowa domów jednorodzinnych -zapewnia wytchnienie od wielkomiejskiego zgiełku. Bardzo dobrze rozwinięta infrastruktura handlowo - usługowa, komunikacyjna. Osiedle charakteryzuje się zielonym otoczeniem, niską zabudową jednorodzinną, bezpośrednim dostępem do komunikacji miejskiej, lokali handlowo-usługowych oraz placówek oświatowych. W okolicy znajduje się m.in: szkoła, przedszkole, centrum sportowe z basenem, sklepy, Centrum Handlowe Czyżyny, plac  targowy, przystanek autobusowy. W trosce o bezpieczeństwo i jakość życia mieszkańców , teren inwestycji będzie ogrodzony. Walory estetyczne zostały wyeksponowane dzięki nowoczesnej i lekkiej formie architektonicznej. Domy zaprojektowane zostały jako budynki jednopiętrowe z poddaszem użytkowym. Wykonywane są do stanu deweloperskiego, z możliwością wykończenia „pod klucz” według własnych preferencji nabywcy. Materiały wykorzystane do budowy domów oraz energooszczędna technologia zapewniają życie w warunkach zgodnych ze standardami ekologii. Styl architektury zabudowań utrzymany jest w prostej, ale ciepłej i eleganckiej estetyce i w połączeniu z przestronnym funkcjonalnym wnętrzem, pozwoli Państwu poczuć się wyjątkowo zamieszkując w tej urokliwej podmiejskiej, zielonej dzielnicy. Bardzo funkcjonalne rozkłady domów (od 127 m2 do 128 m2) , duże ogrody (od 293 m2 do 469 m2) stwarzają wiele możliwość ich aranżacji z uwzględnieniem wygody i komfortu dla przyszłych mieszkańców.",
         "realEstatePhotoUrl" : [
-            "https://i.imgur.com/Ps2HYxg.png"
+            "https://i.imgur.com/D0dewof.jpg",
+            "https://i.imgur.com/8aC8dF6.jpg",
+            "https://i.imgur.com/cXZ39Ch.jpg",
+            "https://i.imgur.com/GUrWHb1.jpg",
+            "https://i.imgur.com/2ZkEKF5.jpg",
+            "https://i.imgur.com/PJl4aot.jpg",
+            "https://i.imgur.com/bkDsb47.jpg",
+            "https://i.imgur.com/56ecNmC.jpg",
+            "https://i.imgur.com/libjPiJ.jpg",
+            "https://i.imgur.com/rdNdXMG.jpg",
+            "https://i.imgur.com/LxhLFsT.jpg"
         ],
+        
         "constructionAcceptance": "III kwartał 2020",
         "realEstateLocation" : "Kraków, Nowa Huta, Mogiła, ul. Zagłoby",
-        "lngLatOfRealEstate" : [19.999279,50.023316],
+        "lngLatOfRealEstate" : [20.046795,50.057568],
         "housePropertise" : [
             {
-             
                 "floorSurfaces": 128,
                 "functionalSurface": 128,
                 "groundFloor" :[
@@ -35,31 +234,221 @@
                 ]
             } 
         ],
+        "apartmentCards": [
+            {
+                "apartmentCardUrl": "/assets/zagloby-skwer/ZAGŁOBY 1A.jpg",
+                "aparmtentCardDescription" : "Zagłoby 1A"
+            },
+            {
+                "apartmentCardUrl": "/assets/zagloby-skwer/ZAGŁOBY 1B.jpg",
+                "aparmtentCardDescription" : "Zagłoby 1B"
+            },
+            {
+                "apartmentCardUrl": "/assets/zagloby-skwer/ZAGŁOBY 2A.jpg",
+                "aparmtentCardDescription" : "Budynek 2A"
+            },
+            {
+                "apartmentCardUrl": "/assets/zagloby-skwer/ZAGŁOBY 2B.jpg",
+                "aparmtentCardDescription" : "Budynek 2B"
+            },
+            {
+                "apartmentCardUrl": "/assets/zagloby-skwer/ZAGŁOBY 3A.jpg",
+                "aparmtentCardDescription" : "Budynek 3A"
+            },
+            {
+                "apartmentCardUrl": "/assets/zagloby-skwer/ZAGŁOBY 3B.jpg",
+                "aparmtentCardDescription" : "Budynek 3B"
+            }
+        ],
         "realEstateReservationArray": [
             {
-                "realEstateInfo" : "Dom 1– pow.użytkowa 128 m2, ogród 293 m2 – cena 642 000 zł",
+                "realEstateInfo" : "Dom 1a – pow.użytkowa 131.82 m2, ogród 437 m2 – cena 660 000 zł",
+                "isReserved" : true
+            },
+            {
+                "realEstateInfo" : "Dom 2a – pow.użytkowa 132 m2, ogród 412 m2 – cena 660 000 zł",
+                "isReserved" : true
+            },
+            {
+                "realEstateInfo" : "Dom 3a – pow.użytkowa 131.82 m2, ogród 469 m2 – cena 660 000 zł",
+                "isReserved" : true
+            },
+            {
+                "realEstateInfo" : "Dom 1b – pow.użytkowa 131.46 m2, ogród 444 m2 – cena 660 000 zł",
+                "isReserved" : true
+            },
+            {
+                "realEstateInfo" : "Dom 2b – pow.użytkowa 128 m2, ogród 295 m2 – cena 642 000 zł",
                 "isReserved" : false
             },
             {
-                "realEstateInfo" : "Dom 2 – pow.użytkowa 128 m2, ogród 295 m2 – cena 642 000 zł",
-                "isReserved" : false
-            },
-            {
-                "realEstateInfo" : "Dom 3 – pow.użytkowa 132 m2, ogród 412 m2 – cena 660 000 zł",
-                "isReserved" : false
-            },
-            {
-                "realEstateInfo" : "Dom 4 – pow.użytkowa 131.82 m2, ogród 437 m2 – cena 660 000 zł",
-                "isReserved" : false
-            },
-            {
-                "realEstateInfo" : "Dom 5 – pow.użytkowa 131.82 m2, ogród 469 m2 – cena 660 000 zł",
-                "isReserved" : false
-            },
-            {
-                "realEstateInfo" : "Dom 6 – pow.użytkowa 131.46 m2, ogród 444 m2 – cena 660 000 zł",
+                "realEstateInfo" : "Dom 3b – pow.użytkowa 128 m2, ogród 293 m2 – cena 642 000 zł",
                 "isReserved" : false
             }
+        ],
+        "shellAndCore" : [
+            "Ława fundamentowa, zbrojona, betonowa",
+            "Ściany fundamentowe z pustaka szalunkowego zalewane betonem, malowane dysperbitem ( izolacja przeciw wodna) ocieplone styropianem i zabezpieczone folią kubełkową",
+            "ściany konstrukcyjne z pustaka Porotherm grubości 25 cm docieplone styropianem grubości 15 cm",
+            "Elewacja pokryta tynkiem akrylowym",
+            "Konstrukcja dachu drewniana impregnowana",
+            "Dachówka ceramiczna Wieneberger Koranic 9, kolor antracyt",
+            "Obróbki blacharskie",
+            "Płyta monolityczna zbrojona wylewana na budowie",
+            "Tynki gipsowe",
+            "Instalacja CO z rury Pex z rozdzielaczami",
+            "Okna PCV z okleiną jednostronną, pakiet trzyszybowy, drzwi wejściowe, brama garażowa",
+            "Instalacja elektryczna, wod -kan, gazowa, kanalizacyjna",
+            "Wylewki na styropianie zbrojone, podbicie dachu drewniane, kominy systemowe",
+            "Poddasze docieplone wełną mineralną o grubości 25 cm",
+            "Płyty gipsowe na ruszcie metalowym",
+            "Kanalizacja miejska",
+            "Ogrzewanie podłogowe w kuchni i łazienkach",
+            "Komin do pieca gazowego i kominy wentylacyjne",
+            "Udział w działce",
+            "Odbiór budynku"
+        ]
+    },
+    {
+        "realEstateName": "Apartamenty nad Wilgą - Opatkowice",
+        "realEstateShortInfo": "Smoleńskiego",
+        "realEstateDescription": "Oferujemy przestronne, funkcjonalne i dobrze usytuowane mieszkania z balkonami w malowniczym zakątku Opatkowic, na ul. Smoleńskiego. Apartamenty nad Wilgą  to kameralny kompleks 4 przestronnych mieszkań z balkonami, położony w urokliwym, spokojnym i pełnym zieleni miejscu, w dzielnicy Krakowa – Opatkowice, wśród niskiej zabudowy mieszkaniowej. Mieszkania bezczynszowe z oddzielna Kw na mieszkanie. Inwestycję  tworzą  dwa budynki jednorodzinne ( dwulokalowe). W pierwszym segmencie znajdują się dwa mieszkania o powierzchni  M1 52,44 m kw na parterze oraz M2 99,93 m kw. W drugim segmencie  są również dwa mieszkania o powierzchni M3 88,62 m kw i 96,72 m   oraz przynależne do nich garaże a także garaże  do mieszkań z pierwszego segmentu. Przedsięwzięcie realizowane jest z najwyższej klasy materiałów budowlanych. Mieszkania oddawane są w stanie deweloperskim  zamkniętym – do wykończenia. Oferta jest skierowana do osób poszukujących najlepszego standardu mieszkania, ciszy, spokoju a zarazem lokalizacji blisko centrum. To wymarzone miejsce dla każdej rodziny. Elegancki, nowoczesny  a zarazem prosty styl zabudowy w połączeniu z funkcjonalnym, przestronnym wnętrzem oraz praktycznym zagospodarowaniem terenu składają się na niepowtarzalny klimat tego miejsca. W sąsiedztwie istnieje pełna infrastruktura – szkoła, drogi, sieci sklepów, przychodnia, przystanki komunikacji miejskiej.",
+        "realEstatePhotoUrl" : [
+            "https://i.imgur.com/IsvpgrD.jpg",
+            "https://i.imgur.com/823BO8S.jpg",
+            "https://i.imgur.com/oa4nkK0.jpg"
+        ],
+        "realEstateReservationArray": [
+            {
+                "realEstateInfo" : "Mieszkanie M1  na parterze,  52,44 m kw – cena 319. 000 zł",
+                "isReserved" : true
+            },
+            {
+                "realEstateInfo" : "Mieszkanie M2 na pierwszym i drugim piętrze, 99,93 m kw, ( pow.podłóg 115,93) – cena 519. 000 zł",
+                "isReserved" : true
+            },
+            {
+                "realEstateInfo" : "Mieszkanie M3 na pierwszym i drugim piętrze, 88,62 m kw, ( pow.podłóg 105,35) – cena 449. 000 zł",
+                "isReserved" : false
+            },
+            {
+                "realEstateInfo" : "Mieszkania M4  na pierwszym i drugim piętrze, 96,72 m kw, ( pow.podłóg 106,56)  – cena 479. 000 zł",
+                "isReserved" : true
+            }
+        ],
+        "realEstateLocation" : "Opatkowic, na  ul. Smoleńskiego",
+        "constructionAcceptance": "IV kw. 2019",
+        "additionalInformation": "Garaż jednostanowiskowy o powierzchni 20,00 m2 w cenie 25.000 zł do każdego mieszkania. Ogródki dla M2, M3, M4 w cenie 7.000 zł",
+        "lngLatOfRealEstate" : [19.919171, 49.986736 ],
+        "apartmentPropertise" : [
+            {
+                "apartmentName": "Mieszkanie M1 z ogródkiem",
+                "levelProperties" : [
+                    {
+                        "levelInformation": "poziom 0 - parter 52,44 m2",
+                        "apartmentPropertis" : [
+                            {"name": "Hall", "value" : "6.00"},
+                            {"name": "Sypialnia nr 1", "value" : "8.70"},
+                            {"name": "Sypialnia nr 2", "value" : "11.49"},
+                            {"name": "Salon z kuchnią", "value" : "20.68"},
+                            {"name": "Łazienka", "value" : "5.57"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "apartmentName": "Mieszkania M2 dwupoziomowe 99,93 m2, pow.podłóg 115,93 (budynek 1)",
+                "levelProperties" : [
+                    {
+                        "levelInformation": "poziom 0 - pierwsze piętro 52.48 m2",
+                        "apartmentPropertis" : [
+                            {"name": "Hall", "value" : "4.61"},
+                            {"name": "Sypialnia nr 1", "value" : "11.54"},
+                            {"name": "Salon z kuchnią", "value" : "30.86"},
+                            {"name": "Łazienka", "value" : "5.47"}
+                        ]
+                    },
+                    {
+                        "levelInformation": "poziom 1 - poddasze 47.45 m2",
+                        "apartmentPropertis" : [
+                            {"name": "Hall (gabinet)", "value" : "11.78"},
+                            {"name": "Sypialnia nr 2", "value" : "14.05"},
+                            {"name": "Sypialnia nr 3", "value" : "8.81"},
+                            {"name": "Sypialnia nr 4", "value" : "8.20"},
+                            {"name": "Łazienka", "value" : "4.61"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "apartmentName": "Mieszkania M3 dwupoziomowe 88.62 m kw, pow.podłóg 105.35 (budynek 2)",
+                "levelProperties" : [
+                    {
+                        "levelInformation": "poziom 0 - pierwsze piętro 52.75 m2",
+                        "apartmentPropertis" : [
+                            {"name": "Sypialnia nr 1", "value" : "10.69"},
+                            {"name": "Sypialnia nr 2", "value" : "9.65"},
+                            {"name": "Salon z kuchnią", "value" : "27.97"},
+                            {"name": "Łazienka", "value" : "4.44"}
+                        ]
+                    },
+                    {
+                        "levelInformation": "poziom 1 - poddasze 35.87 m2",
+                        "apartmentPropertis" : [
+                            {"name": "Hall (gabinet)", "value" : "9.23"},
+                            {"name": "Sypialnia nr 3", "value" : "7.34"},
+                            {"name": "Sypialnia nr 4", "value" : "9.36"},
+                            {"name": "Sypialnia nr 5", "value" : "5.99"},
+                            {"name": "Łazienka", "value" : "3.95"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "apartmentName": "Mieszkania M4 dwupoziomowe 96,72 m kw, pow.podłóg 106,56 (budynek 2)",
+                "levelProperties" : [
+                    {
+                        "levelInformation": "poziom 0 - pierwsze piętro 51.66 m2",
+                        "apartmentPropertis" : [
+                            {"name": "Sypialnia nr 1", "value" : "9.93"},
+                            {"name": "Salon z kuchnią", "value" : "36.97"},
+                            {"name": "Łazienka", "value" : "4.76"}
+                        ]
+                    },
+                    {
+                        "levelInformation": "poziom 1 - poddasze 44.96 m2",
+                        "apartmentPropertis" : [
+                            {"name": "Hall (gabinet)", "value" : "11.88"},
+                            {"name": "Sypialnia nr 2", "value" : "6.53"},
+                            {"name": "Sypialnia nr 3", "value" : "12.60"},
+                            {"name": "Sypialnia nr 4", "value" : "9.98"},
+                            {"name": "Łazienka", "value" : "3.97"}
+                        ]
+                    }
+                ]
+            }         
+        ],
+        "shellAndCore" : [
+            "Ława fundamentowa, zbrojona, betonowa",
+            "Ściany fundamentowe z pustaka szalunkowego zalewane betonem, malowane dysperbitem ( izolacja przeciw wodna) ocieplone styropianem i zabezpieczone folią kubełkową",
+            "ściany konstrukcyjne z pustaka Porotherm grubości 25 cm docieplone styropianem grubości 15 cm",
+            "Elewacja pokryta tynkiem akrylowym",
+            "Konstrukcja dachu drewniana impregnowana",
+            "Dachówka ceramiczna Wieneberger Koranic 9, kolor antracyt",
+            "Obróbki blacharskie",
+            "Płyta monolityczna zbrojona wylewana na budowie",
+            "Tynki gipsowe",
+            "Instalacja CO z rury Pex z rozdzielaczami",
+            "Okna PCV z okleiną jednostronną, pakiet trzyszybowy, drzwi wejściowe, brama garażowa",
+            "Instalacja elektryczna, wod -kan, gazowa, kanalizacyjna",
+            "Wylewki na styropianie zbrojone, podbicie dachu drewniane, kominy systemowe",
+            "Poddasze docieplone wełną mineralną o grubości 25 cm",
+            "Płyty gipsowe na ruszcie metalowym",
+            "Kanalizacja miejska",
+            "Ogrzewanie podłogowe w kuchni i łazienkach",
+            "Komin do pieca gazowego i kominy wentylacyjne",
+            "Udział w działce",
+            "Odbiór budynku"
         ]
     }
     
