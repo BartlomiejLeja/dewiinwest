@@ -2,7 +2,7 @@ import { Component, OnInit, ChangeDetectorRef, OnDestroy, ViewChild } from '@ang
 import { SidenavService } from '../services/sidenav.service';
 import { MediaMatcher } from '@angular/cdk/layout';
 import { MatMenuTrigger } from '@angular/material';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
 import { SelectedRouteService } from '../services/selected-route.service';
 import * as forSaleRealEstate from '../../../data/forSaleRealEstate.json';
 import { RealEstate } from '../../workspace/models/real-estate.model';
@@ -18,6 +18,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
   public clickedOnActualOfferRealEstate = false;
   public selectedLink: string;
   public forSaleRealEstateArray: RealEstate[] = (forSaleRealEstate as any).default;
+  public viewHeader = true;
   @ViewChild(MatMenuTrigger, {static: false}) trigger: MatMenuTrigger;
 
   constructor(
@@ -30,12 +31,23 @@ export class HeaderComponent implements OnInit, OnDestroy {
       this.mobileQuery = media.matchMedia('(max-width: 600px)');
       this._mobileQueryListener = () => changeDetectorRef.detectChanges();
       this.mobileQuery.addListener(this._mobileQueryListener);
+      this.router.events.subscribe((event) => {
+        if (event instanceof NavigationEnd) {
+          // Hide loading indicator
+          event.url == '/inwestycjezakonczone' ||  
+          event.url == '/onas' ||  
+          event.url == '/kontakt' || 
+          event.url == '/inwestycjeaktualne' ? this.viewHeader = false : this.viewHeader = true;
+      }
+    });
     }
 
   ngOnInit() {
+
     this.selectedRouteService.isForSaleRealEstateTabChanged.subscribe(
-      link => this.selectedLink = link
-    );
+      link => {
+        this.selectedLink = link;
+      });
   }
 
   public sidenavToggle(){

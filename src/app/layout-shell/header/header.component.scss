@@ -1,9 +1,25 @@
+.toolbar{
+  width: 100%;
+  position: absolute;
+ 
+  top: 1px;
+  z-index: 100;
+
+}
+
+.toolbar-not-main{
+  width: 100%;
+  //position: absolute;
+  //color: black;
+  top: 1px;
+ // z-index: 100;
+
+}
+
 .mobile-toolbar{
   width: 100vw;
 }
-.toolbar{
-  width: 100%;
-}
+
 .comapny-name{
     width: 15%;
     height: 75%;
@@ -12,10 +28,37 @@
     background-size: 100% 100%;
 }
 
-// .mat-toolbar.mat-primary {
-//   background: white;
-//   color: black;
-// }
+.comapny-name-not-main{
+  width: 15%;
+  height: 75%;
+  background: url('/assets/dewi-invest-niebieskie1.png') ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mat-toolbar.mat-primary {
+  // background: #4fb2f7;
+   //  background: #6691bd;
+   //color: black;
+   //background-color:transparent
+   background: none repeat scroll 0 0 rgba(0,0,0,.2);
+ }
+
+ .mat-toolbar.mat-warn {
+  // background: #4fb2f7;
+   //  background: #6691bd;
+   color: black;
+   background-color:#6691bd;
+   
+ }
+
+ .mat-toolbar.mat-accent {
+  // background: #4fb2f7;
+   //  background: #6691bd;
+   color: black;
+   background-color:transparent;
+   
+ }
 
 .comapny-name-mobile{
   width: 35%;
@@ -86,8 +129,6 @@ $animate: all 0.2s ease-in-out;
       }
     }
   }
-
- 
 }
 
 .call-to-us{
@@ -96,8 +137,19 @@ $animate: all 0.2s ease-in-out;
    padding: 0% 3px 0 3px;
 }
 
+.call-to-us-not-main{
+  background-color: #F27915;
+  color: white;
+  font-size: 1rem;
+   padding: 0% 3px 0 3px;
+}
+
 .active-link {
   border-bottom-style: solid;
   border-bottom-color: #F27915;
   // border-bottom-width: 5px;
+}
+
+.hamburger-menu {
+  color: black;
 }

@@ -1,5 +1,9 @@
-<mat-toolbar [ngClass]="mobileQuery.matches ? 'mobile-toolbar' : 'toolbar'" color="primary">
-    <button *ngIf="mobileQuery.matches" mat-icon-button (click)="sidenavToggle()"><mat-icon>menu</mat-icon></button>   
+<mat-toolbar  *ngIf="viewHeader && !mobileQuery.matches"  
+                [ngClass]="{
+                          'mobile-toolbar' : mobileQuery.matches,
+                           'toolbar' : !mobileQuery.matches
+                        }" color="primary" >
+    <button *ngIf="mobileQuery.matches" mat-icon-button class = "hamburger-menu" (click)="sidenavToggle()"><mat-icon>menu</mat-icon></button>   
     <div [ngClass]="mobileQuery.matches ? 'comapny-name-mobile' : 'comapny-name'" >
         <!-- <span >DEWI INVEST</span> -->
         <!-- <span >GROUP</span> -->
@@ -25,6 +29,99 @@
     </div>
 
     <div  *ngIf="!mobileQuery.matches" class = "call-to-us" >
+            <span>ZADZWOŃ: +48 531 843 594</span>
+    </div>
+       
+    <mat-menu #menu="matMenu">
+        <ng-template matMenuContent>
+            <button mat-menu-item  routerLink="/inwestycjeaktualne"  routerLinkActive="active-link">Wszytskie inwestycje</button>
+            <button mat-menu-item 
+            *ngFor="let realEstate of forSaleRealEstateArray;"  
+            routerLink="/realestate/{{realEstate.realEstateName}}"
+            routerLinkActive="active-link">{{realEstate.realEstateName}}</button>
+        </ng-template>
+    </mat-menu>
+  
+</mat-toolbar>
+
+<mat-toolbar  *ngIf="mobileQuery.matches"    [ngClass]="{
+    'mobile-toolbar' : mobileQuery.matches,
+     'toolbar' : !mobileQuery.matches
+  }"
+                color="warn" >
+    <button *ngIf="mobileQuery.matches" mat-icon-button class = "hamburger-menu" (click)="sidenavToggle()"><mat-icon>menu</mat-icon></button>   
+    <div [ngClass]="mobileQuery.matches ? 'comapny-name-mobile' : 'comapny-name'" >
+        <!-- <span >DEWI INVEST</span> -->
+        <!-- <span >GROUP</span> -->
+    </div>
+    
+    <div *ngIf="!mobileQuery.matches" class = "menu">
+        <div class= "hover-test">
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('main')" [ngClass]="selectedLink=='main' ? 'active-link' : 'hover hover-1'"> STRONA GŁÓWNA</span>
+        </div>
+        <div class= "hover-test">
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('aktualnaoferta')" [ngClass]="selectedLink=='aktualnaoferta' ? 'active-link' : 'hover hover-1'"  [matMenuTriggerFor]="menu">AKTUALNA OFERTA</span>
+        </div>  
+        <div class= "hover-test">
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('inwestycjezakonczone')" [ngClass]="selectedLink=='inwestycjezakonczone' ? 'active-link' : 'hover hover-1'"  >ZAKONCZONE INWESTYCJE</span>
+        </div>
+        <div class= "hover-test">  
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('onas')"  [ngClass]="selectedLink=='onas' ? 'active-link' : 'hover hover-1'" >O NAS</span>
+        </div>
+        <div class= "hover-test">  
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('kontakt')"   [ngClass]="selectedLink=='kontakt' ? 'active-link' : 'hover hover-1'">KONTAKT</span>
+        </div>
+       
+    </div>
+
+    <div  *ngIf="!mobileQuery.matches" class = "call-to-us" >
+            <span>ZADZWOŃ: +48 531 843 594</span>
+    </div>
+       
+    <mat-menu #menu="matMenu">
+        <ng-template matMenuContent>
+            <button mat-menu-item  routerLink="/inwestycjeaktualne"  routerLinkActive="active-link">Wszytskie inwestycje</button>
+            <button mat-menu-item 
+            *ngFor="let realEstate of forSaleRealEstateArray;"  
+            routerLink="/realestate/{{realEstate.realEstateName}}"
+            routerLinkActive="active-link">{{realEstate.realEstateName}}</button>
+        </ng-template>
+    </mat-menu>
+  
+</mat-toolbar>
+
+
+
+<mat-toolbar *ngIf="!viewHeader && !mobileQuery.matches" [ngClass]="{'toolbar-not-main': viewHeader,
+                          'mobile-toolbar' : mobileQuery.matches && viewHeader
+                        
+                        }" color="accent" >
+    <button *ngIf="mobileQuery.matches"  mat-icon-button class = "hamburger-menu" (click)="sidenavToggle()"><mat-icon>menu</mat-icon></button>   
+    <div [ngClass]="mobileQuery.matches ? 'comapny-name-mobile' : 'comapny-name-not-main'" >
+        <!-- <span >DEWI INVEST</span> -->
+        <!-- <span >GROUP</span> -->
+    </div>
+    
+    <div *ngIf="!mobileQuery.matches" class = "menu">
+        <div class= "hover-test">
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('main')" [ngClass]="selectedLink=='main' ? 'active-link' : 'hover hover-1'"> STRONA GŁÓWNA</span>
+        </div>
+        <div class= "hover-test">
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('aktualnaoferta')" [ngClass]="selectedLink=='aktualnaoferta' ? 'active-link' : 'hover hover-1'"  [matMenuTriggerFor]="menu">AKTUALNA OFERTA</span>
+        </div>  
+        <div class= "hover-test">
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('inwestycjezakonczone')" [ngClass]="selectedLink=='inwestycjezakonczone' ? 'active-link' : 'hover hover-1'"  >ZAKONCZONE INWESTYCJE</span>
+        </div>
+        <div class= "hover-test">  
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('onas')"  [ngClass]="selectedLink=='onas' ? 'active-link' : 'hover hover-1'" >O NAS</span>
+        </div>
+        <div class= "hover-test">  
+            <span class = "hover hover-1" (click) = "clickOnRouterButton('kontakt')"   [ngClass]="selectedLink=='kontakt' ? 'active-link' : 'hover hover-1'">KONTAKT</span>
+        </div>
+       
+    </div>
+
+    <div  *ngIf="!mobileQuery.matches" class = "call-to-us-not-main" >
             <span>ZADZWOŃ: +48 531 843 594</span>
     </div>
        

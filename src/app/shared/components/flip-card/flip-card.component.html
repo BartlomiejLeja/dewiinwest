@@ -1,8 +1,8 @@
-<div class="tp-wrapper" >
+<div class="tp-wrapper"   
+(mouseover) ="invokeflip()" 
+(mouseleave)="invokeUnFlip()" >
         <div  class="tp-box" 
         [ngClass]="mobileQuery.matches ? 'tp-box-mobile' : 'tp-box'"
-        (mouseover) ="invokeflip()" 
-        (mouseleave)="invokeUnFlip()"
          [@flipState]="flip">
             <div class="tp-box__side tp-box__front" [ngStyle]="
             {
@@ -12,7 +12,8 @@
                  
             </div>
             <div class="tp-box__side tp-box__back">
-               <p>{{description}}</p>
+                <h1 >{{realEstateName}}</h1>
+                <li *ngFor="let description of descriptions;">{{description}}</li>
             </div>
         </div>
     </div>

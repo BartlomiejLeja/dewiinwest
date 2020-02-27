@@ -16,6 +16,7 @@ export class SidenavComponent implements OnInit, OnDestroy {
   @ViewChild('snav', { static: true }) sidenav: any;
   public mobileQuery: MediaQueryList;
   public selectedLink: string;
+  //public viewHeader = true;
 
   private _mobileQueryListener: () => void;
   
@@ -34,8 +35,13 @@ export class SidenavComponent implements OnInit, OnDestroy {
   public ngOnInit(): void {
     this.sidenavService.sidenavInit(this.sidenav);
     this.selectedRouteService.isForSaleRealEstateTabChanged.subscribe(
-      link=> this.selectedLink = link
-      )
+      link => {
+        this.selectedLink = link;
+        // link == 'inwestycjezakonczone' ||  
+        // link == 'onas' ||  
+        // link == 'kontakt' || 
+        // link == 'aktualnaoferta' ? this.viewHeader = false : this.viewHeader = true;
+      })
   }
 
   public ngAfterViewInit(): void {

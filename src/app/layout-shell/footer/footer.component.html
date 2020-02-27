@@ -1,4 +1,10 @@
 <div class="footer">
         <span class ="author">Created by Bartłomiej Leja</span>
+        <div *ngIf="!mobileQuery.matches" class = "contact">
+                <span>Dział sprzedaży: +48 531 843 594</span>
+                <span>Biuro: 12 307 01 01</span>
+                <span>Email: dewi.invest@wp.pl</span>
+        </div>
+        
         <mat-icon (click)= "scrollToTop()" class ="scroll-to-top-icon">keyboard_arrow_up</mat-icon>
 </div>

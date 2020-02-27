@@ -1,13 +1,20 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, ChangeDetectorRef, OnDestroy } from '@angular/core';
+import { MediaMatcher } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
-export class FooterComponent implements OnInit {
-
-  constructor() { }
+export class FooterComponent implements OnInit ,  OnDestroy{
+  public mobileQuery: MediaQueryList;
+  private _mobileQueryListener: () => void;
+  constructor( private changeDetectorRef: ChangeDetectorRef,
+    private media: MediaMatcher,) { 
+      this.mobileQuery = media.matchMedia('(max-width: 600px)');
+      this._mobileQueryListener = () => changeDetectorRef.detectChanges();
+      this.mobileQuery.addListener(this._mobileQueryListener);
+    }
 
   ngOnInit() {
   }
@@ -35,5 +42,9 @@ export class FooterComponent implements OnInit {
           window.scrollTo(0, currentScroll - (currentScroll / 5));
         }
       })();
+    }
+
+    ngOnDestroy(): void {
+      this.mobileQuery.removeListener(this._mobileQueryListener);
     }
 }

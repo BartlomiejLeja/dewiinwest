@@ -4,7 +4,14 @@
     display: flex;
     justify-content: space-between;
    
-   
+    .contact {
+        padding: 20px 0 20px 0;
+        font-size: 80%;
+        color: black;
+        span {
+            margin-left: 10px;
+        }
+    }
    
     .author{
         padding: 20px;
@@ -12,7 +19,7 @@
         color: #444444;
     }
     .scroll-to-top-icon{
-        padding: 15px;
+        padding: 15px 15px 15px 10%;
         cursor:pointer;
     }
 }

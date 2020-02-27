@@ -21,7 +21,7 @@ import { MediaMatcher } from '@angular/cdk/layout';
 })
 export class FlipCardComponent implements OnInit, OnDestroy {
   @Input() realEstateName: string;
-  @Input() description: string;
+  @Input() descriptions: string[];
   @Input() imageUrl: string;
   public mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
@@ -46,8 +46,7 @@ export class FlipCardComponent implements OnInit, OnDestroy {
   }
 
   invokeUnFlip () {
-    setTimeout(()=>{  this.flip =  'inactive'; }, 300);
-   
+    this.flip =  'inactive';
   }
 
   public ngOnDestroy(): void {

@@ -4,8 +4,8 @@
         "realEstateShortInfo": "SKOTNIKI",
         "realEstateDescription": "Dewi Invest realizuje budowę, kameralnego kompleksu 6 apartamentów w zacisznej, zielonej dzielnicy Krakowa – Skotniki, przy ulicy Unruga/Winnicka. Prezentowana inwestycja to nowe dwu-poziomowe mieszkania w zabudowie szeregowej. Całe przedwsięzięcie zakłada budowę 6 apartamentów z garażami  i pomieszczeniami gospodarczymi. Budynki posiadają 3 kondynacje naziemne. Mieszkania usytuowane są na pierwszym, drugim piętrze i poddaszu. Nowoczesna architektura budowli powstała z myślą o najbardziej wymagających klientach, dla których funkcjonalność, luksus oraz niepowtarzalna lokalizacja muszą iść w parze. Niewątpliwie największym atutem powyższej inwestycji jest zielona i cicha okolica . Jest to wspaniała lokalizacja dla osób ceniących spokój, ciszę, przy jednocześnie bliskim dostępie do szybkiej komunikacji aby móc w przeciągu kwadransa dostać się do serca Krakowa a także z łatwym i krótkim dostępem do obwodnicy Miasta. Mimo, że inwestycja  usytuowana jest w zacisznym miejscu , to jest świetnie skomunikowana z innymi dzielnicami. Dzięki takiej lokalizacji mieszkańcy Apartamentów Unruga, nie muszą wybierać między ciszą, a komfortowym dostępem do miejsc codziennej użyteczności. Sąsiedztwo  stanowią nowe domy jednorodzinne i zieleń parkowa . Lokalizacja mini osiedla zapewnia wygodny dostęp do pobliskich sklepów, przedszkoli, szkół i klubów. Nowoczesna architektura domów powstała z myślą o najbardziej wymagających klientach, dla których funkcjonalność, luksus oraz niepowtarzalna lokalizacja muszą iść w parze.",
         "realEstatePhotoUrl" : [
-            "https://i.imgur.com/gZpglkA.png",
             "https://i.imgur.com/LpYTtSj.png",
+            "https://i.imgur.com/gZpglkA.png",
             "https://i.imgur.com/oHPzsxW.png"],
         "realEstateLocation" : "Krakowa – Skotniki, przy ulicy Unruga/Winnicka",
         "additionalInformation": "Do każdego apartamentu przynależy miejsce postojowe w garażu kw w cenie 20 .000 zł i pomieszczenie gospodarcze o powierzchni od 5,45 m kw do 17,42 m kw w cenie 2000 zł /m kw Mieszkanie sprzedawane jest w stanie deweloperskim, do własnej aranżacji.",
@@ -134,16 +134,6 @@
             "https://i.imgur.com/oUL7DlG.jpg"
         ],
         "realEstateLocation" : "Rzeplin"
-    },
-    {
-        "realEstateName": "OSIEDLE POD BRZOZAMI",
-        "realEstateShortInfo": "GM. MICHAŁOWICE",
-        "realEstateDescription": "Osiedle pod Brzozami to zakończona inwestycja w Kończycach w gminie Michałowice. Domy wielkości po 169 m2 powierzchni użytkowej, usadowione na działkach 8 arowych , wykonane technologią tradycyjną. Przestrzeń i otoczenie brzóz pozwalają cieszyć się z uroków natury i relaksować w pełni.",
-        "realEstatePhotoUrl" : [
-            "https://i.imgur.com/qeqythg.jpg",
-            "https://i.imgur.com/SNdiKVq.jpg"
-        ],
-        "realEstateLocation" : "Kończyce gmina Michałowice"
     },
     {
         "realEstateName": "OSIEDLE AKACJOWE",

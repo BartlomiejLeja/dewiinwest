@@ -37,7 +37,7 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
   public color: ThemePalette = 'warn';
   public maxWidth = 'auto';
   public maintainAspectRatio = true;
-  public proportion = 25;
+  public proportion = 35;
   public slideHeight = '750px';
   public slides = this.slidesList.length;
   public overlayColor = '#00000040';
@@ -60,7 +60,7 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
     this.mobileQuery.addListener(this._mobileQueryListener);
 
     this.carouselItems = [
-      { imageUrl: 'https://i.imgur.com/gZpglkA.png', title : 'Budujemy twoje marzenia', description: 'Twój Dom Group', isWelcomeImage: true },
+      { imageUrl: 'https://i.imgur.com/LpYTtSj.png', title : 'Budujemy twoje marzenia', description: 'Twój Dom Group', isWelcomeImage: true },
       { imageUrl: 'https://i.imgur.com/nJsfIPz.jpg', title : 'Sloneczna Wadowska', description: 'Blisko do Krakowa, blisko do natury', isWelcomeImage: false  },
       { imageUrl: 'https://i.imgur.com/3j0NYXy.png',title : 'LA-DUBOIS', description: 'Nowoczesne osiedle, w pięknym otoczeniu', isWelcomeImage: false  },
     ];
@@ -98,18 +98,35 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
     this.selectedRouteService.routerChanged('main');
     this.realEstateFlipImages = [
       { 
-        realEstateDescription: 'Idealne dla rodzin', 
+        realEstateDescriptions: [
+          "idealne dla rodziny",
+          "ceny od 5015 zł/m2",
+          "duże ogródki od 296 m2 do 469 m2",
+          "dobre połączenie komunikacyjne",
+          "kameralnie i bezpiecznie",
+          "zakończenie inwstycji III kwartał 2020 r"], 
         realEstateImageUrl: 'https://i.imgur.com/D0dewof.jpg',
-        realEstateName: 'Zagłoba skwer',
+        realEstateName: 'Zagłoby Skwer',
         realEstateLink: '/realestate/Zagłoby Skwer'
       },
       { 
-        realEstateDescription: 'Opatkowice Smoleńskiego',
+        realEstateDescriptions: [
+          "gotowe do odbioru",
+          "mieszkania z ogródkami",
+          "ceny od 4989 zł/m2",
+          "kameralnie i bezpiecznie",
+          "dobre połączenie komunikacyjne",
+          ] ,
         realEstateImageUrl: 'https://i.imgur.com/IsvpgrD.jpg',
-        realEstateName: 'Apartmaenty nad Wilgą',
+        realEstateName: 'Apartamenty nad Wilgą',
         realEstateLink: '/realestate/Apartamenty nad Wilgą - Opatkowice'
       },
-      { realEstateDescription: 'Blisko centrum',
+      { realEstateDescriptions: [
+        "domy z miejską duszą",
+        "kameralnie i bezpiecznie",
+        "ceny od 5236 zł/m2",
+        "zakończenie inwestycji IV kwartał 2020 r"
+      ],
         realEstateImageUrl: 'https://i.imgur.com/DpQq5N5.jpg',
         realEstateName: 'Osiedle na Strażackiej',
         realEstateLink: '/realestate/Osiedle na Strażackiej'
@@ -137,7 +154,7 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
 }
 
 interface RealEstateFlipImage {
-  realEstateDescription: string;
+  realEstateDescriptions: string[];
   realEstateImageUrl: string;
   realEstateName: string;
   realEstateLink: string;
