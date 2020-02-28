@@ -146,3 +146,15 @@
     display: flex;
     a { text-decoration: none; }
 }
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+}
+
+.spinner-container-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 65%;
+}

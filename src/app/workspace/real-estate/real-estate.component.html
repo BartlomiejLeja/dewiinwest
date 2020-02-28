@@ -1,112 +1,123 @@
-<div *ngIf="!mobileQuery.matches" class = "main-photo"  [ngStyle]="{
-        'background': ' url(' + realEstate.realEstatePhotoUrl[0] + ') no-repeat center center fixed',
-        'background-size' : '100%'
-    }">
-    <div class = "real-estate-name">
-        <h1  [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">{{realEstate.realEstateName}}</h1>
-        <p>{{realEstate.realEstateShortInfo}}</p>
-        <div class ="read-more-button">
-        <button mat-raised-button color="primary" (click) = "scroll(target)" >Czytaj dalej</button>
-        </div>
-      
-    </div>
+<div *ngIf ="isLoading"  [ngClass]="mobileQuery.matches ? 'spinner-container-mobile' : 'spinner-container'">
+        <app-spinner></app-spinner>
 </div>
 
-<div class = "real-estate-container"> 
-        <div class = "real-estate-description-container">
-                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'" #target>OPIS INWESTYCJI</h1>
-                <div class ="divider">
-                        <mat-divider></mat-divider>
-                </div>
+<div  [ngStyle]="{'visibility': isLoading ? 'hidden' : 'visible' }">
 
-                <div  class = "real-estate-description">
-                        <p>
-                                {{realEstate.realEstateDescription}} 
-                        </p>
 
-                        <ul>
-                                <li *ngIf="realEstate.realEstatePrice">Ceny:  {{realEstate.realEstatePrice}} </li>
-                                <li>Lokalizacja:  {{realEstate.realEstateLocation}} </li>
-                                <li *ngIf="realEstate.constructionAcceptance">Odbiór:  {{realEstate.constructionAcceptance}}</li>
-                        </ul>    
+        <div *ngIf="!mobileQuery.matches" class = "main-photo" 
+                appBackgroundImageLoaded (imageLoaded)="loadedImages()"
+                [ngStyle]="{
+                'background': ' url(' + realEstate.realEstatePhotoUrl[0] + ') no-repeat center center fixed',
+                'background-size' : '100%'
+        }">
+        <div class = "real-estate-name">
+                <h1  [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">{{realEstate.realEstateName}}</h1>
+                <p>{{realEstate.realEstateShortInfo}}</p>
+                <div class ="read-more-button">
+                <button mat-raised-button color="primary" (click) = "scroll(target)" >Czytaj dalej</button>
                 </div>
+        
+        </div>
         </div>
 
-        <app-house-properties 
-        *ngIf="realEstate.housePropertise" 
-        [housePropertises] = "realEstate.housePropertise"
-        ></app-house-properties>
-
-        <app-apartment-properties *ngIf="realEstate.apartmentPropertise" 
-        [apartmentPropertises] = "realEstate.apartmentPropertise">
-        </app-apartment-properties>
-        <p>{{realEstate.additionalInformation}}</p>
-
-        <div [ngClass]="mobileQuery.matches ? 'visualizations-container-mobile' : 'visualizations-container'">
-                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">WIZUALIZACJE</h1>
-
-                <div class ="divider">
-                        <mat-divider></mat-divider>
-                </div>
-
-                <div class = "visualizations">
-                        <p class="container" gallerize>
-                                <img *ngFor="let img of realEstate.realEstatePhotoUrl" [src]="img">
-                        </p>
-                </div>
-        </div>
-
-        <div *ngIf="realEstate.apartmentCards">
-                <h1  [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Karty mieszkań</h1>
-                <mat-divider></mat-divider>
-                <div class = "apartment-cards">
-                        <mat-chip-list aria-label="apartment cards selection"  >
-                                <a *ngFor= "let apartmentCard of realEstate.apartmentCards;" 
-                                        href="{{apartmentCard.apartmentCardUrl}}" 
-                                        download 
-                                        matTooltip="Pobierz karte mieszkania">
-                                        <mat-chip>{{apartmentCard.aparmtentCardDescription}}</mat-chip>
-                                </a>      
-                        </mat-chip-list>                  
-                 </div>
-        </div>
-   
-
-        <div *ngIf="realEstate.realEstateReservationArray" class = "real-estate-reservation">
-                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Rezerwacje:</h1>
-                <div class ="divider">
-                        <mat-divider></mat-divider>
-                </div>
-                <div *ngFor="let realEstateReservation of realEstate.realEstateReservationArray;">
-                        <div class = "real-estate-reservation-row">
-                        <p>{{realEstateReservation.realEstateInfo}} </p>
-                        <p [ngStyle]="{'color': realEstateReservation.isReserved ? 'red' : 'black' }">{{ realEstateReservation.isReserved | isRealEstateReserved }}</p>
-                        </div>
-                
-                </div>
-                
-        </div>
-
-        <div *ngIf="realEstate.shellAndCore" class = "developers-state">
-                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Stan deweloperski obejmuje:</h1>
-
-                <div class ="divider">
+        <div class = "real-estate-container"> 
+                <div class = "real-estate-description-container">
+                        <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'" #target>OPIS INWESTYCJI</h1>
+                        <div class ="divider">
                                 <mat-divider></mat-divider>
                         </div>
-                <ul *ngFor="let shellAndCore of realEstate.shellAndCore">
-                        <li>{{shellAndCore}}</li>
-                </ul> 
-        </div>
 
-        <div *ngIf="realEstate.lngLatOfRealEstate"  class = "localization-container">
-                <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">LOKALIZACJA</h1>
+                        <div  class = "real-estate-description">
+                                <p>
+                                        {{realEstate.realEstateDescription}} 
+                                </p>
 
-                <div class ="divider">
-                        <mat-divider></mat-divider>
+                                <ul>
+                                        <li *ngIf="realEstate.realEstatePrice">Ceny:  {{realEstate.realEstatePrice}} </li>
+                                        <li>Lokalizacja:  {{realEstate.realEstateLocation}} </li>
+                                        <li *ngIf="realEstate.constructionAcceptance">Odbiór:  {{realEstate.constructionAcceptance}}</li>
+                                </ul>    
+                        </div>
                 </div>
 
-                <div  [ngClass]="mobileQuery.matches ? 'map-mobile' : 'map'">
-                        <app-map [lngLat] = "realEstate.lngLatOfRealEstate"></app-map>
+                <app-house-properties 
+                *ngIf="realEstate.housePropertise" 
+                [housePropertises] = "realEstate.housePropertise"
+                ></app-house-properties>
+
+                <app-apartment-properties *ngIf="realEstate.apartmentPropertise" 
+                [apartmentPropertises] = "realEstate.apartmentPropertise">
+                </app-apartment-properties>
+                <p>{{realEstate.additionalInformation}}</p>
+
+                <div [ngClass]="mobileQuery.matches ? 'visualizations-container-mobile' : 'visualizations-container'">
+                        <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">WIZUALIZACJE</h1>
+
+                        <div class ="divider">
+                                <mat-divider></mat-divider>
+                        </div>
+
+                        <div class = "visualizations">
+                                <p class="container" gallerize>
+                                        <img *ngFor="let img of realEstate.realEstatePhotoUrl" 
+                                        [src]="img">
+                                </p>
+                        </div>
+                </div>
+
+                <div *ngIf="realEstate.apartmentCards">
+                        <h1  [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Karty mieszkań</h1>
+                        <mat-divider></mat-divider>
+                        <div class = "apartment-cards">
+                                <mat-chip-list aria-label="apartment cards selection"  >
+                                        <a *ngFor= "let apartmentCard of realEstate.apartmentCards;" 
+                                                href="{{apartmentCard.apartmentCardUrl}}" 
+                                                download 
+                                                matTooltip="Pobierz karte mieszkania">
+                                                <mat-chip>{{apartmentCard.aparmtentCardDescription}}</mat-chip>
+                                        </a>      
+                                </mat-chip-list>                  
+                        </div>
+                </div>
+        
+
+                <div *ngIf="realEstate.realEstateReservationArray" class = "real-estate-reservation">
+                        <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Rezerwacje:</h1>
+                        <div class ="divider">
+                                <mat-divider></mat-divider>
+                        </div>
+                        <div *ngFor="let realEstateReservation of realEstate.realEstateReservationArray;">
+                                <div class = "real-estate-reservation-row">
+                                <p>{{realEstateReservation.realEstateInfo}} </p>
+                                <p [ngStyle]="{'color': realEstateReservation.isReserved ? 'red' : 'black' }">{{ realEstateReservation.isReserved | isRealEstateReserved }}</p>
+                                </div>
+                        
+                        </div>
+                        
+                </div>
+
+                <div *ngIf="realEstate.shellAndCore" class = "developers-state">
+                        <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">Stan deweloperski obejmuje:</h1>
+
+                        <div class ="divider">
+                                        <mat-divider></mat-divider>
+                                </div>
+                        <ul *ngFor="let shellAndCore of realEstate.shellAndCore">
+                                <li>{{shellAndCore}}</li>
+                        </ul> 
+                </div>
+
+                <div *ngIf="realEstate.lngLatOfRealEstate"  class = "localization-container">
+                        <h1 [ngClass]="mobileQuery.matches ? 'h1-mobile' : 'h1-normal'">LOKALIZACJA</h1>
+
+                        <div class ="divider">
+                                <mat-divider></mat-divider>
+                        </div>
+
+                        <div  [ngClass]="mobileQuery.matches ? 'map-mobile' : 'map'">
+                                <app-map [lngLat] = "realEstate.lngLatOfRealEstate"></app-map>
+                        </div>
                 </div>
         </div>
 </div>

@@ -1,10 +1,5 @@
-<div *ngIf ="isLoading"  class="spinner-container ">
-    <mat-progress-spinner
-    class="spinner"
-    [color]="color"
-    [mode]="mode"
-    [value]="value">
-</mat-progress-spinner>
+<div *ngIf ="isLoading"  [ngClass]="mobileQuery.matches ? 'spinner-container-mobile' : 'spinner-container'">
+    <app-spinner></app-spinner>
 </div>
 <div  
     [ngStyle]="{'visibility': isLoading ? 'hidden' : 'visible' }"

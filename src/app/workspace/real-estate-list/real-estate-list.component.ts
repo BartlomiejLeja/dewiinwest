@@ -19,9 +19,6 @@ export class RealEstateListComponent implements OnInit {
   public forSaleRealEstateArray: RealEstate[] = (forSaleRealEstate as any).default;
   public soldRealEstateArray: RealEstate[] = (soldRealEstate as any).default;
   public isLoading = true;
-  public color = 'primary';
-  mode = 'indeterminate';
-  value = 50;
   private _mobileQueryListener: () => void;
   private countOfLoadedImages: number = 0;
   

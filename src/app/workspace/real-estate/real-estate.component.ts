@@ -26,6 +26,7 @@ export class RealEstateComponent implements OnInit, OnDestroy {
   private _mobileQueryListener: () => void;
   public forSaleRealEstateArray: RealEstate[] = (forSaleRealEstate as any).default;
   public soldRealEstateArray: RealEstate[] = (soldRealEstate as any).default;
+  public isLoading = true;
 
   constructor(
     public gallery: Gallery,
@@ -44,6 +45,7 @@ export class RealEstateComponent implements OnInit, OnDestroy {
      }
 
   public ngOnInit(): void {
+    this.mobileQuery.matches ? this.isLoading = false : this.isLoading = true;
       const realEstateName = this.route.snapshot.url[1].path;
       this.realEstate = this.soldRealEstateArray.find(re => re.realEstateName === realEstateName);
       this.router.events.subscribe((path) => {
@@ -78,6 +80,10 @@ export class RealEstateComponent implements OnInit, OnDestroy {
   public scroll(el: HTMLElement) {
     el.scrollIntoView();
   }
+
+  public loadedImages(): void{
+    this.isLoading = false;
+ }
 
   public ngOnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);

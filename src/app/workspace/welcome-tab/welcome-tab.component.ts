@@ -46,6 +46,8 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
   public useMouseWheel = false;
   public orientation: Orientation = 'ltr';
   public log: string[] = [];
+  public isLoading = true;
+  private countOfLoadedImages: number = 0;
 
   constructor(
     private matIconRegistry: MatIconRegistry,
@@ -143,6 +145,14 @@ export class WelcomeTabComponent implements OnInit, OnDestroy {
     this.selectedRouteService.routerChanged('aktualnaoferta');
     this.router.navigate([realEstateLink]);
   }
+
+  public loadedImages(): void{
+
+      this.countOfLoadedImages = ++this.countOfLoadedImages;
+    if(this.countOfLoadedImages == 3) {
+      this.isLoading = false 
+    } 
+ }
 
   onChange($event){
     //this.prev1()
